@@ -1,7 +1,4 @@
-[build]
-  command = "npm run build"
-  publish = ".next"
-
+# @netlify/plugin-nextjs auto-detects build command and publish directory.
 # Edge functions are auto-detected from netlify/edge-functions/
 # rate-limit.ts protects /api/calculator/* from abuse (10 req/min per IP)
 
