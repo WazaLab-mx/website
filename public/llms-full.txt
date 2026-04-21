@@ -6,8 +6,8 @@
 
 WAZA is a technology company that builds AI-native systems designed to continuously evolve, adapt, and improve themselves over time, transforming static products into living ecosystems.
 
-**Website:** https://waza.baby
-**Email:** info@waza.baby
+**Website:** https://wazalab.mx
+**Email:** info@wazalab.mx
 **Location:** Mexico City (CDMX) & San Luis Potosi (SLP), Mexico
 **Social:** [Twitter/X](https://x.com/Waza_Baby) | [LinkedIn](https://www.linkedin.com/company/wazababy/) | [GitHub](https://github.com/waza-agency)
 
@@ -294,9 +294,9 @@ Even better. We work with your team, train them, and leave them the tools to con
 
 ## Contact
 
-- **Email:** info@waza.baby
+- **Email:** info@wazalab.mx
 - **Location:** Mexico City & San Luis Potosi, Mexico
 - **Twitter/X:** [@Waza_Baby](https://x.com/Waza_Baby)
 - **LinkedIn:** [WAZA](https://www.linkedin.com/company/wazababy/)
 - **GitHub:** [waza-agency](https://github.com/waza-agency)
-- **Website:** https://waza.baby
+- **Website:** https://wazalab.mx

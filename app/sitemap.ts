@@ -30,7 +30,7 @@ const routes = [
   { path: '/docs/web3', priority: 0.7 },
 ];
 
-const domain = 'https://waza.agency';
+const domain = 'https://wazalab.mx';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];

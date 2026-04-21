@@ -20,7 +20,7 @@ const PROJECT_URLS = [
 
 const PRICING_POPULAR_INDEX = 1;
 
-const INSTALL_CMD = 'mkdir -p ~/.openclaw/skills/waza-info && curl -sSL https://waza.baby/openclaw-skills/waza-info/SKILL.md -o ~/.openclaw/skills/waza-info/SKILL.md';
+const INSTALL_CMD = 'mkdir -p ~/.openclaw/skills/waza-info && curl -sSL https://wazalab.mx/openclaw-skills/waza-info/SKILL.md -o ~/.openclaw/skills/waza-info/SKILL.md';
 
 export default function AgentsPage() {
   const t = useTranslations("agents");
@@ -107,7 +107,7 @@ export default function AgentsPage() {
             <p className="text-gray-700 dark:text-gray-300 mb-4">{t("about.description")}</p>
             <div className="flex flex-wrap gap-6 text-sm">
               <span className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
-                <Mail className="h-4 w-4" /> info@waza.baby
+                <Mail className="h-4 w-4" /> info@wazalab.mx
               </span>
               <span className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
                 <MapPin className="h-4 w-4" /> {t("about.locationValue")}

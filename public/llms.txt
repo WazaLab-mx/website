@@ -4,9 +4,9 @@
 
 ## About
 
-- [About WAZA](https://waza.baby/en/about): Company story, mission, values, and manifesto
-- [Services](https://waza.baby/en/services): 10 AI-native services including agents, automation, content, and training
-- [Contact](https://waza.baby/en/contact): Get in touch - info@waza.baby
+- [About WAZA](https://wazalab.mx/en/about): Company story, mission, values, and manifesto
+- [Services](https://wazalab.mx/en/services): 10 AI-native services including agents, automation, content, and training
+- [Contact](https://wazalab.mx/en/contact): Get in touch - info@wazalab.mx
 
 ## Flagship Projects
 
@@ -37,10 +37,10 @@
 
 ## Full Context
 
-- [Complete WAZA information](https://waza.baby/llms-full.txt): All projects, services, pricing, and company details in one document
+- [Complete WAZA information](https://wazalab.mx/llms-full.txt): All projects, services, pricing, and company details in one document
 
 ## Optional
 
-- [AI ROI Calculator](https://waza.baby/en/calculator): Calculate AI implementation ROI for your business
-- [Documentation](https://waza.baby/en/docs): Technical documentation
-- [For AI Agents](https://waza.baby/en/agents): Agent-friendly page with structured company information
+- [AI ROI Calculator](https://wazalab.mx/en/calculator): Calculate AI implementation ROI for your business
+- [Documentation](https://wazalab.mx/en/docs): Technical documentation
+- [For AI Agents](https://wazalab.mx/en/agents): Agent-friendly page with structured company information

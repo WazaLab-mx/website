@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://waza.agency"),
+  metadataBase: new URL("https://wazalab.mx"),
   title: {
     default: "WAZA - Technology That Grows Stronger Through Use",
     template: "%s | WAZA",
