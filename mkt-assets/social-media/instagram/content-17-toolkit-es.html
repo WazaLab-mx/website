@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1080">
+    <title>The 2026 Developer Toolkit - WAZA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: linear-gradient(135deg, #0D0D0D 0%, #1a1a2e 100%);
+            font-family: 'Inter', sans-serif;
+            color: #F9F7F7;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 48px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            letter-spacing: -1px;
+            color: #F9F7F7;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+            position: absolute;
+            top: -6px;
+            right: -6px;
+        }
+
+        .badge {
+            background: rgba(112, 45, 255, 0.15);
+            border: 1.5px solid #702DFF;
+            color: #702DFF;
+            padding: 10px 24px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .title {
+            font-size: 64px;
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -2px;
+            color: #F9F7F7;
+            margin-bottom: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .tool-card {
+            background: rgba(37, 42, 52, 0.4);
+            border: 1.5px solid rgba(249, 247, 247, 0.1);
+            border-radius: 12px;
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .tool-card:nth-child(1) { border-left: 4px solid #FF2E63; }
+        .tool-card:nth-child(2) { border-left: 4px solid #08D9D6; }
+        .tool-card:nth-child(3) { border-left: 4px solid #702DFF; }
+        .tool-card:nth-child(4) { border-left: 4px solid #FF2E63; }
+        .tool-card:nth-child(5) { border-left: 4px solid #08D9D6; }
+        .tool-card:nth-child(6) { border-left: 4px solid #702DFF; }
+        .tool-card:nth-child(7) { border-left: 4px solid #FF2E63; }
+        .tool-card:nth-child(8) { border-left: 4px solid #08D9D6; }
+
+        .tool-name {
+            font-size: 24px;
+            font-weight: 800;
+            color: #F9F7F7;
+            line-height: 1.2;
+        }
+
+        .tool-desc {
+            font-size: 16px;
+            font-weight: 500;
+            color: rgba(249, 247, 247, 0.6);
+            line-height: 1.4;
+        }
+
+        .bottom-text {
+            font-size: 22px;
+            font-weight: 700;
+            color: #08D9D6;
+            text-align: center;
+            margin-top: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        .footer {
+            padding: 48px 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .watermark {
+            font-size: 24px;
+            font-weight: 700;
+            color: rgba(249, 247, 247, 0.4);
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">HERRAMIENTAS DEV</div>
+    </div>
+
+    <div class="content">
+        <div class="title">El Toolkit del<br>Desarrollador 2026</div>
+
+        <div class="grid">
+            <div class="tool-card">
+                <div class="tool-name">Claude Code</div>
+                <div class="tool-desc">Programador de IA en pareja</div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-name">Cursor</div>
+                <div class="tool-desc">Editor de código AI-native</div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-name">v0 by Vercel</div>
+                <div class="tool-desc">Generación de UI</div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-name">Next.js 15</div>
+                <div class="tool-desc">Framework full-stack</div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-name">Supabase</div>
+                <div class="tool-desc">Backend como servicio</div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-name">TailwindCSS</div>
+                <div class="tool-desc">Estilos utility-first</div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-name">Playwright</div>
+                <div class="tool-desc">Pruebas impulsadas por IA</div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-name">OpenClaw</div>
+                <div class="tool-desc">Infraestructura de agentes</div>
+            </div>
+        </div>
+
+        <div class="bottom-text">Las herramientas correctas hacen desarrolladores 10x.</div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

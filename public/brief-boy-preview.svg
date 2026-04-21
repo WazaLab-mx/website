@@ -1,0 +1,58 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#000000"/>
+
+  <!-- Grid pattern -->
+  <pattern id="grid" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Gradient overlays -->
+  <defs>
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Yellow accent circles -->
+  <circle cx="200" cy="150" r="150" fill="url(#yellowGrad)" opacity="0.3"/>
+  <circle cx="1000" cy="480" r="200" fill="url(#yellowGrad)" opacity="0.2"/>
+
+  <!-- Document icon stylized -->
+  <g transform="translate(300, 150)">
+    <!-- Main document shape -->
+    <rect x="0" y="0" width="300" height="400" rx="10" fill="#1a1a1a" stroke="#FFD700" stroke-width="3"/>
+
+    <!-- Lines representing text -->
+    <line x1="30" y1="60" x2="270" y2="60" stroke="#FFD700" stroke-width="4" opacity="0.8"/>
+    <line x1="30" y1="100" x2="270" y2="100" stroke="#666" stroke-width="3" opacity="0.6"/>
+    <line x1="30" y1="140" x2="240" y2="140" stroke="#666" stroke-width="3" opacity="0.6"/>
+    <line x1="30" y1="180" x2="260" y2="180" stroke="#666" stroke-width="3" opacity="0.6"/>
+    <line x1="30" y1="220" x2="220" y2="220" stroke="#666" stroke-width="3" opacity="0.6"/>
+
+    <!-- Lightning bolt icon (AI symbol) -->
+    <path d="M 180 280 L 160 320 L 180 320 L 170 360 L 200 315 L 180 315 L 190 280 Z" fill="#FFD700" opacity="0.9"/>
+  </g>
+
+  <!-- Brief Boy text -->
+  <text x="650" y="280" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#FFD700" text-anchor="start">
+    Brief Boy
+  </text>
+
+  <!-- Tagline -->
+  <text x="650" y="340" font-family="Arial, sans-serif" font-size="28" fill="#999" text-anchor="start">
+    Stop the Bullshit
+  </text>
+
+  <!-- AI Badge -->
+  <rect x="650" y="370" width="200" height="50" rx="25" fill="#FFD700" opacity="0.2" stroke="#FFD700" stroke-width="2"/>
+  <text x="750" y="403" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFD700" text-anchor="middle">
+    AI-Powered
+  </text>
+
+  <!-- Decorative elements -->
+  <circle cx="640" cy="395" r="4" fill="#FFD700"/>
+  <circle cx="860" cy="395" r="4" fill="#FFD700"/>
+</svg>

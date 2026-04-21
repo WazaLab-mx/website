@@ -1,0 +1,88 @@
+{
+  "home": {
+    "hero": {
+      "skipLink": "Saltar al contenido principal",
+      "ariaLabel": "Sección principal - WAZA",
+      "title": "IA práctica para negocios que no se detienen.",
+      "scroll": "Explorar"
+    },
+    "pillars": {
+      "eyebrow": "Qué hacemos",
+      "title": "Herramientas que funcionan. Equipos que entregan.",
+      "items": {
+        "0": {
+          "title": "Productos en producción",
+          "description": "IA que entrega resultados, no demos."
+        },
+        "1": {
+          "title": "Desarrollo a medida",
+          "description": "Si no existe, lo construimos. Si existe, lo adaptamos."
+        },
+        "2": {
+          "title": "Capacitación práctica",
+          "description": "Tu equipo domina las herramientas, no al revés."
+        }
+      }
+    },
+    "impact": {
+      "eyebrow": "Por qué nos eligen",
+      "title": "IA real. Resultados reales.",
+      "items": {
+        "0": {
+          "value": "End-to-end",
+          "label": "Del concepto a producción"
+        },
+        "1": {
+          "value": "< 30d",
+          "label": "De kickoff a primer deploy"
+        },
+        "2": {
+          "value": "100%",
+          "label": "Enfoque en IA práctica"
+        }
+      }
+    },
+    "work": {
+      "eyebrow": "Trabajo seleccionado",
+      "title": "Hecho para escalar.",
+      "viewAll": "Todos los proyectos",
+      "items": {
+        "0": {
+          "description": "Un hogar digital para expatriados y locales en San Luis Potosí."
+        },
+        "1": {
+          "description": "Servicios y productos de belleza, curados y locales."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Tres formas de colaborar.",
+      "items": {
+        "0": {
+          "title": "Construir",
+          "description": "Productos y herramientas de IA a medida, diseñados y entregados end-to-end para tu negocio."
+        },
+        "1": {
+          "title": "Capacitar",
+          "description": "Talleres prácticos para que tu equipo domine las herramientas y siga entregando."
+        },
+        "2": {
+          "title": "Asociarse",
+          "description": "Colaboración continua para escalar lo que funciona y lanzar lo siguiente."
+        }
+      }
+    },
+    "tool": {
+      "eyebrow": "Herramienta gratuita",
+      "title": "¿Tu negocio está listo para la IA?",
+      "description": "Una calculadora de 10 preguntas. Reporte de ROI personalizado en menos de 2 minutos.",
+      "button": "Probar la calculadora"
+    },
+    "cta": {
+      "title": "Construyamos algo.",
+      "description": "Dinos qué necesitas. Te mostramos lo que es posible.",
+      "button": "Iniciar proyecto"
+    }
+  }
+}

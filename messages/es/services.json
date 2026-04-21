@@ -1,0 +1,327 @@
+{
+  "services": {
+    "banner": {
+      "text": "Hemos actualizado nuestro modelo operativo para alinear mejor los resultados con la entrega. Conoce cómo trabajamos en",
+      "link": "Acerca de → Modelo Operativo"
+    },
+    "hero": {
+      "badge": "Tecnología AI-Nativa",
+      "title": "Nuestros Servicios",
+      "description": "Descubre cómo la tecnología AI-nativa de WAZA puede transformar tu negocio con nuestra suite integral de servicios.",
+      "cta": "Comenzar"
+    },
+    "grid": {
+      "title": "Cómo Podemos Ayudar a Tu Negocio",
+      "description": "Soluciones inteligentes que aprenden y mejoran con el tiempo, haciendo tu negocio más eficiente y exitoso cada día.",
+      "learnMore": "Saber Más",
+      "whatYouGet": "Lo Que Obtienes:",
+      "items": {
+        "0": {
+          "title": "Soluciones Empresariales Inteligentes",
+          "description": "Creamos sistemas inteligentes que entienden tu negocio y lo ayudan a funcionar mejor. Como tener un asistente súper inteligente que aprende tus preferencias y mejora cada día.",
+          "features": {
+            "0": "Sistemas que aprenden las necesidades de tu negocio",
+            "1": "Mejoras automáticas con el tiempo",
+            "2": "Funciones inteligentes fáciles de usar",
+            "3": "Automatización que ahorra tiempo"
+          }
+        },
+        "1": {
+          "title": "Asistentes Personales de IA",
+          "description": "Imagina tener un asistente inteligente que sabe exactamente cómo te gustan las cosas. Nuestros asistentes de IA aprenden tus preferencias y hacen tu trabajo más fácil y eficiente.",
+          "features": {
+            "0": "Ayuda personalizada para tus necesidades",
+            "1": "Gestión inteligente de tareas",
+            "2": "Sugerencias y recordatorios útiles",
+            "3": "Comunicación y soporte fácil"
+          }
+        },
+        "2": {
+          "title": "Creación de Contenido Inteligente",
+          "description": "Deja que la IA te ayude a crear contenido increíble para tu negocio. Desde publicaciones en redes sociales hasta materiales de marketing, nuestras herramientas aprenden tu estilo y te ayudan a crear contenido que conecta con tu audiencia.",
+          "features": {
+            "0": "Contenido que coincide con tu marca",
+            "1": "Ideas adaptadas a tu audiencia",
+            "2": "Herramientas de contenido que ahorran tiempo",
+            "3": "Herramientas de creación fáciles de usar"
+          }
+        },
+        "3": {
+          "title": "Mejora de Experiencia del Cliente",
+          "description": "Haz más felices a tus clientes con experiencias personalizadas. Nuestras herramientas aprenden lo que les gusta a tus clientes y te ayudan a brindar un mejor servicio que los hace volver.",
+          "features": {
+            "0": "Servicio al cliente personalizado",
+            "1": "Insights inteligentes del cliente",
+            "2": "Mejor satisfacción del cliente",
+            "3": "Herramientas de cliente fáciles de usar"
+          }
+        },
+        "4": {
+          "title": "Herramientas de Crecimiento Empresarial",
+          "description": "Herramientas que ayudan a tu negocio a crecer de forma más inteligente y fuerte. Nuestros sistemas aprenden de tus operaciones y te ayudan a tomar mejores decisiones para el éxito continuo.",
+          "features": {
+            "0": "Insights empresariales inteligentes",
+            "1": "Recomendaciones de crecimiento",
+            "2": "Seguimiento de rendimiento",
+            "3": "Reportes fáciles de entender"
+          }
+        },
+        "5": {
+          "title": "Insights Empresariales Inteligentes",
+          "description": "Obtén insights útiles sobre el futuro de tu negocio. Nuestras herramientas analizan los datos de tu negocio y te ayudan a tomar decisiones inteligentes mostrándote lo que podría pasar después.",
+          "features": {
+            "0": "Predicciones de tendencias futuras",
+            "1": "Actualizaciones de negocio en tiempo real",
+            "2": "Recomendaciones inteligentes",
+            "3": "Reportes fáciles de leer"
+          }
+        },
+        "6": {
+          "title": "Automatización Inteligente del Trabajo",
+          "description": "Deja que la IA maneje tus tareas rutinarias mientras te enfocas en hacer crecer tu negocio. Nuestras herramientas de automatización aprenden tus procesos y hacen tu trabajo más fácil y eficiente.",
+          "features": {
+            "0": "Automatización que ahorra tiempo",
+            "1": "Gestión inteligente de tareas",
+            "2": "Manejo fácil de procesos",
+            "3": "Actualizaciones de progreso útiles"
+          }
+        },
+        "7": {
+          "title": "Desarrollo de Agentes de IA",
+          "description": "Agentes de IA personalizados adaptados a las necesidades específicas de tu negocio. Desarrollamos agentes inteligentes que aprenden, se adaptan y mejoran tus operaciones a través de interacción y mejora continua.",
+          "features": {
+            "0": "Agentes de IA a medida",
+            "1": "Sistemas de aprendizaje adaptativo",
+            "2": "Integración con herramientas existentes",
+            "3": "Optimización continua"
+          }
+        },
+        "8": {
+          "title": "Capacitación en Desarrollo Web3",
+          "description": "Desarrollo experto de blockchain, programación de contratos inteligentes y servicios de auditoría de seguridad integral. Construyendo soluciones descentralizadas seguras y escalables.",
+          "features": {
+            "0": "Soluciones blockchain personalizadas",
+            "1": "Desarrollo de contratos inteligentes",
+            "2": "Auditoría de seguridad",
+            "3": "Arquitectura y diseño de DApps"
+          }
+        },
+        "9": {
+          "title": "Capacitación en Integración AI-Web3",
+          "description": "Combina el poder de la IA con la tecnología blockchain. Desarrollamos sistemas descentralizados inteligentes que aprovechan el aprendizaje automático y los contratos inteligentes para soluciones innovadoras.",
+          "features": {
+            "0": "Contratos inteligentes potenciados por IA",
+            "1": "Sistemas de IA descentralizados",
+            "2": "Integración de modelos ML",
+            "3": "Oráculos inteligentes"
+          }
+        }
+      }
+    },
+    "training": {
+      "badge": "Desarrollo Profesional",
+      "title": "Programas de Capacitación en IA y Web3",
+      "description": "Empodera a tu equipo con habilidades de vanguardia en tecnologías de IA y Web3 a través de nuestros programas de capacitación integral.",
+      "learnMore": "Saber Más",
+      "items": {
+        "0": {
+          "title": "Fundamentos de IA",
+          "description": "Domina los fundamentos de la inteligencia artificial, el aprendizaje automático y el aprendizaje profundo. Perfecto para equipos que inician su camino en IA.",
+          "features": {
+            "0": "Fundamentos de Machine Learning",
+            "1": "Redes Neuronales",
+            "2": "Desarrollo de Modelos de IA",
+            "3": "Aplicaciones Prácticas"
+          }
+        },
+        "1": {
+          "title": "Capacitación en Desarrollo Web3",
+          "description": "Desarrollo experto de blockchain, programación de contratos inteligentes y servicios de auditoría de seguridad integral. Construyendo soluciones descentralizadas seguras y escalables.",
+          "features": {
+            "0": "Soluciones blockchain personalizadas",
+            "1": "Desarrollo de contratos inteligentes",
+            "2": "Auditoría de seguridad",
+            "3": "Arquitectura y diseño de DApps"
+          }
+        },
+        "2": {
+          "title": "Capacitación en Integración AI-Web3",
+          "description": "Combina el poder de la IA con la tecnología blockchain. Desarrollamos sistemas descentralizados inteligentes que aprovechan el aprendizaje automático y los contratos inteligentes para soluciones innovadoras.",
+          "whatYouGet": "Lo Que Obtienes:",
+          "features": {
+            "0": "Contratos inteligentes potenciados por IA",
+            "1": "Sistemas de IA descentralizados",
+            "2": "Integración de modelos ML",
+            "3": "Oráculos inteligentes"
+          }
+        },
+        "3": {
+          "title": "IA para Creativos",
+          "description": "Domina herramientas de IA de vanguardia para trabajo creativo. Aprende a aprovechar Midjourney, ChatGPT, Eleven Labs y más para mejorar tu flujo de trabajo creativo y producir contenido innovador.",
+          "features": {
+            "0": "Midjourney y Runway Avanzado",
+            "1": "ChatGPT para Escritura Creativa",
+            "2": "IA de Voz con Eleven Labs",
+            "3": "Entrenamiento de Modelos Locales"
+          }
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Por Qué Elegir WAZA",
+      "description": "Nuestro enfoque único nos distingue en el panorama de la tecnología de IA.",
+      "items": {
+        "0": {
+          "title": "Fundamento AI-Nativo",
+          "description": "A diferencia de proveedores que añaden capacidades de IA a enfoques existentes, nosotros construimos con inteligencia artificial como elemento fundamental."
+        },
+        "1": {
+          "title": "Fusión Técnico-Creativa",
+          "description": "Integramos las dimensiones técnica y creativa desde el inicio, creando soluciones que son tanto técnicamente excelentes como emocionalmente atractivas."
+        },
+        "2": {
+          "title": "Mejora Auto-Recursiva",
+          "description": "Nuestros sistemas están diseñados para mejorarse a sí mismos, entregando valor creciente con el tiempo en lugar de depreciación."
+        }
+      }
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "description": "¿Listo para transformar tu negocio con tecnología AI-nativa? Contáctanos hoy para discutir tu proyecto y descubrir cómo WAZA puede ayudarte a crecer más fuerte con el uso.",
+      "email": "info@waza.baby",
+      "location": "CDMX y SLP, México",
+      "form": {
+        "name": "Nombre",
+        "namePlaceholder": "Tu nombre",
+        "emailLabel": "Correo electrónico",
+        "emailPlaceholder": "Tu correo electrónico",
+        "company": "Empresa",
+        "companyPlaceholder": "Tu empresa",
+        "service": "Servicio de Interés",
+        "servicePlaceholder": "Selecciona un servicio",
+        "serviceOptions": {
+          "0": "Desarrollo AI-Nativo",
+          "1": "Agentes de IA Personalizados",
+          "2": "Soluciones de IA Generativa",
+          "3": "Diseño de Experiencia Digital",
+          "4": "Sistemas Auto-Recursivos",
+          "5": "Analítica Predictiva",
+          "6": "Automatización Potenciada por IA"
+        },
+        "message": "Mensaje",
+        "messagePlaceholder": "Cuéntanos sobre tu proyecto",
+        "submit": "Enviar Mensaje"
+      }
+    },
+    "cta": {
+      "title": "¿Listo Para Transformar Tu Negocio?",
+      "description": "Contáctanos hoy para discutir cómo la tecnología AI-nativa de WAZA puede ayudar a tu organización a crecer más fuerte con el uso.",
+      "button": "Comenzar"
+    },
+    "footer": {
+      "builtBy": "Creado por",
+      "sourceCode": "El código fuente está disponible en"
+    },
+    "popups": {
+      "close": "Cerrar",
+      "aiFundamentals": {
+        "title": "Capacitación en Fundamentos de IA",
+        "courseDetails": "Detalles del Curso:",
+        "programTitle": "Curso Integral de Fundamentos de IA",
+        "programDescription": "Un programa estructurado diseñado para construir una base sólida en IA y aprendizaje automático. Perfecto para equipos técnicos y emprendedores que buscan entender e implementar soluciones de IA.",
+        "programNote": "El curso combina conocimiento teórico con práctica hands-on, asegurando que los participantes puedan aplicar lo aprendido a escenarios del mundo real inmediatamente.",
+        "modulesTitle": "Módulos del Curso:",
+        "modules": {
+          "0": "Introducción a Algoritmos de Machine Learning",
+          "1": "Deep Learning y Redes Neuronales",
+          "2": "Entrenamiento y Evaluación de Modelos",
+          "3": "Implementación de Proyectos de IA",
+          "4": "Mejores Prácticas y Ética en IA"
+        },
+        "duration": "Duración:",
+        "durationValue": "8 semanas (4 horas/semana)",
+        "format": "Formato:",
+        "formatValue": "Sesiones en vivo online + Talleres prácticos",
+        "prerequisites": "Requisitos previos:",
+        "prerequisitesValue": "Conocimientos básicos de programación"
+      },
+      "web3Dev": {
+        "title": "Capacitación en Desarrollo Web3",
+        "courseDetails": "Detalles del Curso:",
+        "programTitle": "Programa Profesional de Desarrollo Web3",
+        "programDescription": "Un curso intensivo que cubre tecnología blockchain, desarrollo de contratos inteligentes y arquitectura de aplicaciones descentralizadas. Diseñado para desarrolladores y equipos técnicos que ingresan al espacio Web3.",
+        "programNote": "Los participantes construirán aplicaciones descentralizadas y contratos inteligentes reales, ganando experiencia práctica con tecnologías Web3 actuales y mejores prácticas.",
+        "modulesTitle": "Módulos del Curso:",
+        "modules": {
+          "0": "Fundamentos de Tecnología Blockchain",
+          "1": "Desarrollo de Contratos Inteligentes con Solidity",
+          "2": "Arquitectura y Desarrollo de DApps",
+          "3": "Integración de Web3.js y Ethers.js",
+          "4": "Mejores Prácticas de Seguridad"
+        },
+        "duration": "Duración:",
+        "durationValue": "10 semanas (6 horas/semana)",
+        "format": "Formato:",
+        "formatValue": "Sesiones en vivo online + Aprendizaje basado en proyectos",
+        "prerequisites": "Requisitos previos:",
+        "prerequisitesValue": "Experiencia en programación JavaScript"
+      },
+      "aiWeb3Integration": {
+        "title": "Capacitación en Integración AI-Web3",
+        "courseDetails": "Detalles del Curso:",
+        "programTitle": "Curso Avanzado de Integración",
+        "programDescription": "Un programa de vanguardia que enseña la integración de tecnologías de IA y blockchain. Aprende a construir sistemas descentralizados inteligentes que combinan el poder de la IA con la seguridad y transparencia de blockchain.",
+        "programNote": "Este curso avanzado cubre las últimas técnicas para crear contratos inteligentes potenciados por IA, modelos de IA descentralizados y sistemas de aprendizaje automático basados en blockchain.",
+        "modulesTitle": "Módulos del Curso:",
+        "modules": {
+          "0": "Modelos de IA en Entornos Blockchain",
+          "1": "Entrenamiento e Inferencia de IA Descentralizada",
+          "2": "Desarrollo e Integración de Oráculos Inteligentes",
+          "3": "IA con Preservación de Privacidad en Blockchain",
+          "4": "Patrones Avanzados de Arquitectura de Sistemas"
+        },
+        "duration": "Duración:",
+        "durationValue": "12 semanas (8 horas/semana)",
+        "format": "Formato:",
+        "formatValue": "Sesiones en vivo online + Proyectos avanzados",
+        "prerequisites": "Requisitos previos:",
+        "prerequisitesValue": "Cursos de Fundamentos de IA y Desarrollo Web3 o experiencia equivalente"
+      },
+      "aiCreatives": {
+        "title": "Capacitación en IA para Creativos",
+        "courseDetails": "Detalles del Curso:",
+        "programTitle": "Programa de Dominio de Herramientas Creativas de IA",
+        "programDescription": "Un curso inmersivo diseñado para profesionales creativos en entretenimiento y publicidad. Aprende a aprovechar herramientas de IA para mejorar tu flujo de trabajo creativo y producir contenido de vanguardia.",
+        "programNote": "Desde generación de imágenes hasta síntesis de voz, domina las herramientas que están revolucionando las industrias creativas. Aprende a personalizar y combinar diferentes modelos de IA para lograr resultados únicos.",
+        "modulesTitle": "Módulos del Curso:",
+        "modules": {
+          "0": "Técnicas Avanzadas de Midjourney y Runway",
+          "1": "ChatGPT para Escritura Creativa y Conceptos",
+          "2": "IA de Voz con Eleven Labs",
+          "3": "Entrenamiento y Personalización de Modelos Locales",
+          "4": "Integración de Flujo de Trabajo Creativo"
+        },
+        "duration": "Duración:",
+        "durationValue": "Flexible (4-40 horas)",
+        "format": "Formato:",
+        "formatValue": "Sesiones en vivo online + Talleres prácticos",
+        "prerequisites": "Requisitos previos:",
+        "prerequisitesValue": "Conocimientos básicos de software creativo"
+      },
+      "aiNative": {
+        "title": "Soluciones Empresariales Inteligentes",
+        "howItWorks": "Cómo Funciona:",
+        "exampleTitle": "Ejemplo: Un Asistente Inteligente para Restaurante",
+        "exampleDescription": "Imagina un sistema que ayuda a un restaurante a funcionar sin problemas. Aprende cuáles son las horas pico, cuánta comida pedir y cuántos empleados se necesitan cada día. ¡Como un gerente útil que mejora en su trabajo con el tiempo!",
+        "exampleNote": "El sistema nota patrones - como que recibes más clientes en días lluviosos cuando la gente no quiere cocinar, o cómo ciertos platos son más populares en diferentes temporadas. Usa esta información para ayudarte a prepararte mejor.",
+        "benefitsTitle": "Beneficios Que Verás:",
+        "benefits": {
+          "0": "Menos desperdicio de comida porque sabrás exactamente qué pedir",
+          "1": "Clientes felices porque siempre estás preparado",
+          "2": "Costos más bajos a través de mejor programación de personal",
+          "3": "Más tiempo para enfocarte en hacer crecer tu negocio"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "pages": {
+      "home": {
+        "title": "WAZA - Tecnologia que se fortalece con el uso",
+        "description": "WAZA crea sistemas nativos de IA que evolucionan, se adaptan y mejoran continuamente, transformando productos estaticos en ecosistemas vivos.",
+        "keywords": "agencia IA, automatizacion empresarial, agentes IA, soluciones Web3, tecnologia adaptativa"
+      },
+      "about": {
+        "title": "Sobre Nosotros",
+        "description": "Conoce la mision, vision y enfoque de WAZA para crear tecnologia nativa de IA que evoluciona y mejora continuamente.",
+        "keywords": "sobre WAZA, equipo IA, mision, vision, tecnologia adaptativa"
+      },
+      "agents": {
+        "title": "Agentes IA",
+        "description": "Descubre los agentes de IA de WAZA: asistentes inteligentes que automatizan tareas, analizan datos y potencian tu negocio.",
+        "keywords": "agentes IA, asistentes inteligentes, automatizacion, bots empresariales"
+      },
+      "calculator": {
+        "title": "Calculadora de ROI de IA",
+        "description": "Descubre cuanto tiempo y dinero podria ahorrar tu empresa con automatizacion de IA. Quiz gratuito con resultados personalizados.",
+        "keywords": "calculadora ROI IA, ahorro automatizacion, evaluacion IA, calculadora negocios IA"
+      },
+      "chat": {
+        "title": "Chat con IA",
+        "description": "Habla con nuestro asistente de IA para conocer los servicios de WAZA y encontrar la solucion perfecta para tu negocio.",
+        "keywords": "chat IA, asistente virtual, consulta servicios, WAZA chat"
+      },
+      "contact": {
+        "title": "Contacto",
+        "description": "Contacta a WAZA para discutir como la IA y Web3 pueden transformar tu negocio. Agenda una consulta gratuita.",
+        "keywords": "contacto WAZA, consulta IA, agendar demo, contacto agencia tecnologia"
+      },
+      "projects": {
+        "title": "Proyectos",
+        "description": "Explora el portafolio de proyectos de WAZA: soluciones de IA, automatizacion y Web3 que transforman negocios.",
+        "keywords": "proyectos IA, portafolio WAZA, casos de exito, soluciones tecnologicas"
+      },
+      "services": {
+        "title": "Servicios",
+        "description": "Suite completa de servicios de IA: agentes inteligentes, automatizacion, analisis predictivo, Web3 y mas. Soluciones a medida para tu negocio.",
+        "keywords": "servicios IA, automatizacion empresarial, agentes IA, desarrollo Web3, consultoria tecnologica"
+      },
+      "services_aiAgents": {
+        "title": "Desarrollo de Agentes IA",
+        "description": "Creamos agentes de IA personalizados que automatizan procesos, toman decisiones inteligentes y escalan con tu negocio.",
+        "keywords": "desarrollo agentes IA, bots inteligentes, automatizacion procesos, IA personalizada"
+      },
+      "services_aiFundamentals": {
+        "title": "Capacitacion en Fundamentos de IA",
+        "description": "Cursos y talleres de IA para equipos empresariales. Aprende a implementar y aprovechar la inteligencia artificial en tu organizacion.",
+        "keywords": "capacitacion IA, cursos inteligencia artificial, talleres IA empresas, formacion IA"
+      },
+      "services_aiWeb3Integration": {
+        "title": "Integracion IA y Web3",
+        "description": "Combinamos inteligencia artificial con tecnologias Web3 para crear soluciones descentralizadas e inteligentes.",
+        "keywords": "integracion IA Web3, blockchain IA, soluciones descentralizadas, smart contracts IA"
+      },
+      "services_aiWeb3Training": {
+        "title": "Capacitacion en IA y Web3",
+        "description": "Formacion especializada en la interseccion de IA y Web3. Prepara a tu equipo para la proxima generacion de tecnologia.",
+        "keywords": "capacitacion IA Web3, cursos blockchain, formacion tecnologias emergentes"
+      },
+      "services_businessGrowth": {
+        "title": "Herramientas de Crecimiento Empresarial",
+        "description": "Herramientas de IA disenadas para acelerar el crecimiento de tu negocio: generacion de leads, analisis de mercado y optimizacion.",
+        "keywords": "crecimiento empresarial IA, herramientas negocio, generacion leads, optimizacion ventas"
+      },
+      "services_customerExperience": {
+        "title": "Experiencia del Cliente con IA",
+        "description": "Transforma la experiencia de tus clientes con IA: chatbots inteligentes, personalizacion y atencion automatizada 24/7.",
+        "keywords": "experiencia cliente IA, chatbots, personalizacion, atencion automatizada, CX inteligente"
+      },
+      "services_personalAI": {
+        "title": "Asistentes Personales de IA",
+        "description": "Asistentes de IA personalizados que se adaptan a tus necesidades, gestionan tareas y aumentan tu productividad.",
+        "keywords": "asistente personal IA, productividad IA, gestion tareas inteligente, asistente virtual"
+      },
+      "services_smartInsights": {
+        "title": "Analisis Inteligente de Negocios",
+        "description": "Obtene insights accionables con IA: analisis predictivo, visualizacion de datos y reportes automatizados para mejores decisiones.",
+        "keywords": "analisis inteligente, business intelligence IA, analisis predictivo, reportes automatizados"
+      },
+      "services_smartBusiness": {
+        "title": "Soluciones Empresariales Inteligentes",
+        "description": "Soluciones integrales de IA para empresas: optimizacion de procesos, toma de decisiones y transformacion digital.",
+        "keywords": "soluciones empresariales IA, transformacion digital, optimizacion procesos, IA empresarial"
+      },
+      "services_smartContent": {
+        "title": "Creacion Inteligente de Contenido",
+        "description": "Genera contenido de alta calidad con IA: textos, imagenes, videos y estrategias de contenido automatizadas.",
+        "keywords": "creacion contenido IA, generacion contenido, marketing IA, contenido automatizado"
+      },
+      "services_smartAutomation": {
+        "title": "Automatizacion Inteligente del Trabajo",
+        "description": "Automatiza flujos de trabajo con IA: elimina tareas repetitivas, reduce errores y aumenta la eficiencia de tu equipo.",
+        "keywords": "automatizacion trabajo IA, flujos trabajo inteligentes, eficiencia operativa, RPA inteligente"
+      },
+      "services_web3": {
+        "title": "Desarrollo Web3",
+        "description": "Desarrollo de aplicaciones Web3: smart contracts, DApps, tokenizacion y soluciones blockchain a medida.",
+        "keywords": "desarrollo Web3, smart contracts, DApps, blockchain, tokenizacion"
+      },
+      "docs": {
+        "title": "Documentacion",
+        "description": "Documentacion tecnica de WAZA: guias, APIs, tutoriales y recursos para integrar nuestras soluciones de IA.",
+        "keywords": "documentacion WAZA, API docs, guias tecnicas, tutoriales IA"
+      },
+      "docs_aiAgents": {
+        "title": "Documentacion de Agentes IA",
+        "description": "Guia completa para configurar, personalizar y desplegar agentes de IA con la plataforma WAZA.",
+        "keywords": "docs agentes IA, guia configuracion, despliegue agentes, API agentes"
+      },
+      "docs_api": {
+        "title": "Documentacion API",
+        "description": "Referencia completa de la API de WAZA: endpoints, autenticacion, ejemplos de uso y SDKs disponibles.",
+        "keywords": "API WAZA, referencia API, endpoints, SDK, integracion"
+      },
+      "docs_businessSolutions": {
+        "title": "Soluciones Empresariales - Docs",
+        "description": "Documentacion de soluciones empresariales WAZA: implementacion, configuracion y mejores practicas.",
+        "keywords": "docs soluciones empresariales, implementacion, configuracion, mejores practicas"
+      },
+      "docs_gettingStarted": {
+        "title": "Primeros Pasos",
+        "description": "Guia de inicio rapido con WAZA: configuracion inicial, primeros pasos y como aprovechar nuestras herramientas de IA.",
+        "keywords": "primeros pasos WAZA, guia inicio, configuracion inicial, tutorial basico"
+      },
+      "docs_web3": {
+        "title": "Documentacion Web3",
+        "description": "Documentacion de desarrollo Web3 con WAZA: smart contracts, integraciones blockchain y guias de despliegue.",
+        "keywords": "docs Web3, smart contracts, blockchain, guia despliegue Web3"
+      }
+    }
+  }
+}

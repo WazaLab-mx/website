@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1080">
+    <title>5 Things You Can Build This Weekend - WAZA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            color: #F9F7F7;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 48px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            letter-spacing: -1px;
+            color: #F9F7F7;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+            position: absolute;
+            top: -6px;
+            right: -6px;
+        }
+
+        .badge {
+            background: rgba(8, 217, 214, 0.15);
+            border: 1.5px solid #08D9D6;
+            color: #08D9D6;
+            padding: 10px 24px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .title {
+            font-size: 54px;
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -2px;
+            color: #F9F7F7;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            font-weight: 500;
+            color: #08D9D6;
+            margin-bottom: 20px;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+
+        .list-item {
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+        }
+
+        .number {
+            flex-shrink: 0;
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, #FF2E63 0%, #702DFF 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 900;
+            color: #F9F7F7;
+        }
+
+        .item-content {
+            flex: 1;
+            padding-top: 4px;
+        }
+
+        .item-title {
+            font-size: 26px;
+            font-weight: 800;
+            color: #F9F7F7;
+            margin-bottom: 6px;
+            line-height: 1.2;
+        }
+
+        .item-desc {
+            font-size: 18px;
+            font-weight: 400;
+            color: rgba(249, 247, 247, 0.6);
+            line-height: 1.4;
+        }
+
+        .cta {
+            margin-top: 20px;
+            padding: 28px 40px;
+            background: rgba(37, 42, 52, 0.8);
+            border-radius: 12px;
+            border: 2px solid #252A34;
+        }
+
+        .cta-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #F9F7F7;
+            text-align: center;
+        }
+
+        .cta-link {
+            color: #08D9D6;
+            font-weight: 800;
+        }
+
+        .footer {
+            padding: 48px 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .watermark {
+            font-size: 24px;
+            font-weight: 700;
+            color: rgba(249, 247, 247, 0.4);
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">IDEAS PARA CONSTRUIR</div>
+    </div>
+
+    <div class="content">
+        <div>
+            <div class="title">5 Cosas Que Puedes Construir<br>Este Fin de Semana con IA</div>
+        </div>
+
+        <div class="list">
+            <div class="list-item">
+                <div class="number">1</div>
+                <div class="item-content">
+                    <div class="item-title">Un chatbot de WhatsApp para tu negocio</div>
+                    <div class="item-desc">Conecta con clientes 24/7</div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="number">2</div>
+                <div class="item-content">
+                    <div class="item-title">Una landing page que convierte</div>
+                    <div class="item-desc">La IA escribe copy + código</div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="number">3</div>
+                <div class="item-content">
+                    <div class="item-title">Un dashboard de datos</div>
+                    <div class="item-desc">Visualiza las métricas de tu negocio</div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="number">4</div>
+                <div class="item-content">
+                    <div class="item-title">Un sistema de automatización de emails</div>
+                    <div class="item-desc">Alcance personalizado a escala</div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="number">5</div>
+                <div class="item-content">
+                    <div class="item-title">Una herramienta interna personalizada</div>
+                    <div class="item-desc">Resuelve el problema específico de tu equipo</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <div class="cta-text">¿Necesitas ayuda construyendo? Es lo que hacemos. → <span class="cta-link">waza.baby</span></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

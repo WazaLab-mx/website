@@ -1,0 +1,35 @@
+{
+  "projects": {
+    "ui": {
+      "explore": "Erkunden",
+      "viewDetails": "Details ansehen",
+      "previousProject": "Vorheriges Projekt",
+      "nextProject": "Nächstes Projekt",
+      "scrollForMore": "Scrollen für mehr",
+      "goTo": "Gehe zu {title}"
+    },
+    "cta": {
+      "title": "Bereit, Ihr",
+      "titleHighlight": "Nächstes Projekt",
+      "description": "Lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen.",
+      "startProject": "Projekt starten",
+      "viewServices": "Services ansehen"
+    },
+    "hero": {
+      "0": {
+        "title": "San Luis Way",
+        "description": "Eine umfassende digitale Plattform, die Expatriates und Einheimische in San Luis Potosí verbindet. Die Plattform bietet kuratierte Empfehlungen, Kulturführer und ein vertrauenswürdiges Netzwerk von Dienstleistern, um Menschen bei der Navigation und Integration in die lebendige Gemeinschaft der Stadt zu helfen.",
+        "tags": ["Lokaler Führer", "Gemeinschaft", "Expat-Services"],
+        "image": "/images/project-screenshots/san-luis-way.png",
+        "link": "https://sanluisway.com"
+      },
+      "1": {
+        "title": "GlamLocal",
+        "description": "Finden Sie Beauty-Services in Ihrer Nähe und kaufen Sie Premium-Produkte. Entdecken Sie erstklassige Spas, Salons und Beauty-Services, vergleichen Sie Bewertungen, Standorte und entdecken Sie exklusive Produktangebote — alles an einem Ort. Über 50.000 verifizierte Bewertungen.",
+        "tags": ["Beauty Tech", "Lokale Services", "KI-Matching"],
+        "image": "/images/project-screenshots/glamlocal.png",
+        "link": "https://glamlocal.app/"
+      }
+    }
+  }
+}

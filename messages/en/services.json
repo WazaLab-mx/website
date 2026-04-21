@@ -1,0 +1,327 @@
+{
+  "services": {
+    "banner": {
+      "text": "We've updated our operating model to better align outcomes with delivery. Learn how we work in",
+      "link": "About → Operating Model"
+    },
+    "hero": {
+      "badge": "AI-Native Technology",
+      "title": "Our Services",
+      "description": "Discover how WAZA's AI-native technology can transform your business with our comprehensive suite of services.",
+      "cta": "Get Started"
+    },
+    "grid": {
+      "title": "How We Can Help Your Business",
+      "description": "Smart solutions that learn and improve over time, making your business more efficient and successful every day.",
+      "learnMore": "Learn More",
+      "whatYouGet": "What You Get:",
+      "items": {
+        "0": {
+          "title": "Smart Business Solutions",
+          "description": "We create smart systems that understand your business and help it run better. Like having a super-smart assistant that learns your preferences and gets better at helping you every day.",
+          "features": {
+            "0": "Systems that learn your business needs",
+            "1": "Automatic improvements over time",
+            "2": "Easy-to-use smart features",
+            "3": "Time-saving automation"
+          }
+        },
+        "1": {
+          "title": "Personal AI Assistants",
+          "description": "Imagine having a smart assistant that knows exactly how you like things done. Our AI assistants learn your preferences and help make your work easier and more efficient.",
+          "features": {
+            "0": "Personalized help for your needs",
+            "1": "Smart task management",
+            "2": "Helpful suggestions and reminders",
+            "3": "Easy communication and support"
+          }
+        },
+        "2": {
+          "title": "Smart Content Creation",
+          "description": "Let AI help you create amazing content for your business. From social media posts to marketing materials, our tools learn your style and help you create content that connects with your audience.",
+          "features": {
+            "0": "Content that matches your brand",
+            "1": "Ideas tailored to your audience",
+            "2": "Time-saving content tools",
+            "3": "Easy-to-use creation tools"
+          }
+        },
+        "3": {
+          "title": "Customer Experience Enhancement",
+          "description": "Make your customers happier with personalized experiences. Our tools learn what your customers like and help you provide better service that keeps them coming back.",
+          "features": {
+            "0": "Personalized customer service",
+            "1": "Smart customer insights",
+            "2": "Better customer satisfaction",
+            "3": "Easy-to-use customer tools"
+          }
+        },
+        "4": {
+          "title": "Business Growth Tools",
+          "description": "Tools that help your business grow smarter and stronger. Our systems learn from your business operations and help you make better decisions for continued success.",
+          "features": {
+            "0": "Smart business insights",
+            "1": "Growth recommendations",
+            "2": "Performance tracking",
+            "3": "Easy-to-understand reports"
+          }
+        },
+        "5": {
+          "title": "Smart Business Insights",
+          "description": "Get helpful insights about your business future. Our tools analyze your business data and help you make smart decisions by showing you what might happen next.",
+          "features": {
+            "0": "Future trend predictions",
+            "1": "Real-time business updates",
+            "2": "Smart recommendations",
+            "3": "Easy-to-read reports"
+          }
+        },
+        "6": {
+          "title": "Smart Work Automation",
+          "description": "Let AI handle your routine tasks while you focus on growing your business. Our automation tools learn your processes and help make your work easier and more efficient.",
+          "features": {
+            "0": "Time-saving automation",
+            "1": "Smart task management",
+            "2": "Easy process handling",
+            "3": "Helpful progress updates"
+          }
+        },
+        "7": {
+          "title": "AI Agents Development",
+          "description": "Custom AI agents tailored to your specific business needs. We develop intelligent agents that learn, adapt, and enhance your operations through continuous interaction and improvement.",
+          "features": {
+            "0": "Custom-built AI agents",
+            "1": "Adaptive learning systems",
+            "2": "Integration with existing tools",
+            "3": "Continuous optimization"
+          }
+        },
+        "8": {
+          "title": "Web3 Development Training",
+          "description": "Expert blockchain development, smart contract programming, and comprehensive security auditing services. Building secure and scalable decentralized solutions.",
+          "features": {
+            "0": "Custom blockchain solutions",
+            "1": "Smart contract development",
+            "2": "Security auditing",
+            "3": "DApp architecture & design"
+          }
+        },
+        "9": {
+          "title": "AI-Web3 Integration Training",
+          "description": "Combine the power of AI with blockchain technology. We develop intelligent decentralized systems that leverage machine learning and smart contracts for innovative solutions.",
+          "features": {
+            "0": "AI-powered smart contracts",
+            "1": "Decentralized AI systems",
+            "2": "ML model integration",
+            "3": "Intelligent oracles"
+          }
+        }
+      }
+    },
+    "training": {
+      "badge": "Professional Development",
+      "title": "AI & Web3 Training Programs",
+      "description": "Empower your team with cutting-edge skills in AI and Web3 technologies through our comprehensive training programs.",
+      "learnMore": "Learn More",
+      "items": {
+        "0": {
+          "title": "AI Fundamentals",
+          "description": "Master the foundations of artificial intelligence, machine learning, and deep learning. Perfect for teams starting their AI journey.",
+          "features": {
+            "0": "Machine Learning Basics",
+            "1": "Neural Networks",
+            "2": "AI Model Development",
+            "3": "Practical Applications"
+          }
+        },
+        "1": {
+          "title": "Web3 Development Training",
+          "description": "Expert blockchain development, smart contract programming, and comprehensive security auditing services. Building secure and scalable decentralized solutions.",
+          "features": {
+            "0": "Custom blockchain solutions",
+            "1": "Smart contract development",
+            "2": "Security auditing",
+            "3": "DApp architecture & design"
+          }
+        },
+        "2": {
+          "title": "AI-Web3 Integration Training",
+          "description": "Combine the power of AI with blockchain technology. We develop intelligent decentralized systems that leverage machine learning and smart contracts for innovative solutions.",
+          "whatYouGet": "What You Get:",
+          "features": {
+            "0": "AI-powered smart contracts",
+            "1": "Decentralized AI systems",
+            "2": "ML model integration",
+            "3": "Intelligent oracles"
+          }
+        },
+        "3": {
+          "title": "AI for Creatives",
+          "description": "Master cutting-edge AI tools for creative work. Learn to leverage Midjourney, ChatGPT, Eleven Labs, and more to enhance your creative workflow and produce innovative content.",
+          "features": {
+            "0": "Advanced Midjourney & Runway",
+            "1": "ChatGPT for Creative Writing",
+            "2": "Voice AI with Eleven Labs",
+            "3": "Local Model Training"
+          }
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose WAZA",
+      "description": "Our unique approach sets us apart in the AI technology landscape.",
+      "items": {
+        "0": {
+          "title": "AI-Native Foundation",
+          "description": "Unlike providers that add AI capabilities to existing approaches, we build with artificial intelligence as a foundational element."
+        },
+        "1": {
+          "title": "Technical-Creative Fusion",
+          "description": "We integrate technical and creative dimensions from the outset, creating solutions that are both technically excellent and emotionally engaging."
+        },
+        "2": {
+          "title": "Self-Recursive Improvement",
+          "description": "Our systems are designed to improve themselves, delivering increasing value over time rather than depreciation."
+        }
+      }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Ready to transform your business with AI-native technology? Contact us today to discuss your project and discover how WAZA can help you grow stronger through use.",
+      "email": "info@waza.baby",
+      "location": "CDMX y SLP, Mexico",
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "Your name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Your email",
+        "company": "Company",
+        "companyPlaceholder": "Your company",
+        "service": "Service Interest",
+        "servicePlaceholder": "Select a service",
+        "serviceOptions": {
+          "0": "AI-Native Development",
+          "1": "Custom AI Agents",
+          "2": "Generative AI Solutions",
+          "3": "Digital Experience Design",
+          "4": "Self-Recursive Systems",
+          "5": "Predictive Analytics",
+          "6": "AI-Powered Automation"
+        },
+        "message": "Message",
+        "messagePlaceholder": "Tell us about your project",
+        "submit": "Send Message"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Business?",
+      "description": "Contact us today to discuss how WAZA's AI-native technology can help your organization grow stronger through use.",
+      "button": "Get Started"
+    },
+    "footer": {
+      "builtBy": "Built by",
+      "sourceCode": "The source code is available on"
+    },
+    "popups": {
+      "close": "Close",
+      "aiFundamentals": {
+        "title": "AI Fundamentals Training",
+        "courseDetails": "Course Details:",
+        "programTitle": "Comprehensive AI Foundation Course",
+        "programDescription": "A structured program designed to build a solid foundation in AI and machine learning. Perfect for technical teams and entrepreneurs looking to understand and implement AI solutions.",
+        "programNote": "The course combines theoretical knowledge with hands-on practice, ensuring participants can apply their learning to real-world scenarios immediately.",
+        "modulesTitle": "Course Modules:",
+        "modules": {
+          "0": "Introduction to Machine Learning Algorithms",
+          "1": "Deep Learning and Neural Networks",
+          "2": "Model Training and Evaluation",
+          "3": "AI Project Implementation",
+          "4": "Best Practices and Ethics in AI"
+        },
+        "duration": "Duration:",
+        "durationValue": "8 weeks (4 hours/week)",
+        "format": "Format:",
+        "formatValue": "Online live sessions + Hands-on workshops",
+        "prerequisites": "Prerequisites:",
+        "prerequisitesValue": "Basic programming knowledge"
+      },
+      "web3Dev": {
+        "title": "Web3 Development Training",
+        "courseDetails": "Course Details:",
+        "programTitle": "Professional Web3 Development Program",
+        "programDescription": "An intensive course covering blockchain technology, smart contract development, and decentralized application architecture. Designed for developers and technical teams entering the Web3 space.",
+        "programNote": "Participants will build real decentralized applications and smart contracts, gaining practical experience with current Web3 technologies and best practices.",
+        "modulesTitle": "Course Modules:",
+        "modules": {
+          "0": "Blockchain Technology Fundamentals",
+          "1": "Smart Contract Development with Solidity",
+          "2": "DApp Architecture and Development",
+          "3": "Web3.js and Ethers.js Integration",
+          "4": "Security Best Practices"
+        },
+        "duration": "Duration:",
+        "durationValue": "10 weeks (6 hours/week)",
+        "format": "Format:",
+        "formatValue": "Online live sessions + Project-based learning",
+        "prerequisites": "Prerequisites:",
+        "prerequisitesValue": "JavaScript programming experience"
+      },
+      "aiWeb3Integration": {
+        "title": "AI-Web3 Integration Training",
+        "courseDetails": "Course Details:",
+        "programTitle": "Advanced Integration Course",
+        "programDescription": "A cutting-edge program teaching the integration of AI and blockchain technologies. Learn to build intelligent decentralized systems that combine the power of AI with the security and transparency of blockchain.",
+        "programNote": "This advanced course covers the latest techniques for creating AI-powered smart contracts, decentralized AI models, and blockchain-based machine learning systems.",
+        "modulesTitle": "Course Modules:",
+        "modules": {
+          "0": "AI Models in Blockchain Environments",
+          "1": "Decentralized AI Training and Inference",
+          "2": "Smart Oracle Development and Integration",
+          "3": "Privacy-Preserving AI on Blockchain",
+          "4": "Advanced System Architecture Patterns"
+        },
+        "duration": "Duration:",
+        "durationValue": "12 weeks (8 hours/week)",
+        "format": "Format:",
+        "formatValue": "Online live sessions + Advanced projects",
+        "prerequisites": "Prerequisites:",
+        "prerequisitesValue": "AI Fundamentals and Web3 Development courses or equivalent experience"
+      },
+      "aiCreatives": {
+        "title": "AI for Creatives Training",
+        "courseDetails": "Course Details:",
+        "programTitle": "Creative AI Tools Mastery Program",
+        "programDescription": "An immersive course designed for creative professionals in entertainment and advertising. Learn to harness AI tools to enhance your creative workflow and produce cutting-edge content.",
+        "programNote": "From image generation to voice synthesis, master the tools that are revolutionizing creative industries. Learn to customize and combine different AI models to achieve unique results.",
+        "modulesTitle": "Course Modules:",
+        "modules": {
+          "0": "Advanced Midjourney & Runway Techniques",
+          "1": "ChatGPT for Creative Writing & Concepts",
+          "2": "Voice AI with Eleven Labs",
+          "3": "Local Model Training & Customization",
+          "4": "Creative Workflow Integration"
+        },
+        "duration": "Duration:",
+        "durationValue": "Flexible (4-40 hours)",
+        "format": "Format:",
+        "formatValue": "Online live sessions + Hands-on workshops",
+        "prerequisites": "Prerequisites:",
+        "prerequisitesValue": "Basic creative software knowledge"
+      },
+      "aiNative": {
+        "title": "Smart Business Solutions",
+        "howItWorks": "How It Works:",
+        "exampleTitle": "Example: A Smart Restaurant Helper",
+        "exampleDescription": "Imagine a system that helps a restaurant run smoothly. It learns when the busy hours are, how much food to order, and how many staff members are needed each day. Just like a helpful manager who gets better at their job over time!",
+        "exampleNote": "The system notices patterns - like how you get more customers on rainy days when people don't want to cook, or how certain dishes are more popular during different seasons. It uses this information to help you prepare better.",
+        "benefitsTitle": "Benefits You'll See:",
+        "benefits": {
+          "0": "Less food waste because you'll know exactly what to order",
+          "1": "Happy customers because you're always prepared",
+          "2": "Lower costs through better staff scheduling",
+          "3": "More time to focus on growing your business"
+        }
+      }
+    }
+  }
+}

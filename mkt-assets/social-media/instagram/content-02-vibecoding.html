@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1080">
+    <title>WAZA - Vibe Coding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            color: #F9F7F7;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 60px 60px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            color: #F9F7F7;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -20px;
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+        }
+
+        .badge {
+            background: #252A34;
+            color: #702DFF;
+            padding: 12px 24px;
+            border-radius: 24px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title {
+            font-size: 64px;
+            font-weight: 900;
+            letter-spacing: -0.03em;
+            color: #F9F7F7;
+            margin-bottom: 60px;
+        }
+
+        .steps {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .step-number {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: 900;
+            flex-shrink: 0;
+        }
+
+        .step:nth-child(1) .step-number {
+            background: #FF2E63;
+            color: #0D0D0D;
+        }
+
+        .step:nth-child(2) .step-number {
+            background: #08D9D6;
+            color: #0D0D0D;
+        }
+
+        .step:nth-child(3) .step-number {
+            background: #702DFF;
+            color: #F9F7F7;
+        }
+
+        .step:nth-child(4) .step-number {
+            background: #FF2E63;
+            color: #0D0D0D;
+        }
+
+        .step-text {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1.4;
+            color: #F9F7F7;
+        }
+
+        .quote {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.6;
+            color: #F9F7F7;
+            opacity: 0.8;
+            text-align: center;
+            padding: 0 40px;
+        }
+
+        .footer {
+            padding: 40px 60px 60px;
+            text-align: center;
+        }
+
+        .watermark {
+            font-size: 24px;
+            font-weight: 600;
+            color: #F9F7F7;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">VIBE CODING</div>
+    </div>
+
+    <div class="content">
+        <div class="title">What is Vibe Coding?</div>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-text">Describe what you want in natural language</div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-text">AI writes the code in real-time</div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-text">You review, refine, iterate</div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-text">Ship production-ready software 10x faster</div>
+            </div>
+        </div>
+
+        <div class="quote">
+            The future of software development is conversational.
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

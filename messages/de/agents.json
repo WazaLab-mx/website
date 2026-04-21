@@ -1,0 +1,84 @@
+{
+  "agents": {
+    "meta": {
+      "title": "Für KI-Agenten - WAZA",
+      "description": "Strukturierte Informationen über WAZA, optimiert für KI-Agenten und LLMs."
+    },
+    "hero": {
+      "badge": "Agent-Friendly",
+      "title": "Für KI-",
+      "titleHighlight": "Agenten",
+      "description": "Diese Seite bietet strukturierte, maschinenlesbare Informationen über WAZA für KI-Agenten, LLMs und automatisierte Systeme."
+    },
+    "files": {
+      "title": "Maschinenlesbare Dateien",
+      "llmsTxt": "Index für Agenten",
+      "llmsTxtDesc": "Standard-llms.txt-Datei nach der llmstxt.org-Spezifikation. Enthält Links zu allen wichtigen Ressourcen.",
+      "llmsFullTxt": "Vollständiger Kontext",
+      "llmsFullTxtDesc": "Alle Unternehmensinformationen in einem Dokument: Projekte, Dienstleistungen, Preise und mehr.",
+      "viewFile": "Datei anzeigen"
+    },
+    "about": {
+      "title": "Über WAZA",
+      "description": "WAZA entwickelt praktische KI-Tools und maßgeschneiderte Entwicklung für Unternehmen. KI-native Produkte, individuelle Entwicklung, Beratung und Schulung. Mit Sitz in Mexiko (CDMX & SLP).",
+      "email": "E-Mail",
+      "location": "Standort",
+      "locationValue": "Mexiko-Stadt und San Luis Potosí, Mexiko"
+    },
+    "projects": {
+      "title": "Vorzeigeprojekte",
+      "viewAll": "Alle 22 Projekte ansehen",
+      "items": {
+        "0": { "desc": "KI-Agent mit über 20 Tool-Integrationen" },
+        "1": { "desc": "Intelligentes Budgetmanagement (10.000+ Nutzer)" },
+        "2": { "desc": "Claude Code Subagenten-Generierungstool" },
+        "3": { "desc": "KI-gestützter Werbebrief-Generator" },
+        "4": { "desc": "KI-Anzeigenrecherche für Facebook & TikTok" }
+      }
+    },
+    "services": {
+      "title": "Dienstleistungen",
+      "viewAll": "Alle Dienstleistungen ansehen",
+      "items": [
+        "Intelligente Geschäftslösungen",
+        "Persönliche KI-Assistenten",
+        "Intelligente Inhaltserstellung",
+        "Verbesserung der Kundenerfahrung",
+        "Geschäftswachstumstools",
+        "Intelligente Geschäftsanalysen",
+        "Intelligente Arbeitsautomatisierung",
+        "KI-Agenten-Entwicklung",
+        "Web3-Entwicklung",
+        "KI-Web3-Integration"
+      ]
+    },
+    "pricing": {
+      "title": "Preispläne",
+      "viewAll": "Preisdetails ansehen",
+      "popularBadge": "Beliebt",
+      "items": {
+        "0": { "name": "MVP Fast-Lane", "duration": "6-10 Wochen" },
+        "1": { "name": "Wachstums-Retainer", "duration": "Fortlaufend" },
+        "2": { "name": "Entdeckungs-Sprint", "duration": "1 Woche" },
+        "3": { "name": "À-la-carte-Features", "duration": "Modular" },
+        "4": { "name": "Premium-Support", "duration": "24/7" }
+      }
+    },
+    "openclaw": {
+      "title": "OpenClaw Skill",
+      "badge": "Installation mit einem Befehl",
+      "description": "Installieren Sie den WAZA-Skill in Ihrem OpenClaw-Agenten mit einem einzigen Befehl. Ihr Agent erhält sofortigen Zugriff auf unsere Dienste, Projekte, Preise und Kontaktdaten.",
+      "install": "Installieren",
+      "copy": "Befehl kopieren",
+      "copied": "Kopiert!",
+      "viewSkill": "SKILL.md anzeigen",
+      "whatIncludes": "Was Ihr Agent bekommt:",
+      "includes": ["10 Dienste und Preispläne", "22 Projektreferenzen", "Kontakt- und FAQ-Daten", "Links zu llms.txt und llms-full.txt"]
+    },
+    "cta": {
+      "title": "Integration & API",
+      "description": "Möchten Sie WAZA-Daten in Ihren Agenten oder Ihre Anwendung integrieren? Kontaktieren Sie uns unter info@waza.baby für API-Zugang und Partnerschaften.",
+      "contact": "Kontaktieren Sie uns"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAZA - Why We Choose Next.js</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            color: #F9F7F7;
+            letter-spacing: -1px;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+        }
+
+        .badge {
+            background: #702DFF;
+            color: #F9F7F7;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            font-size: 56px;
+            font-weight: 800;
+            color: #F9F7F7;
+            line-height: 1.1;
+            margin-bottom: 50px;
+        }
+
+        .reasons {
+            background: linear-gradient(135deg, #1a1d24 0%, #252A34 100%);
+            padding: 40px 45px;
+            border-radius: 20px;
+            border: 1px solid rgba(8, 217, 214, 0.15);
+            margin-bottom: 35px;
+        }
+
+        .reason-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(8, 217, 214, 0.08);
+        }
+
+        .reason-item:last-child {
+            border-bottom: none;
+        }
+
+        .check {
+            width: 28px;
+            height: 28px;
+            background: #08D9D6;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .reason-text {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 19px;
+            font-weight: 500;
+            color: #F9F7F7;
+            line-height: 1.4;
+        }
+
+        .tagline {
+            text-align: center;
+            padding: 0 30px;
+        }
+
+        .tagline-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #702DFF;
+            line-height: 1.5;
+        }
+
+        .footer {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .watermark {
+            font-size: 18px;
+            font-weight: 500;
+            color: #F9F7F7;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">TECH DEEP DIVE</div>
+    </div>
+
+    <div class="content">
+        <div class="title">Why We Choose Next.js</div>
+
+        <div class="reasons">
+            <div class="reason-item">
+                <div class="check">✓</div>
+                <div class="reason-text">Server-side rendering for SEO</div>
+            </div>
+
+            <div class="reason-item">
+                <div class="check">✓</div>
+                <div class="reason-text">Edge functions for AI inference</div>
+            </div>
+
+            <div class="reason-item">
+                <div class="check">✓</div>
+                <div class="reason-text">Built-in API routes</div>
+            </div>
+
+            <div class="reason-item">
+                <div class="check">✓</div>
+                <div class="reason-text">React ecosystem compatibility</div>
+            </div>
+
+            <div class="reason-item">
+                <div class="check">✓</div>
+                <div class="reason-text">Vercel deployment in seconds</div>
+            </div>
+
+            <div class="reason-item">
+                <div class="check">✓</div>
+                <div class="reason-text">TypeScript-first architecture</div>
+            </div>
+
+            <div class="reason-item">
+                <div class="check">✓</div>
+                <div class="reason-text">Perfect for AI-native applications</div>
+            </div>
+        </div>
+
+        <div class="tagline">
+            <div class="tagline-text">The framework that grows with your product.</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Toggle Test</title>
+    <script>
+        // Test function to check if the theme toggle is working inside iframe
+        function testThemeToggle() {
+            const iframe = document.querySelector('iframe');
+            
+            if (!iframe) {
+                console.log('❌ No iframe found');
+                return;
+            }
+            
+            console.log('🔍 Starting theme toggle test...');
+            
+            // Wait for iframe to load completely
+            const waitForIframeLoad = () => {
+                return new Promise((resolve, reject) => {
+                    if (iframe.contentDocument && iframe.contentDocument.readyState === 'complete') {
+                        resolve();
+                        return;
+                    }
+                    
+                    const timeout = setTimeout(() => {
+                        reject(new Error('Iframe load timeout'));
+                    }, 10000);
+                    
+                    iframe.addEventListener('load', () => {
+                        clearTimeout(timeout);
+                        // Additional check for document ready state
+                        const checkReady = () => {
+                            if (iframe.contentDocument && iframe.contentDocument.readyState === 'complete') {
+                                resolve();
+                            } else {
+                                setTimeout(checkReady, 50);
+                            }
+                        };
+                        checkReady();
+                    });
+                });
+            };
+            
+            // Check if iframe is same-origin and accessible
+            const checkIframeAccess = () => {
+                try {
+                    // Test access to iframe's location origin
+                    const origin = iframe.contentWindow.location.origin;
+                    console.log('✅ Iframe is same-origin, origin:', origin);
+                    return true;
+                } catch (e) {
+                    console.log('❌ Cross-origin iframe detected. Cannot access iframe content due to CORS policy.');
+                    console.log('Error:', e.message);
+                    return false;
+                }
+            };
+            
+            // Poll for element with timeout
+            const pollForElement = (selector, timeout = 5000, interval = 100) => {
+                return new Promise((resolve, reject) => {
+                    const startTime = Date.now();
+                    
+                    const poll = () => {
+                        try {
+                            const iframeDoc = iframe.contentDocument;
+                            if (!iframeDoc) {
+                                throw new Error('Cannot access iframe document');
+                            }
+                            
+                            const element = iframeDoc.querySelector(selector);
+                            if (element) {
+                                resolve(element);
+                                return;
+                            }
+                            
+                            if (Date.now() - startTime > timeout) {
+                                reject(new Error(`Timeout waiting for element: ${selector}`));
+                                return;
+                            }
+                            
+                            setTimeout(poll, interval);
+                        } catch (e) {
+                            reject(e);
+                        }
+                    };
+                    
+                    poll();
+                });
+            };
+            
+            // Poll for theme class change
+            const pollForThemeChange = (htmlElement, expectedClass, timeout = 3000, interval = 100) => {
+                return new Promise((resolve, reject) => {
+                    const startTime = Date.now();
+                    
+                    const poll = () => {
+                        try {
+                            if (htmlElement.classList.contains(expectedClass)) {
+                                resolve(expectedClass);
+                                return;
+                            }
+                            
+                            if (Date.now() - startTime > timeout) {
+                                reject(new Error(`Timeout waiting for theme class: ${expectedClass}`));
+                                return;
+                            }
+                            
+                            setTimeout(poll, interval);
+                        } catch (e) {
+                            reject(e);
+                        }
+                    };
+                    
+                    poll();
+                });
+            };
+            
+            // Main test execution
+            const runTest = async () => {
+                try {
+                    // Wait for iframe to load
+                    console.log('⏳ Waiting for iframe to load...');
+                    await waitForIframeLoad();
+                    console.log('✅ Iframe loaded');
+                    
+                    // Check iframe access
+                    if (!checkIframeAccess()) {
+                        console.log('🚫 Aborting test due to cross-origin restrictions');
+                        return;
+                    }
+                    
+                    // Get iframe document
+                    const iframeDoc = iframe.contentDocument;
+                    const iframeHtml = iframeDoc.documentElement;
+                    
+                    console.log('🔍 Searching for theme toggle...');
+                    
+                    // Poll for toggle element
+                    const toggle = await pollForElement('[role="switch"]');
+                    console.log('✅ Theme toggle found');
+                    
+                    // Check if toggle is enabled
+                    const isDisabled = toggle.hasAttribute('disabled') || toggle.getAttribute('aria-disabled') === 'true';
+                    if (isDisabled) {
+                        console.log('⏳ Toggle is disabled, waiting for it to be enabled...');
+                        await pollForElement('[role="switch"]:not([disabled]):not([aria-disabled="true"])', 5000);
+                        console.log('✅ Toggle is now enabled');
+                    }
+                    
+                    // Log initial state
+                    const initialClasses = iframeHtml.className;
+                    const initialChecked = toggle.getAttribute('aria-checked');
+                    console.log('📊 Initial state:');
+                    console.log('  HTML classes:', initialClasses);
+                    console.log('  Toggle checked:', initialChecked);
+                    
+                    // Determine expected theme after toggle
+                    const isDarkMode = iframeHtml.classList.contains('dark');
+                    const expectedTheme = isDarkMode ? 'light' : 'dark';
+                    
+                    console.log('🖱️ Simulating click on theme toggle...');
+                    
+                    // Simulate user interaction (click)
+                    toggle.click();
+                    
+                    console.log('⏳ Waiting for theme change...');
+                    
+                    // Poll for theme class change
+                    await pollForThemeChange(iframeHtml, expectedTheme);
+                    
+                    // Log final state
+                    const finalClasses = iframeHtml.className;
+                    const finalChecked = toggle.getAttribute('aria-checked');
+                    console.log('📊 Final state:');
+                    console.log('  HTML classes:', finalClasses);
+                    console.log('  Toggle checked:', finalChecked);
+                    
+                    // Verify the change
+                    if (iframeHtml.classList.contains(expectedTheme)) {
+                        console.log('🎉 ✅ Theme toggle is working perfectly!');
+                        console.log(`🎨 Successfully switched to ${expectedTheme} mode`);
+                    } else {
+                        console.log('❌ Theme toggle did not apply expected class');
+                        console.log(`Expected: ${expectedTheme}, Current classes: ${finalClasses}`);
+                    }
+                    
+                } catch (error) {
+                    console.log('❌ Test failed:', error.message);
+                    console.error('Full error:', error);
+                }
+            };
+            
+            // Start the test
+            runTest();
+        }
+        
+        // Run test when page loads
+        window.addEventListener('load', testThemeToggle);
+    </script>
+</head>
+<body>
+    <h1>Theme Toggle Test</h1>
+    <p>Check the browser console for test results.</p>
+    <iframe src="http://localhost:3001" width="100%" height="600"></iframe>
+</body>
+</html>

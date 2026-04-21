@@ -1,0 +1,49 @@
+{
+  "contact": {
+    "hero": {
+      "badge": "Kontakt aufnehmen",
+      "title": "Kontaktieren Sie uns",
+      "description": "Bereit, Ihre digitale Zukunft zu transformieren? Wir helfen Ihnen beim Einstieg in KI-native Technologien."
+    },
+    "info": {
+      "email": {
+        "title": "Schreiben Sie uns",
+        "description": "Unser Team beantwortet gerne Ihre Fragen",
+        "address": "hello@waza.ai"
+      },
+      "phone": {
+        "title": "Rufen Sie uns an",
+        "description": "Montag bis Freitag, 9 bis 18 Uhr (ET)",
+        "hours": "Montag bis Freitag, 9 bis 18 Uhr (ET)",
+        "number": "+1 (234) 567-8901"
+      },
+      "location": {
+        "title": "Standort",
+        "description": "Unser Hauptsitz",
+        "address": "Mexiko-Stadt, Mexiko"
+      }
+    },
+    "form": {
+      "title": "Lassen Sie uns über Ihr",
+      "titleHighlight": "Projekt",
+      "description": "Füllen Sie das Formular aus und wir melden uns in Kürze bei Ihnen.",
+      "freeConsultation": "Kostenlose Erstberatung",
+      "noCommitment": "Keine Verpflichtung erforderlich",
+      "nameLabel": "Ihr Name",
+      "namePlaceholder": "Max Mustermann",
+      "emailLabel": "Ihre E-Mail",
+      "emailPlaceholder": "max@beispiel.de",
+      "companyLabel": "Unternehmen",
+      "companyPlaceholder": "Ihr Unternehmen",
+      "messageLabel": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt oder Ihrer Frage",
+      "submit": "Nachricht senden",
+      "terms": "Mit dem Absenden dieses Formulars stimmen Sie unseren",
+      "termsLink": "Allgemeinen Geschäftsbedingungen"
+    },
+    "social": {
+      "title": "Verbinden Sie sich mit uns",
+      "description": "Folgen Sie uns in den sozialen Medien, um über die neuesten Nachrichten und Einblicke zu KI und Web3 auf dem Laufenden zu bleiben."
+    }
+  }
+}

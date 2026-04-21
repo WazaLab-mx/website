@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <!-- Background - Deep space -->
+  <rect width="800" height="450" fill="#050714"/>
+
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F0E23;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#050714;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="earthGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A8A;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FCD34D;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#FCD34D;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#grad1)"/>
+
+  <!-- Stars -->
+  <circle cx="100" cy="80" r="1" fill="#F1F5F9"/>
+  <circle cx="200" cy="120" r="1.5" fill="#F1F5F9"/>
+  <circle cx="350" cy="60" r="1" fill="#F1F5F9"/>
+  <circle cx="500" cy="100" r="2" fill="#F1F5F9"/>
+  <circle cx="650" cy="50" r="1" fill="#F1F5F9"/>
+  <circle cx="720" cy="150" r="1.5" fill="#F1F5F9"/>
+  <circle cx="50" cy="200" r="1" fill="#F1F5F9"/>
+  <circle cx="150" cy="300" r="1.5" fill="#F1F5F9"/>
+  <circle cx="300" cy="380" r="1" fill="#F1F5F9"/>
+  <circle cx="600" cy="350" r="2" fill="#F1F5F9"/>
+  <circle cx="750" cy="300" r="1" fill="#F1F5F9"/>
+  <circle cx="400" cy="30" r="1.5" fill="#F1F5F9"/>
+  <circle cx="550" cy="200" r="1" fill="#F1F5F9"/>
+
+  <!-- Pale Blue Dot visualization -->
+  <g transform="translate(80, 100)">
+    <!-- Sun rays -->
+    <circle cx="150" cy="150" r="180" fill="url(#sunGlow)"/>
+
+    <!-- Earth - Pale Blue Dot -->
+    <circle cx="150" cy="150" r="8" fill="url(#earthGrad)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Pointer line -->
+    <line x1="160" y1="145" x2="220" y2="100" stroke="#6366F1" stroke-width="1" opacity="0.5"/>
+    <text x="225" y="100" font-family="Arial, sans-serif" font-size="12" fill="#8B5CF6">Pale Blue Dot</text>
+  </g>
+
+  <!-- Educational content card -->
+  <g transform="translate(400, 40)">
+    <rect width="360" height="370" rx="16" fill="#1E1B4B" opacity="0.6"/>
+    <rect width="360" height="370" rx="16" fill="url(#grad2)" opacity="0.05"/>
+
+    <!-- Header -->
+    <rect width="360" height="60" rx="16" fill="url(#grad2)" opacity="0.2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F1F5F9">Explore the Cosmos</text>
+
+    <!-- Interactive elements list -->
+    <g transform="translate(20, 80)">
+      <!-- Story -->
+      <rect width="320" height="50" rx="8" fill="#0F0E23" opacity="0.8"/>
+      <circle cx="30" cy="25" r="15" fill="#6366F1" opacity="0.3"/>
+      <text x="28" y="30" font-family="Arial, sans-serif" font-size="12" fill="#6366F1">1</text>
+      <text x="55" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#F1F5F9">Interactive Stories</text>
+      <text x="55" y="38" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Learn about stars and galaxies</text>
+
+      <!-- Chatbot -->
+      <rect y="60" width="320" height="50" rx="8" fill="#0F0E23" opacity="0.8"/>
+      <circle cx="30" cy="85" r="15" fill="#8B5CF6" opacity="0.3"/>
+      <text x="26" y="90" font-family="Arial, sans-serif" font-size="12" fill="#8B5CF6">AI</text>
+      <text x="55" y="82" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#F1F5F9">Carlito Chatbot</text>
+      <text x="55" y="98" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Ask cosmic questions</text>
+
+      <!-- Video -->
+      <rect y="120" width="320" height="50" rx="8" fill="#0F0E23" opacity="0.8"/>
+      <circle cx="30" cy="145" r="15" fill="#EC4899" opacity="0.3"/>
+      <text x="26" y="150" font-family="Arial, sans-serif" font-size="14" fill="#EC4899">&#9654;</text>
+      <text x="55" y="142" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#F1F5F9">Cosmos Videos</text>
+      <text x="55" y="158" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Watch Sagan's series</text>
+
+      <!-- Game -->
+      <rect y="180" width="320" height="50" rx="8" fill="#0F0E23" opacity="0.8"/>
+      <circle cx="30" cy="205" r="15" fill="#10B981" opacity="0.3"/>
+      <text x="26" y="210" font-family="Arial, sans-serif" font-size="14" fill="#10B981">&#9733;</text>
+      <text x="55" y="202" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#F1F5F9">Space Game</text>
+      <text x="55" y="218" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Explore the planets</text>
+    </g>
+
+    <!-- Quote -->
+    <g transform="translate(20, 280)">
+      <text x="0" y="15" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#94A3B8">"We are made of star-stuff."</text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="11" fill="#6366F1">- Carl Sagan</text>
+    </g>
+  </g>
+
+  <!-- AI badge -->
+  <g transform="translate(60, 380)">
+    <rect width="150" height="36" rx="18" fill="#6366F1" opacity="0.2"/>
+    <circle cx="30" cy="18" r="8" fill="#6366F1">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="48" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#8B5CF6">For Kids</text>
+  </g>
+
+  <!-- Planet decorations -->
+  <circle cx="700" cy="380" r="30" fill="#F59E0B" opacity="0.1"/>
+  <circle cx="730" cy="400" r="15" fill="#EF4444" opacity="0.1"/>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="445" width="800" height="5" fill="url(#grad2)" opacity="0.3"/>
+</svg>

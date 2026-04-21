@@ -1,0 +1,90 @@
+{
+  "calculator": {
+    "start": {
+      "title": "Is Your Business Ready for AI?",
+      "description": "Find out how much time and money you could save with our free 10-question AI ROI Calculator.",
+      "selectIndustry": "1. Select your industry:",
+      "employeeCount": "2. Number of Employees",
+      "employeePlaceholder": "e.g., 50",
+      "averageSalary": "3. Average Annual Salary ($)",
+      "salaryPlaceholder": "e.g., 65000",
+      "startQuiz": "Start the Quiz"
+    },
+    "industries": {
+      "retail": "Retail / E-commerce",
+      "healthcare": "Healthcare",
+      "manufacturing": "Manufacturing",
+      "finance": "Finance & Insurance",
+      "professional": "Professional Services",
+      "technology": "Technology"
+    },
+    "loading": {
+      "analyzing": "Analyzing your results...",
+      "generating": "Generating your industry-specific quiz..."
+    },
+    "quiz": {
+      "questionOf": "Question {current} of {total}"
+    },
+    "email": {
+      "title": "Almost there!",
+      "description": "Enter your email to see your personalized AI ROI report.",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "your.email@company.com",
+      "submit": "See My Results",
+      "validationError": "Please enter a valid email address.",
+      "privacy": "We respect your privacy. No spam, ever."
+    },
+    "results": {
+      "title": "Your AI Readiness Report",
+      "emailSentTo": "A copy of this report has been sent to {email}.",
+      "timeSaved": "Est. Monthly Time Saved (Company-wide)",
+      "hours": "{count} Hours",
+      "monthlySavings": "Estimated Monthly Savings",
+      "salaryBasis": "based on your provided salary data",
+      "readinessScore": "Your AI Readiness Score",
+      "readinessExplainer": "This score reflects your business's current potential to successfully adopt AI solutions.",
+      "personalizedAnalysis": "Personalized Analysis",
+      "ctaTitle": "Ready to Transform Your Business?",
+      "ctaDescription": "Let's discuss how WAZA can help you implement AI solutions tailored to your needs.",
+      "scheduleConsultation": "Schedule a Consultation",
+      "exploreServices": "Explore Our Services",
+      "retakeQuiz": "Take the Quiz Again"
+    },
+    "error": {
+      "title": "Oops! Something went wrong.",
+      "missingData": "Missing data. Please restart.",
+      "tryAgain": "Try Again"
+    },
+    "roi": {
+      "badge": "Free ROI Assessment",
+      "titlePart1": "How Much Are ",
+      "titleHighlight": "Repetitive Tasks",
+      "titlePart2": " Costing You?",
+      "description1": "Your team is spending countless hours on tasks that AI could handle in seconds.",
+      "description2": "Take our 2-minute quiz to discover your potential savings.",
+      "timeSavedPercent": "40%",
+      "timeSaved": "Time Saved",
+      "savingsAmount": "$50K+",
+      "annualSavings": "Annual Savings",
+      "roiAmount": "3x",
+      "roiYear1": "ROI in Year 1",
+      "calculateSavings": "Calculate Your Savings",
+      "noCreditCard": "No credit card required",
+      "twoMinutes": "2 minutes to complete",
+      "calculatorTitle": "AI ROI Calculator",
+      "discoverPotential": "Discover your automation potential",
+      "numEmployees": "Number of employees",
+      "hoursRepetitive": "Hours on repetitive tasks/week",
+      "avgHourlyRate": "Average hourly rate",
+      "estimatedSavings": "Estimated Annual Savings",
+      "revealPotential": "Complete the quiz to reveal your potential",
+      "startQuizNow": "Start Quiz Now",
+      "join500": "Join 500+ businesses",
+      "whoDiscovered": "who discovered their AI ROI",
+      "totalSavingsAmount": "$2M+",
+      "totalSavings": "Total savings calculated",
+      "consultationPercent": "87%",
+      "proceedConsultation": "Proceed to consultation"
+    }
+  }
+}

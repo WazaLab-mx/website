@@ -1,0 +1,88 @@
+{
+  "home": {
+    "hero": {
+      "skipLink": "Zum Hauptinhalt springen",
+      "ariaLabel": "Hero-Bereich - WAZA",
+      "title": "Praktische KI für Unternehmen, die nie stillstehen.",
+      "scroll": "Scrollen"
+    },
+    "pillars": {
+      "eyebrow": "Was wir tun",
+      "title": "Tools, die funktionieren. Teams, die liefern.",
+      "items": {
+        "0": {
+          "title": "Produkte in Produktion",
+          "description": "KI, die Ergebnisse liefert, keine Demos."
+        },
+        "1": {
+          "title": "Maßgeschneiderte Entwicklung",
+          "description": "Gibt es nicht? Wir bauen es. Gibt es? Wir passen es an."
+        },
+        "2": {
+          "title": "Praktische Schulung",
+          "description": "Dein Team beherrscht die Tools, nicht umgekehrt."
+        }
+      }
+    },
+    "impact": {
+      "eyebrow": "Warum Teams uns wählen",
+      "title": "Echte KI. Echte Ergebnisse.",
+      "items": {
+        "0": {
+          "value": "End-to-end",
+          "label": "Vom Konzept zur Produktion"
+        },
+        "1": {
+          "value": "< 30T",
+          "label": "Von Kickoff bis Deploy"
+        },
+        "2": {
+          "value": "100%",
+          "label": "Fokus auf praktische KI"
+        }
+      }
+    },
+    "work": {
+      "eyebrow": "Ausgewählte Arbeiten",
+      "title": "Gebaut, um zu skalieren.",
+      "viewAll": "Alle Projekte",
+      "items": {
+        "0": {
+          "description": "Ein digitales Zuhause für Expats und Einheimische in San Luis Potosí."
+        },
+        "1": {
+          "description": "Beauty-Services und Produkte, kuratiert und lokal."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Wie wir arbeiten",
+      "title": "Drei Wege zur Zusammenarbeit.",
+      "items": {
+        "0": {
+          "title": "Bauen",
+          "description": "Maßgeschneiderte KI-Produkte und Tools, end-to-end für dein Unternehmen entwickelt und ausgeliefert."
+        },
+        "1": {
+          "title": "Schulen",
+          "description": "Praktische Workshops, damit dein Team die Tools beherrscht und weiter liefert."
+        },
+        "2": {
+          "title": "Partnern",
+          "description": "Laufende Zusammenarbeit, um zu skalieren, was funktioniert, und zu starten, was als Nächstes kommt."
+        }
+      }
+    },
+    "tool": {
+      "eyebrow": "Kostenloses Tool",
+      "title": "Ist dein Unternehmen bereit für KI?",
+      "description": "Ein Rechner mit 10 Fragen. Personalisierter ROI-Bericht in unter 2 Minuten.",
+      "button": "Rechner ausprobieren"
+    },
+    "cta": {
+      "title": "Lass uns etwas bauen.",
+      "description": "Sag uns, was du brauchst. Wir zeigen dir, was möglich ist.",
+      "button": "Projekt starten"
+    }
+  }
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1080">
+    <title>WAZA - Build vs Buy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            color: #F9F7F7;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 60px 60px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            color: #F9F7F7;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -20px;
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+        }
+
+        .badge {
+            background: #252A34;
+            color: #702DFF;
+            padding: 12px 24px;
+            border-radius: 24px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title {
+            font-size: 72px;
+            font-weight: 900;
+            letter-spacing: -0.03em;
+            color: #F9F7F7;
+            margin-bottom: 50px;
+        }
+
+        .comparison {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            margin-bottom: 50px;
+        }
+
+        .path {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .path-title {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: -0.01em;
+            padding-bottom: 12px;
+            border-bottom: 3px solid;
+        }
+
+        .path.buy .path-title {
+            color: #999;
+            border-color: #555;
+        }
+
+        .path.build .path-title {
+            color: #08D9D6;
+            border-color: #08D9D6;
+        }
+
+        .path-features {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-left: 24px;
+        }
+
+        .path-feature {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.5;
+            position: relative;
+        }
+
+        .path-feature::before {
+            content: '•';
+            position: absolute;
+            left: -24px;
+            font-size: 24px;
+        }
+
+        .path.buy .path-feature {
+            color: #999;
+        }
+
+        .path.buy .path-feature::before {
+            color: #555;
+        }
+
+        .path.build .path-feature {
+            color: #F9F7F7;
+        }
+
+        .path.build .path-feature::before {
+            color: #08D9D6;
+        }
+
+        .conclusion {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 1.5;
+            color: #F9F7F7;
+            text-align: center;
+            opacity: 0.9;
+        }
+
+        .footer {
+            padding: 40px 60px 60px;
+            text-align: center;
+        }
+
+        .watermark {
+            font-size: 24px;
+            font-weight: 600;
+            color: #F9F7F7;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">ESTRATEGIA</div>
+    </div>
+
+    <div class="content">
+        <div class="title">¿Construir o Comprar?</div>
+
+        <div class="comparison">
+            <div class="path buy">
+                <div class="path-title">Comprar Hecho</div>
+                <div class="path-features">
+                    <div class="path-feature">Funcionalidades genéricas</div>
+                    <div class="path-feature">Suscripciones mensuales se acumulan</div>
+                    <div class="path-feature">Sin ventaja competitiva</div>
+                    <div class="path-feature">Tú te adaptas a la herramienta</div>
+                </div>
+            </div>
+
+            <div class="path build">
+                <div class="path-title">Construir con WAZA</div>
+                <div class="path-features">
+                    <div class="path-feature">Exactamente lo que necesitas</div>
+                    <div class="path-feature">Eres dueño de tu tecnología</div>
+                    <div class="path-feature">Ventaja competitiva</div>
+                    <div class="path-feature">La herramienta se adapta a ti</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="conclusion">
+            La mejor inversión es software que te queda como guante.
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

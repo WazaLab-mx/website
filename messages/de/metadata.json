@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "pages": {
+      "home": {
+        "title": "WAZA - Technologie, die durch Nutzung staerker wird",
+        "description": "WAZA entwickelt KI-native Systeme, die sich kontinuierlich weiterentwickeln, anpassen und verbessern und statische Produkte in lebendige Oekosysteme verwandeln.",
+        "keywords": "KI-Agentur, Geschaeftsautomatisierung, KI-Agenten, Web3-Loesungen, adaptive Technologie"
+      },
+      "about": {
+        "title": "Ueber uns",
+        "description": "Erfahren Sie mehr ueber WAZAs Mission, Vision und Ansatz zur Entwicklung KI-nativer Technologie, die sich kontinuierlich weiterentwickelt.",
+        "keywords": "ueber WAZA, KI-Team, Mission, Vision, adaptive Technologie"
+      },
+      "agents": {
+        "title": "KI-Agenten",
+        "description": "Entdecken Sie WAZAs KI-Agenten: intelligente Assistenten, die Aufgaben automatisieren, Daten analysieren und Ihr Unternehmen staerken.",
+        "keywords": "KI-Agenten, intelligente Assistenten, Automatisierung, Business-Bots"
+      },
+      "calculator": {
+        "title": "KI-ROI-Rechner",
+        "description": "Erfahren Sie, wie viel Zeit und Geld Ihr Unternehmen mit KI-Automatisierung sparen koennte. Kostenloses Quiz mit personalisierten Ergebnissen.",
+        "keywords": "KI-ROI-Rechner, Automatisierungseinsparungen, KI-Bewertung, Business-KI-Rechner"
+      },
+      "chat": {
+        "title": "KI-Chat",
+        "description": "Sprechen Sie mit unserem KI-Assistenten, um WAZAs Dienstleistungen kennenzulernen und die perfekte Loesung fuer Ihr Unternehmen zu finden.",
+        "keywords": "KI-Chat, virtueller Assistent, Service-Anfrage, WAZA-Chat"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Kontaktieren Sie WAZA, um zu besprechen, wie KI und Web3 Ihr Unternehmen transformieren koennen. Vereinbaren Sie eine kostenlose Beratung.",
+        "keywords": "Kontakt WAZA, KI-Beratung, Demo vereinbaren, Tech-Agentur Kontakt"
+      },
+      "projects": {
+        "title": "Projekte",
+        "description": "Entdecken Sie WAZAs Projektportfolio: KI-Loesungen, Automatisierung und Web3, die Unternehmen transformieren.",
+        "keywords": "KI-Projekte, WAZA-Portfolio, Erfolgsgeschichten, Tech-Loesungen"
+      },
+      "services": {
+        "title": "Dienstleistungen",
+        "description": "Komplettes KI-Dienstleistungspaket: intelligente Agenten, Automatisierung, praediktive Analytik, Web3 und mehr. Massgeschneiderte Loesungen.",
+        "keywords": "KI-Dienstleistungen, Geschaeftsautomatisierung, KI-Agenten, Web3-Entwicklung, Tech-Beratung"
+      },
+      "services_aiAgents": {
+        "title": "KI-Agenten-Entwicklung",
+        "description": "Wir entwickeln massgeschneiderte KI-Agenten, die Prozesse automatisieren, intelligente Entscheidungen treffen und mit Ihrem Unternehmen skalieren.",
+        "keywords": "KI-Agenten-Entwicklung, intelligente Bots, Prozessautomatisierung, individuelle KI"
+      },
+      "services_aiFundamentals": {
+        "title": "KI-Grundlagen-Schulung",
+        "description": "KI-Kurse und Workshops fuer Unternehmensteams. Lernen Sie, kuenstliche Intelligenz in Ihrer Organisation zu implementieren und zu nutzen.",
+        "keywords": "KI-Schulung, Kurse kuenstliche Intelligenz, KI-Workshops, Unternehmens-KI-Ausbildung"
+      },
+      "services_aiWeb3Integration": {
+        "title": "KI- und Web3-Integration",
+        "description": "Wir kombinieren kuenstliche Intelligenz mit Web3-Technologien, um dezentrale und intelligente Loesungen zu schaffen.",
+        "keywords": "KI-Web3-Integration, Blockchain-KI, dezentrale Loesungen, KI-Smart-Contracts"
+      },
+      "services_aiWeb3Training": {
+        "title": "KI- und Web3-Schulung",
+        "description": "Spezialisierte Schulung an der Schnittstelle von KI und Web3. Bereiten Sie Ihr Team auf die naechste Technologie-Generation vor.",
+        "keywords": "KI-Web3-Schulung, Blockchain-Kurse, Schulung aufkommende Technologien"
+      },
+      "services_businessGrowth": {
+        "title": "Business-Wachstumstools",
+        "description": "KI-gesteuerte Tools fuer beschleunigtes Geschaeftswachstum: Lead-Generierung, Marktanalyse und Optimierung.",
+        "keywords": "Geschaeftswachstum KI, Business-Tools, Lead-Generierung, Vertriebsoptimierung"
+      },
+      "services_customerExperience": {
+        "title": "KI-Kundenerlebnis",
+        "description": "Transformieren Sie Ihr Kundenerlebnis mit KI: intelligente Chatbots, Personalisierung und automatisierter 24/7-Support.",
+        "keywords": "KI-Kundenerlebnis, Chatbots, Personalisierung, automatisierter Support, intelligente CX"
+      },
+      "services_personalAI": {
+        "title": "Persoenliche KI-Assistenten",
+        "description": "Individuelle KI-Assistenten, die sich an Ihre Beduerfnisse anpassen, Aufgaben verwalten und Ihre Produktivitaet steigern.",
+        "keywords": "persoenlicher KI-Assistent, KI-Produktivitaet, intelligentes Aufgabenmanagement, virtueller Assistent"
+      },
+      "services_smartInsights": {
+        "title": "Intelligente Business-Analysen",
+        "description": "Gewinnen Sie umsetzbare Erkenntnisse mit KI: praediktive Analytik, Datenvisualisierung und automatisierte Berichte.",
+        "keywords": "intelligente Analytik, KI-Business-Intelligence, praediktive Analytik, automatisierte Berichte"
+      },
+      "services_smartBusiness": {
+        "title": "Intelligente Business-Loesungen",
+        "description": "Umfassende KI-Loesungen fuer Unternehmen: Prozessoptimierung, Entscheidungsfindung und digitale Transformation.",
+        "keywords": "KI-Business-Loesungen, digitale Transformation, Prozessoptimierung, Unternehmens-KI"
+      },
+      "services_smartContent": {
+        "title": "Intelligente Content-Erstellung",
+        "description": "Generieren Sie hochwertige Inhalte mit KI: Texte, Bilder, Videos und automatisierte Content-Strategien.",
+        "keywords": "KI-Content-Erstellung, Content-Generierung, KI-Marketing, automatisierte Inhalte"
+      },
+      "services_smartAutomation": {
+        "title": "Intelligente Arbeitsautomatisierung",
+        "description": "Automatisieren Sie Workflows mit KI: eliminieren Sie repetitive Aufgaben, reduzieren Sie Fehler und steigern Sie die Effizienz.",
+        "keywords": "KI-Arbeitsautomatisierung, intelligente Workflows, operative Effizienz, intelligente RPA"
+      },
+      "services_web3": {
+        "title": "Web3-Entwicklung",
+        "description": "Web3-Anwendungsentwicklung: Smart Contracts, DApps, Tokenisierung und massgeschneiderte Blockchain-Loesungen.",
+        "keywords": "Web3-Entwicklung, Smart Contracts, DApps, Blockchain, Tokenisierung"
+      },
+      "docs": {
+        "title": "Dokumentation",
+        "description": "Technische Dokumentation von WAZA: Anleitungen, APIs, Tutorials und Ressourcen zur Integration unserer KI-Loesungen.",
+        "keywords": "WAZA-Dokumentation, API-Docs, technische Anleitungen, KI-Tutorials"
+      },
+      "docs_aiAgents": {
+        "title": "KI-Agenten-Dokumentation",
+        "description": "Vollstaendige Anleitung zur Konfiguration, Anpassung und Bereitstellung von KI-Agenten mit der WAZA-Plattform.",
+        "keywords": "KI-Agenten-Docs, Konfigurationsanleitung, Agenten-Bereitstellung, Agenten-API"
+      },
+      "docs_api": {
+        "title": "API-Dokumentation",
+        "description": "Vollstaendige WAZA-API-Referenz: Endpunkte, Authentifizierung, Verwendungsbeispiele und verfuegbare SDKs.",
+        "keywords": "WAZA-API, API-Referenz, Endpunkte, SDK, Integration"
+      },
+      "docs_businessSolutions": {
+        "title": "Business-Loesungen - Docs",
+        "description": "Dokumentation der WAZA-Business-Loesungen: Implementierung, Konfiguration und Best Practices.",
+        "keywords": "Business-Loesungen-Docs, Implementierung, Konfiguration, Best Practices"
+      },
+      "docs_gettingStarted": {
+        "title": "Erste Schritte",
+        "description": "Schnellstartanleitung mit WAZA: Ersteinrichtung, erste Schritte und wie Sie unsere KI-Tools optimal nutzen.",
+        "keywords": "erste Schritte WAZA, Schnellstartanleitung, Ersteinrichtung, Grundlagen-Tutorial"
+      },
+      "docs_web3": {
+        "title": "Web3-Dokumentation",
+        "description": "Web3-Entwicklungsdokumentation mit WAZA: Smart Contracts, Blockchain-Integrationen und Bereitstellungsanleitungen.",
+        "keywords": "Web3-Docs, Smart Contracts, Blockchain, Web3-Bereitstellungsanleitung"
+      }
+    }
+  }
+}

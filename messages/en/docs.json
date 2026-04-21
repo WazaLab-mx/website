@@ -1,0 +1,296 @@
+{
+  "docs": {
+    "main": {
+      "hero": {
+        "title": "Documentation",
+        "description": "Everything you need to know about WAZA's services, APIs, and integrations."
+      },
+      "sections": {
+        "aiAgents": {
+          "title": "AI Agents",
+          "description": "Learn how to create, customize, and integrate AI agents into your business workflow.",
+          "button": "View Documentation"
+        },
+        "businessSolutions": {
+          "title": "Business Solutions",
+          "description": "Explore our smart business solutions and learn how to implement them effectively.",
+          "button": "View Documentation"
+        },
+        "web3": {
+          "title": "Web3 Development",
+          "description": "Comprehensive guides for blockchain integration and Web3 development.",
+          "button": "View Documentation"
+        }
+      },
+      "gettingStarted": {
+        "title": "Getting Started",
+        "description": "New to WAZA? Start here to learn the basics and get your first project up and running.",
+        "button": "Quick Start Guide"
+      },
+      "apiReference": {
+        "title": "API Reference",
+        "description": "Detailed API documentation for developers looking to integrate WAZA services.",
+        "button": "View API Docs"
+      }
+    },
+    "aiAgents": {
+      "pageTitle": "AI Agents Documentation",
+      "introduction": {
+        "title": "Introduction",
+        "description": "WAZA's AI Agents are powerful tools that can be customized and integrated into your business workflow. This documentation will guide you through the process of creating, customizing, and deploying AI agents."
+      },
+      "gettingStarted": {
+        "title": "Getting Started",
+        "description": "To begin working with WAZA AI Agents, you'll need to:",
+        "items": {
+          "createAccount": "Create a WAZA account",
+          "setupEnvironment": "Set up your development environment",
+          "configureAgent": "Configure your first AI agent"
+        }
+      },
+      "basicConcepts": {
+        "title": "Basic Concepts",
+        "description": "Before diving deep into implementation, it's important to understand these key concepts:",
+        "items": {
+          "agentTypes": "Agent Types and Capabilities",
+          "training": "Training and Customization",
+          "integration": "Integration Methods",
+          "bestPractices": "Best Practices"
+        }
+      },
+      "implementationGuide": {
+        "title": "Implementation Guide",
+        "description": "Follow these steps to implement AI agents in your project:",
+        "steps": {
+          "defineUseCase": "Define your use case and requirements",
+          "chooseType": "Choose the appropriate agent type",
+          "configureSettings": "Configure the agent settings",
+          "testValidate": "Test and validate the implementation",
+          "deploy": "Deploy to production"
+        }
+      },
+      "apiReference": {
+        "title": "API Reference",
+        "description": "Detailed API documentation for programmatic integration of AI agents:",
+        "items": {
+          "authentication": "Authentication",
+          "agentManagement": "Agent Management API",
+          "trainingApi": "Training API",
+          "interactionApi": "Interaction API"
+        }
+      },
+      "supportButton": "Get Support"
+    },
+    "businessSolutions": {
+      "pageTitle": "Business Solutions Documentation",
+      "introduction": {
+        "title": "Introduction",
+        "description": "WAZA's Business Solutions provide comprehensive tools and services to optimize and automate your business processes. This documentation will guide you through implementing our solutions effectively."
+      },
+      "solutionCategories": {
+        "title": "Solution Categories",
+        "items": {
+          "smartWork": "Smart Work Automation",
+          "businessGrowth": "Business Growth Tools",
+          "smartInsights": "Smart Business Insights",
+          "customerExperience": "Customer Experience Enhancement"
+        }
+      },
+      "implementationProcess": {
+        "title": "Implementation Process",
+        "description": "Follow these steps to implement WAZA Business Solutions:",
+        "steps": {
+          "analysis": "Business Analysis and Requirements Gathering",
+          "selection": "Solution Selection and Customization",
+          "planning": "Integration Planning",
+          "implementation": "Implementation and Testing",
+          "training": "Training and Deployment",
+          "monitoring": "Monitoring and Optimization"
+        }
+      },
+      "integrationGuidelines": {
+        "title": "Integration Guidelines",
+        "description": "Learn how to integrate our solutions with your existing systems:",
+        "items": {
+          "apiIntegration": "API Integration",
+          "dataMigration": "Data Migration",
+          "security": "Security Considerations",
+          "performance": "Performance Optimization"
+        }
+      },
+      "bestPractices": {
+        "title": "Best Practices",
+        "description": "Maximize the value of your business solutions:",
+        "items": {
+          "changeManagement": "Change Management",
+          "userTraining": "User Training",
+          "performanceMonitoring": "Performance Monitoring",
+          "continuousImprovement": "Continuous Improvement"
+        }
+      },
+      "supportButton": "Get Support"
+    },
+    "gettingStarted": {
+      "pageTitle": "Getting Started with WAZA",
+      "welcome": {
+        "title": "Welcome to WAZA",
+        "description": "This guide will help you get started with WAZA's services and tools. Whether you're looking to implement AI agents, optimize your business processes, or develop Web3 applications, we'll guide you through the initial steps."
+      },
+      "quickStart": {
+        "title": "Quick Start Guide",
+        "steps": {
+          "createAccount": {
+            "title": "Create Your Account",
+            "description": "Sign up for a WAZA account to access our services and dashboard."
+          },
+          "chooseService": {
+            "title": "Choose Your Service",
+            "description": "Select the service that best fits your needs:",
+            "options": {
+              "aiAgents": "AI Agents Development",
+              "businessSolutions": "Smart Business Solutions",
+              "web3": "Web3 Development"
+            }
+          },
+          "setupEnvironment": {
+            "title": "Set Up Your Environment",
+            "description": "Follow our setup guides for your chosen service."
+          },
+          "startBuilding": {
+            "title": "Start Building",
+            "description": "Begin implementing your solution with our detailed tutorials."
+          }
+        }
+      },
+      "essentialResources": {
+        "title": "Essential Resources",
+        "links": {
+          "aiAgents": "AI Agents Documentation",
+          "businessSolutions": "Business Solutions Guide",
+          "web3": "Web3 Development Guide"
+        }
+      },
+      "bestPractices": {
+        "title": "Best Practices",
+        "items": {
+          "clearGoal": "Start with a clear goal and requirements",
+          "followGuides": "Follow our implementation guides step by step",
+          "testThoroughly": "Test thoroughly in a development environment",
+          "useSupport": "Utilize our support resources when needed"
+        }
+      },
+      "supportButton": "Get Support"
+    },
+    "api": {
+      "pageTitle": "API Documentation",
+      "introduction": {
+        "title": "Introduction",
+        "description": "WAZA's APIs provide programmatic access to our services. This documentation covers authentication, endpoints, and best practices for integrating with our platform."
+      },
+      "authentication": {
+        "title": "Authentication",
+        "description": "All API requests require authentication. We use API keys to authenticate requests:"
+      },
+      "endpoints": {
+        "title": "API Endpoints",
+        "aiAgents": {
+          "title": "AI Agents API",
+          "createAgent": "Create a new AI agent",
+          "getAgent": "Get agent details",
+          "trainAgent": "Train an agent"
+        },
+        "businessSolutions": {
+          "title": "Business Solutions API",
+          "analyze": "Analyze business data",
+          "insights": "Get business insights",
+          "automate": "Create automation workflow"
+        },
+        "web3": {
+          "title": "Web3 API",
+          "deploy": "Deploy smart contract",
+          "getContract": "Get contract details",
+          "interact": "Interact with smart contract"
+        }
+      },
+      "rateLimits": {
+        "title": "Rate Limits",
+        "description": "Our API implements rate limiting to ensure fair usage:",
+        "tiers": {
+          "free": "Free tier: 1000 requests per day",
+          "professional": "Professional tier: 10000 requests per day",
+          "enterprise": "Enterprise tier: Custom limits"
+        }
+      },
+      "errorHandling": {
+        "title": "Error Handling",
+        "description": "Our API uses conventional HTTP response codes:",
+        "codes": {
+          "200": "Success",
+          "400": "Bad Request",
+          "401": "Unauthorized",
+          "403": "Forbidden",
+          "404": "Not Found",
+          "429": "Too Many Requests",
+          "500": "Server Error"
+        }
+      },
+      "supportButton": "Get API Support"
+    },
+    "web3": {
+      "pageTitle": "Web3 Development Documentation",
+      "introduction": {
+        "title": "Introduction",
+        "description": "WAZA's Web3 Development services help you build decentralized applications and integrate blockchain technology into your business. This documentation covers everything from basic concepts to advanced implementation."
+      },
+      "coreConcepts": {
+        "title": "Core Concepts",
+        "items": {
+          "blockchain": "Blockchain Fundamentals",
+          "smartContracts": "Smart Contracts",
+          "dapps": "Decentralized Applications (dApps)",
+          "web3Integration": "Web3 Integration"
+        }
+      },
+      "developmentGuide": {
+        "title": "Development Guide",
+        "description": "Follow these steps to develop Web3 applications:",
+        "steps": {
+          "environment": "Environment Setup",
+          "smartContract": "Smart Contract Development",
+          "frontend": "Frontend Integration",
+          "testing": "Testing and Deployment",
+          "security": "Security Considerations"
+        }
+      },
+      "smartContractDev": {
+        "title": "Smart Contract Development",
+        "description": "Learn how to write and deploy smart contracts:",
+        "items": {
+          "solidity": "Solidity Basics",
+          "designPatterns": "Contract Design Patterns",
+          "testing": "Testing and Debugging",
+          "gasOptimization": "Gas Optimization",
+          "securityBestPractices": "Security Best Practices"
+        }
+      },
+      "web3Integration": {
+        "title": "Web3 Integration",
+        "description": "Integrate Web3 functionality into your applications:",
+        "items": {
+          "wallet": "Wallet Integration",
+          "transactions": "Transaction Management",
+          "events": "Event Handling",
+          "storage": "Data Storage Solutions"
+        }
+      },
+      "supportButton": "Get Support"
+    },
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact",
+      "backToDocs": "Back to Docs"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "common": {
+    "nav": {
+      "features": "Funktionen",
+      "services": "Dienstleistungen",
+      "projects": "Projekte",
+      "calculator": "Rechner",
+      "about": "Über uns",
+      "benefits": "Vorteile",
+      "pricing": "Preise",
+      "getStarted": "Loslegen",
+      "home": "Startseite",
+      "contact": "Kontakt"
+    },
+    "footer": {
+      "tagline": "Praktische KI für Unternehmen, die nie stillstehen.",
+      "servicesTitle": "Dienstleistungen",
+      "products": "Produkte",
+      "customDevelopment": "Individuelle Entwicklung",
+      "consulting": "Beratung",
+      "training": "Schulung",
+      "resourcesTitle": "Ressourcen",
+      "projects": "Projekte",
+      "documentation": "Dokumentation",
+      "forAgents": "Für KI-Agenten",
+      "companyTitle": "Unternehmen",
+      "aboutWaza": "Über WAZA",
+      "contact": "Kontakt",
+      "copyright": "© {year} WAZA. Alle Rechte vorbehalten."
+    },
+    "languageSwitcher": {
+      "label": "Sprache",
+      "ariaLabel": "Sprache"
+    },
+    "accessibility": {
+      "wazaHome": "WAZA Startseite",
+      "mainContent": "Hauptinhalt",
+      "goToProject": "Zum Projekt {number}"
+    },
+    "metadata": {
+      "title": "WAZA - Technologie, die durch Nutzung stärker wird",
+      "description": "WAZA entwickelt KI-native Systeme, die sich kontinuierlich weiterentwickeln, anpassen und verbessern und statische Produkte in lebendige Ökosysteme verwandeln."
+    },
+    "operatingModel": {
+      "title": "Unser",
+      "titleHighlight": "Betriebsmodell",
+      "description": "Wir haben unsere Arbeitsweise neu organisiert, um jedes Engagement auf Ergebnisse auszurichten. Drei Säulen leiten alles, was wir bauen.",
+      "practiceAreas": "Praxisbereiche",
+      "practiceAreasDesc": "Fokussierte Teams, die End-to-End zusammenarbeiten.",
+      "practiceItem1": "KI-Native Systeme (Agenten, Automatisierung, Daten)",
+      "practiceItem2": "Intelligente Erfahrungen (Personalisierung, UX)",
+      "practiceItem3": "Strategie & Befähigung (Roadmaps, Schulung)",
+      "waysOfWorking": "Arbeitsweisen",
+      "waysOfWorkingDesc": "Auf Geschwindigkeit, Qualität und Lernen ausgelegt.",
+      "waysItem1": "Ergebnisorientierte Sprints mit messbaren KPIs",
+      "waysItem2": "Eingebettete Zusammenarbeit mit Ihrem Team",
+      "waysItem3": "Kontinuierliche Evolution statt großer Umschreibungen",
+      "outcomesHome": "Ergebnisse, zu denen wir uns verpflichten",
+      "outcomesAbout": "Zugesagte Ergebnisse",
+      "outcomesDesc": "Wert, der sich durch Nutzung potenziert.",
+      "outcomesItem1": "Sich selbst verbessernde Plattformen, die täglich besser werden",
+      "outcomesItem2": "Klare Auswirkungen auf Wachstum, Kosten und Erfahrung",
+      "outcomesItem3": "Zukunftssichere Grundlagen, keine fragilen Features",
+      "seeDetails": "Details unter Über uns"
+    },
+    "heroMedia": {
+      "browserNotSupported": "Ihr Browser unterstützt das Video-Tag nicht.",
+      "enableAudio": "Audio aktivieren",
+      "disableAudio": "Audio deaktivieren",
+      "clickToEnable": "Klicken Sie, um Audio zu aktivieren",
+      "clickToMute": "Klicken Sie, um stumm zu schalten"
+    }
+  }
+}

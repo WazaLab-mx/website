@@ -1,0 +1,46 @@
+# WAZA - Practical AI Tools + Development
+
+> WAZA creates practical, functional AI tools and custom development for businesses. AI-native products, custom development, consulting, and training. Based in Mexico (CDMX & SLP).
+
+## About
+
+- [About WAZA](https://waza.baby/en/about): Company story, mission, values, and manifesto
+- [Services](https://waza.baby/en/services): 10 AI-native services including agents, automation, content, and training
+- [Contact](https://waza.baby/en/contact): Get in touch - info@waza.baby
+
+## Flagship Projects
+
+- [RobotMind](https://robotmind.io): AI agent with 20+ tool integrations (Google Workspace, WhatsApp, Telegram, GitHub, Notion), powered by OpenClaw (Claude Opus & Sonnet)
+- [Sobrecitos.net](https://sobrecitos.net): Smart budget management platform (10,000+ users worldwide)
+- [Claude Code Subagent Generator](https://claude-subagent-generator.netlify.app/): Tool for generating optimized Claude Code subagents and skills
+- [Brief Boy](https://brief-boy.com): AI-powered advertising brief generator
+- [AdScout](https://adscout-winning-ad-finder-109634618982.us-west1.run.app/): AI ad research for Facebook & TikTok
+- [TacosNearMe.net](https://tacosnearme.net): Community platform for discovering taquerias worldwide
+- [San Luis Way](https://sanluisway.com): Digital platform for expatriates in San Luis Potosi
+- [TidyHome](https://tidyhome.casa/): Smart household task planning with AI scheduling
+- [Memecoin Scout](https://memecoin-scout.netlify.app): Early-stage meme token discovery across blockchains
+
+## More Projects
+
+- [Virality Simulator](https://virality-simulator.netlify.app/): Predict viral content performance with AI
+- [BuyerPersonaX](https://buyerpersonax.com/app): AI-generated buyer personas and marketing insights
+- [VibeCodingPRD](https://vibecodingprd.com): AI meeting intelligence for PRD generation
+- [Bank Statement PDF to Excel](https://estadodecuentapdfaexcel.com/): OCR document processing for financial data
+- [AI Domain Name Generator](http://aidomainnamegeneratorfree.com/): AI-powered domain name suggestions
+- [GlamLocal](https://glamlocal.app/): Beauty services discovery with AI matching
+- [Waza Stonks](https://t.me/wazastonks): Telegram bot for stock & crypto insights
+- [BotCitas](https://botcitas.com/): WhatsApp bot for appointment scheduling
+- [Carl Sagan's Universe](https://carlsagan.netlify.app/): Educational astronomy platform for kids
+- [Good Deal Calculator](https://drunkenberger.github.io/good_deal_ok/): Financial modeling for partnership deals
+- [MarketScope](https://googlemktresearch.netlify.app/en): AI-powered local market research
+- [Chango's Custom Screener](https://changos-custom-screener.onrender.com/): Stock research and analysis platform
+
+## Full Context
+
+- [Complete WAZA information](https://waza.baby/llms-full.txt): All projects, services, pricing, and company details in one document
+
+## Optional
+
+- [AI ROI Calculator](https://waza.baby/en/calculator): Calculate AI implementation ROI for your business
+- [Documentation](https://waza.baby/en/docs): Technical documentation
+- [For AI Agents](https://waza.baby/en/agents): Agent-friendly page with structured company information

@@ -1,0 +1,74 @@
+{
+  "common": {
+    "nav": {
+      "features": "Features",
+      "services": "Services",
+      "projects": "Projects",
+      "calculator": "Calculator",
+      "about": "About",
+      "benefits": "Benefits",
+      "pricing": "Pricing",
+      "getStarted": "Get Started",
+      "home": "Home",
+      "contact": "Contact"
+    },
+    "footer": {
+      "tagline": "Practical AI for businesses that never stop.",
+      "servicesTitle": "Services",
+      "products": "Products",
+      "customDevelopment": "Custom Development",
+      "consulting": "Consulting",
+      "training": "Training",
+      "resourcesTitle": "Resources",
+      "projects": "Projects",
+      "documentation": "Documentation",
+      "forAgents": "For AI Agents",
+      "companyTitle": "Company",
+      "aboutWaza": "About WAZA",
+      "contact": "Contact",
+      "copyright": "© {year} WAZA. All rights reserved."
+    },
+    "languageSwitcher": {
+      "label": "Language",
+      "ariaLabel": "Language"
+    },
+    "accessibility": {
+      "wazaHome": "WAZA Home",
+      "mainContent": "Main content",
+      "goToProject": "Go to project {number}"
+    },
+    "metadata": {
+      "title": "WAZA - Technology That Grows Stronger Through Use",
+      "description": "WAZA creates AI-native systems that continuously evolve, adapt, and improve themselves over time, transforming static products into living ecosystems."
+    },
+    "operatingModel": {
+      "title": "Our",
+      "titleHighlight": "Operating Model",
+      "description": "We've reorganized how we work to align every engagement to outcomes. Three pillars guide everything we build.",
+      "practiceAreas": "Practice Areas",
+      "practiceAreasDesc": "Focused teams that partner end-to-end.",
+      "practiceItem1": "AI-Native Systems (agents, automation, data)",
+      "practiceItem2": "Intelligent Experiences (personalization, UX)",
+      "practiceItem3": "Strategy & Enablement (roadmaps, training)",
+      "waysOfWorking": "Ways of Working",
+      "waysOfWorkingDesc": "Designed for speed, quality, and learning.",
+      "waysItem1": "Outcome-first sprints with measurable KPIs",
+      "waysItem2": "Embedded collaboration with your team",
+      "waysItem3": "Continuous evolution over big rewrites",
+      "outcomesHome": "Outcomes We Commit To",
+      "outcomesAbout": "Committed Outcomes",
+      "outcomesDesc": "Value that compounds through use.",
+      "outcomesItem1": "Self-improving platforms that get better daily",
+      "outcomesItem2": "Clear impact on growth, cost, and experience",
+      "outcomesItem3": "Future-proof foundations, not fragile features",
+      "seeDetails": "See details in About"
+    },
+    "heroMedia": {
+      "browserNotSupported": "Your browser does not support the video tag.",
+      "enableAudio": "Enable audio",
+      "disableAudio": "Disable audio",
+      "clickToEnable": "Click to enable audio",
+      "clickToMute": "Click to mute"
+    }
+  }
+}

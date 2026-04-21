@@ -1,0 +1,302 @@
+# WAZA - Complete Company Information
+
+> WAZA creates practical, functional AI tools and custom development for businesses. AI-native products, custom development, consulting, and training. Based in Mexico (CDMX & SLP).
+
+## Company Overview
+
+WAZA is a technology company that builds AI-native systems designed to continuously evolve, adapt, and improve themselves over time, transforming static products into living ecosystems.
+
+**Website:** https://waza.baby
+**Email:** info@waza.baby
+**Location:** Mexico City (CDMX) & San Luis Potosi (SLP), Mexico
+**Social:** [Twitter/X](https://x.com/Waza_Baby) | [LinkedIn](https://www.linkedin.com/company/wazababy/) | [GitHub](https://github.com/waza-agency)
+
+### Name Meaning
+
+The word "WAZA" carries meaning across cultures:
+- **Japanese** (技 - waza): Technique elevated to art — the mastery of the craftsman
+- **English Slang**: A greeting between friends who understand each other without explanation
+- **Swahili**: To imagine what doesn't yet exist
+- **Spanish**: An inside joke — something shared between accomplices
+
+### Mission
+
+To transform the digital landscape by creating AI-native products that seamlessly blend technological brilliance with human creativity, pushing the boundaries of what's possible while maintaining a spirit of playfulness and craftsmanship.
+
+### Vision
+
+To build a world where AI and human intelligence amplify each other, creating products and companies that exceed traditional growth trajectories while making technology more intuitive, effective, and aligned with human values.
+
+### Core Values
+
+1. **Technical Mastery (TM)** — Excellence in craft, refined skill at artistry level
+2. **Creative Playfulness (CP)** — Exploration and joy in problem-solving
+3. **Human-AI Collaboration (HC)** — Technology where AI and humans enhance each other
+4. **Kaizen (KZ)** — Continuous improvement in everything
+5. **Recursive Improvement (RI)** — Systems that grow stronger through use
+6. **Global Perspective (GP)** — Embrace diverse cultural influences
+
+### Operating Model
+
+**Practice Areas:**
+- AI-Native Systems (agents, automation, data)
+- Intelligent Experiences (personalization, UX)
+- Strategy & Enablement (roadmaps, training)
+
+**Ways of Working:**
+- Outcome-first sprints with measurable KPIs
+- Embedded collaboration with your team
+- Continuous evolution over big rewrites
+
+**Committed Outcomes:**
+- Self-improving platforms that get better daily
+- Clear impact on growth, cost, and experience
+- Future-proof foundations, not fragile features
+
+---
+
+## Projects (22 total)
+
+### Flagship Projects
+
+1. **RobotMind** — https://robotmind.io
+   AI Agent with 20+ tool integrations (Google Workspace, WhatsApp, Telegram, GitHub, Notion). Powered by OpenClaw with Claude Opus & Sonnet. Fully managed infrastructure.
+   Tags: AI Agents, Infrastructure, Automation
+
+2. **Sobrecitos.net** — https://sobrecitos.net
+   Smart budget management platform helping families take control of finances with AI-powered recommendations. 10,000+ users worldwide.
+   Tags: AI Platform, Digital Experience, Innovation
+
+3. **Claude Code Subagent Generator** — https://claude-subagent-generator.netlify.app/
+   Tool for generating optimized subagents and skills for Claude Code following Anthropic's best practices.
+   Tags: AI Tools, Claude Code, Developer Tools
+
+4. **Brief Boy** — https://brief-boy.com
+   Generate professional advertising briefs in seconds. Transforms vague ideas into world-class professional briefs.
+   Tags: AI Content, Marketing, Creative Tools
+
+5. **AdScout** — https://adscout-winning-ad-finder-109634618982.us-west1.run.app/
+   AI-powered advertising research tool for discovering high-performing ads across Facebook and TikTok.
+   Tags: Ad Research, Marketing AI, Creative Intelligence
+
+6. **TacosNearMe.net** — https://tacosnearme.net
+   Community-driven platform for discovering the best taquerias worldwide. Features arcade game "Taco Defense Challenge" with real prizes.
+   Tags: Food Tech, Community Platform, Gamification
+
+7. **San Luis Way** — https://sanluisway.com
+   Digital platform connecting expatriates and locals in San Luis Potosi with curated recommendations and cultural guides.
+   Tags: Local Guide, Community, Expat Services
+
+8. **TidyHome** — https://tidyhome.casa/
+   Smart household task planning platform with AI-powered scheduling and organization for families.
+   Tags: Home Management, Task Planning, Family Organization
+
+9. **Memecoin Scout** — https://memecoin-scout.netlify.app
+   Find meme tokens early, analyze any token instantly across multiple blockchains.
+   Tags: Web3, Trading Tools, Blockchain Analytics
+
+### Additional Projects
+
+10. **Virality Simulator** — https://virality-simulator.netlify.app/
+    Simulates and predicts viral content performance across social media networks using AI models.
+    Tags: AI Analytics, Content Strategy, Social Media
+
+11. **BuyerPersonaX** — https://buyerpersonax.com/app
+    AI-generated detailed buyer personas and actionable marketing insights for businesses.
+    Tags: AI Marketing, Persona Generation, Business Intelligence
+
+12. **VibeCodingPRD** — https://vibecodingprd.com
+    AI meeting intelligence platform that records, transcribes, and generates actionable PRDs from team discussions.
+    Tags: Meeting Intelligence, Product Development
+
+13. **Bank Statement PDF to Excel** — https://estadodecuentapdfaexcel.com/
+    Upload bank statements in PDF/image format and convert transactions into exportable tables with automatic categorization.
+    Tags: Document Processing, OCR Technology, Financial Automation
+
+14. **AI Domain Name Generator** — http://aidomainnamegeneratorfree.com/
+    AI-powered tool for discovering trending keywords and generating creative domain suggestions.
+    Tags: AI Tools, Domain Names, Business Tools
+
+15. **GlamLocal** — https://glamlocal.app/
+    Beauty services discovery platform with 50,000+ verified reviews. Find spas, salons & beauty services nearby.
+    Tags: Beauty Tech, Local Services, AI Matching
+
+16. **Waza Stonks** — https://t.me/wazastonks
+    Telegram bot delivering actionable stock and crypto insights with trend analysis twice daily.
+    Tags: Telegram Bot, Financial AI, Crypto Analytics
+
+17. **BotCitas** — https://botcitas.com/
+    WhatsApp chatbot automating appointment scheduling for small businesses. Reduces no-shows by up to 60%.
+    Tags: WhatsApp Bot, Appointment Scheduling, Business Automation
+
+18. **Carl Sagan's Universe** — https://carlsagan.netlify.app/
+    Interactive educational platform introducing children to astronomy through AI chatbot "Carlito" and interactive stories.
+    Tags: Educational, Astronomy, Kids Platform
+
+19. **Good Deal Calculator** — https://drunkenberger.github.io/good_deal_ok/
+    Financial simulator for modeling strategic partnership agreements with equity modeling, vesting schedules, and deal health scoring.
+    Tags: Financial Modeling, Partnership Tools, Deal Analysis
+
+20. **MarketScope** — https://googlemktresearch.netlify.app/en
+    AI market research analyzing local businesses with sentiment analysis, keyword extraction, and competitive insights.
+    Tags: Market Research, Competitive Intelligence, Business Analytics
+
+21. **Chango's Custom Screener** — https://changos-custom-screener.onrender.com/
+    Stock research platform with real-time data, advanced charting, options analysis, and hedge fund tracking.
+    Tags: Trading Tools, Stock Analysis, Financial Data
+
+---
+
+## Services (10)
+
+1. **Smart Business Solutions** — Intelligent systems that understand and adapt to business needs
+   - Systems that learn your business needs
+   - Automatic improvements over time
+   - Easy-to-use smart features
+   - Time-saving automation
+
+2. **Personal AI Assistants** — Smart assistants that know your preferences and help efficiently
+   - Personalized help for your needs
+   - Smart task management
+   - Helpful suggestions and reminders
+   - Easy communication and support
+
+3. **Smart Content Creation** — AI helps create content that matches your brand and audience
+   - Content that matches your brand
+   - Ideas tailored to your audience
+   - Time-saving content tools
+   - Easy-to-use creation tools
+
+4. **Customer Experience Enhancement** — Personalized customer experiences that build loyalty
+   - Personalized customer service
+   - Smart customer insights
+   - Better customer satisfaction
+   - Easy-to-use customer tools
+
+5. **Business Growth Tools** — Tools that help business grow smarter with AI insights
+   - Smart business insights
+   - Growth recommendations
+   - Performance tracking
+   - Easy-to-understand reports
+
+6. **Smart Business Insights** — Predictive analytics for your business future
+   - Future trend predictions
+   - Real-time business updates
+   - Smart recommendations
+   - Easy-to-read reports
+
+7. **Smart Work Automation** — Let AI handle routine tasks while you focus on growth
+   - Time-saving automation
+   - Smart task management
+   - Easy process handling
+   - Helpful progress updates
+
+8. **AI Agents Development** — Custom AI agents tailored to specific business needs
+   - Custom-built AI agents
+   - Adaptive learning systems
+   - Integration with existing tools
+   - Continuous optimization
+
+9. **Web3 Development** — Blockchain development, smart contracts, security auditing
+   - Custom blockchain solutions
+   - Smart contract development
+   - Security auditing
+   - DApp architecture & design
+
+10. **AI-Web3 Integration** — Combine AI with blockchain technology
+    - AI-powered smart contracts
+    - Decentralized AI systems
+    - ML model integration
+    - Intelligent oracles
+
+---
+
+## Training Programs (4)
+
+1. **AI Fundamentals** — 8 weeks, 4 hours/week
+   Format: Online live sessions + Hands-on workshops
+   Modules: ML Basics, Neural Networks, Model Development, Practical Applications, Ethics in AI
+
+2. **Web3 Development** — 10 weeks, 6 hours/week
+   Format: Online live sessions + Project-based learning
+   Modules: Blockchain Fundamentals, Solidity, DApp Development, Web3.js/Ethers.js, Security
+
+3. **AI-Web3 Integration** — 12 weeks, 8 hours/week
+   Format: Online live sessions + Advanced projects
+   Modules: AI Models in Blockchain, Decentralized Training, Smart Oracles, Privacy-Preserving AI
+
+4. **AI for Creatives** — Flexible 4-40 hours
+   Format: Online live sessions + Hands-on workshops
+   Modules: Midjourney & Runway, ChatGPT for Creatives, Eleven Labs, Local Model Training
+
+---
+
+## Pricing Plans (5)
+
+1. **MVP Fast-Lane** — 6-10 weeks
+   Launch MVP with secure auth, payment system, analytics, and 1-2 core features.
+   - Predefined scope and fixed price
+   - Modern and scalable tech stack
+   - Guaranteed delivery on agreed timeline
+
+2. **Growth Retainer** (Most Popular) — Continuous development
+   Dedicated team for continuous product evolution with flexible monthly hours.
+   - Monthly hours adjustable to your needs
+   - Strategic roadmap and continuous planning
+   - Priority in attention and development
+
+3. **Discovery Sprint** — 1 intensive week
+   Define scope, architecture, and strategy. Align vision, identify risks, create implementation plan.
+   - Deep requirements analysis
+   - Scalable architecture design
+   - Accurate time and cost estimation
+
+4. **A la Carte Features** — Modular development
+   Add specific features or integrations to existing product.
+   - External API integrations
+   - New custom features
+   - System migration and optimization
+
+5. **Premium Support** — 24/7 availability
+   Specialized technical support with guaranteed response times.
+   - Response in less than 2 hours (critical)
+   - Proactive monitoring and alerts
+   - Security updates included
+
+---
+
+## Why Choose WAZA
+
+- **AI-Native Foundation** — We build with AI as a foundational element, not an add-on
+- **Technical-Creative Fusion** — Solutions that are both technically excellent and emotionally engaging
+- **Self-Recursive Improvement** — Systems designed to improve themselves, delivering increasing value over time
+
+---
+
+## FAQ
+
+**What kind of companies work with WAZA?**
+Mainly startups and growing companies that need to optimize operations, automate processes, or implement AI.
+
+**How much does it cost?**
+We have products with fixed prices and custom projects quoted based on scope. In the first call, we give you a clear range.
+
+**How long does a typical project take?**
+Products are ready immediately. Custom projects range from 2 weeks to 3 months depending on complexity.
+
+**Do I need technical knowledge?**
+No. We design everything to work without a manual. Training available for deeper needs.
+
+**What if I already have a technical team?**
+Even better. We work with your team, train them, and leave them the tools to continue on their own.
+
+---
+
+## Contact
+
+- **Email:** info@waza.baby
+- **Location:** Mexico City & San Luis Potosi, Mexico
+- **Twitter/X:** [@Waza_Baby](https://x.com/Waza_Baby)
+- **LinkedIn:** [WAZA](https://www.linkedin.com/company/wazababy/)
+- **GitHub:** [waza-agency](https://github.com/waza-agency)
+- **Website:** https://waza.baby

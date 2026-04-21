@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1080">
+    <title>WAZA - AI Agents</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            color: #F9F7F7;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 60px 60px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            color: #F9F7F7;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -20px;
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+        }
+
+        .badge {
+            background: #252A34;
+            color: #702DFF;
+            padding: 12px 24px;
+            border-radius: 24px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title {
+            font-size: 56px;
+            font-weight: 900;
+            letter-spacing: -0.03em;
+            color: #F9F7F7;
+            margin-bottom: 50px;
+            line-height: 1.1;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .agent-card {
+            background: rgba(37, 42, 52, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 32px;
+            border: 1px solid rgba(249, 247, 247, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            position: relative;
+        }
+
+        .agent-card::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .agent-card:nth-child(1)::before { background: #FF2E63; }
+        .agent-card:nth-child(2)::before { background: #08D9D6; }
+        .agent-card:nth-child(3)::before { background: #702DFF; }
+        .agent-card:nth-child(4)::before { background: #FF2E63; }
+
+        .agent-title {
+            font-size: 22px;
+            font-weight: 800;
+            color: #F9F7F7;
+            letter-spacing: -0.01em;
+            margin-top: 8px;
+        }
+
+        .agent-desc {
+            font-size: 15px;
+            font-weight: 400;
+            color: #F9F7F7;
+            opacity: 0.75;
+            line-height: 1.6;
+        }
+
+        .powered-by {
+            font-size: 18px;
+            font-weight: 600;
+            color: #F9F7F7;
+            opacity: 0.6;
+            text-align: center;
+        }
+
+        .footer {
+            padding: 40px 60px 60px;
+            text-align: center;
+        }
+
+        .watermark {
+            font-size: 24px;
+            font-weight: 600;
+            color: #F9F7F7;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">AGENTES IA</div>
+    </div>
+
+    <div class="content">
+        <div class="title">Agentes de IA Que Trabajan Para Ti</div>
+
+        <div class="grid">
+            <div class="agent-card">
+                <div class="agent-title">Atención al Cliente</div>
+                <div class="agent-desc">Respuestas inteligentes 24/7 en WhatsApp, Telegram y web</div>
+            </div>
+
+            <div class="agent-card">
+                <div class="agent-title">Análisis de Datos</div>
+                <div class="agent-desc">Extrae insights de documentos, hojas de cálculo y bases de datos automáticamente</div>
+            </div>
+
+            <div class="agent-card">
+                <div class="agent-title">Creación de Contenido</div>
+                <div class="agent-desc">Genera briefs, copy, reportes y activos creativos bajo demanda</div>
+            </div>
+
+            <div class="agent-card">
+                <div class="agent-title">Automatización de Procesos</div>
+                <div class="agent-desc">Conecta tus herramientas y automatiza flujos de trabajo repetitivos</div>
+            </div>
+        </div>
+
+        <div class="powered-by">
+            Impulsado por Claude Opus & Sonnet
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

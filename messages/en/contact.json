@@ -1,0 +1,49 @@
+{
+  "contact": {
+    "hero": {
+      "badge": "Get in Touch",
+      "title": "Contact Us",
+      "description": "Ready to transform your digital future? We're here to help you get started with AI-native technologies."
+    },
+    "info": {
+      "email": {
+        "title": "Email Us",
+        "description": "Our team is ready to answer your questions",
+        "address": "hello@waza.ai"
+      },
+      "phone": {
+        "title": "Call Us",
+        "description": "Monday to Friday, 9am to 6pm (ET)",
+        "hours": "Monday to Friday, 9am to 6pm (ET)",
+        "number": "+1 (234) 567-8901"
+      },
+      "location": {
+        "title": "Location",
+        "description": "Our headquarters",
+        "address": "Mexico City, Mexico"
+      }
+    },
+    "form": {
+      "title": "Let's Discuss Your",
+      "titleHighlight": "Project",
+      "description": "Fill out the form, and we'll get in touch with you shortly.",
+      "freeConsultation": "Free initial consultation",
+      "noCommitment": "No commitment required",
+      "nameLabel": "Your Name",
+      "namePlaceholder": "John Smith",
+      "emailLabel": "Your Email",
+      "emailPlaceholder": "john@example.com",
+      "companyLabel": "Company",
+      "companyPlaceholder": "Your Company",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your project or question",
+      "submit": "Send Message",
+      "terms": "By submitting this form, you agree to our",
+      "termsLink": "Terms & Conditions"
+    },
+    "social": {
+      "title": "Connect With Us",
+      "description": "Follow us on social media to stay updated with the latest AI and Web3 news and insights."
+    }
+  }
+}

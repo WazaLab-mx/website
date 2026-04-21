@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1080">
+    <title>From Idea to Production - WAZA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: linear-gradient(180deg, #0D0D0D 0%, #1a1a1a 100%);
+            font-family: 'Inter', sans-serif;
+            color: #F9F7F7;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 48px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            letter-spacing: -1px;
+            color: #F9F7F7;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+            position: absolute;
+            top: -6px;
+            right: -6px;
+        }
+
+        .badge {
+            background: rgba(8, 217, 214, 0.15);
+            border: 1.5px solid #08D9D6;
+            color: #08D9D6;
+            padding: 10px 24px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .title {
+            font-size: 64px;
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -2px;
+            color: #F9F7F7;
+        }
+
+        .timeline {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+            padding-left: 80px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 27px;
+            top: 40px;
+            bottom: 40px;
+            width: 3px;
+            background: linear-gradient(180deg, #702DFF 0%, #FF2E63 25%, #08D9D6 50%, #702DFF 75%, #FF2E63 100%);
+        }
+
+        .milestone {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .milestone::before {
+            content: '';
+            position: absolute;
+            left: -67px;
+            top: 12px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #0D0D0D;
+            border: 4px solid #702DFF;
+        }
+
+        .milestone:nth-child(2)::before { border-color: #FF2E63; }
+        .milestone:nth-child(3)::before { border-color: #08D9D6; }
+        .milestone:nth-child(4)::before { border-color: #702DFF; }
+        .milestone:nth-child(5)::before { border-color: #FF2E63; }
+
+        .milestone-period {
+            font-size: 20px;
+            font-weight: 800;
+            color: #702DFF;
+            letter-spacing: 0.5px;
+        }
+
+        .milestone:nth-child(2) .milestone-period { color: #FF2E63; }
+        .milestone:nth-child(3) .milestone-period { color: #08D9D6; }
+        .milestone:nth-child(4) .milestone-period { color: #702DFF; }
+        .milestone:nth-child(5) .milestone-period { color: #FF2E63; }
+
+        .milestone-title {
+            font-size: 28px;
+            font-weight: 800;
+            color: #F9F7F7;
+            line-height: 1.2;
+        }
+
+        .milestone-desc {
+            font-size: 18px;
+            font-weight: 400;
+            color: rgba(249, 247, 247, 0.6);
+            line-height: 1.4;
+        }
+
+        .footer {
+            padding: 48px 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .watermark {
+            font-size: 24px;
+            font-weight: 700;
+            color: rgba(249, 247, 247, 0.4);
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">PROCESS</div>
+    </div>
+
+    <div class="content">
+        <div class="title">From Idea<br>to Production</div>
+
+        <div class="timeline">
+            <div class="milestone">
+                <div class="milestone-period">Day 1</div>
+                <div class="milestone-title">Discovery call. Understand the problem.</div>
+            </div>
+
+            <div class="milestone">
+                <div class="milestone-period">Week 1</div>
+                <div class="milestone-title">Architecture design + AI prototype</div>
+            </div>
+
+            <div class="milestone">
+                <div class="milestone-period">Week 2-4</div>
+                <div class="milestone-title">Build, test, iterate</div>
+                <div class="milestone-desc">with AI-native development</div>
+            </div>
+
+            <div class="milestone">
+                <div class="milestone-period">Week 5-6</div>
+                <div class="milestone-title">Launch MVP.</div>
+                <div class="milestone-desc">Real users, real feedback.</div>
+            </div>
+
+            <div class="milestone">
+                <div class="milestone-period">Ongoing</div>
+                <div class="milestone-title">System evolves and improves</div>
+                <div class="milestone-desc">automatically.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

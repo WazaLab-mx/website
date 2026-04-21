@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, initial-scale=1.0">
+    <title>We Are WAZA - Square</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            position: absolute;
+            top: 60px;
+            left: 80px;
+            font-size: 28px;
+            font-weight: 800;
+            color: #F9F7F7;
+            letter-spacing: 0.5px;
+        }
+
+        .header .dot {
+            color: #FF2E63;
+        }
+
+        .main-title {
+            font-size: 68px;
+            font-weight: 900;
+            color: #F9F7F7;
+            text-align: center;
+            margin-bottom: 60px;
+            letter-spacing: -1px;
+        }
+
+        .meanings {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-bottom: 60px;
+        }
+
+        .meaning-card {
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-left: 3px solid #FF2E63;
+        }
+
+        .meaning-card:nth-child(2) {
+            border-left-color: #08D9D6;
+        }
+
+        .meaning-card:nth-child(3) {
+            border-left-color: #702DFF;
+        }
+
+        .meaning-card:nth-child(4) {
+            border-left-color: #F9F7F7;
+        }
+
+        .meaning-word {
+            font-size: 32px;
+            font-weight: 700;
+            color: #F9F7F7;
+            margin-bottom: 10px;
+        }
+
+        .meaning-origin {
+            font-size: 18px;
+            font-weight: 400;
+            color: rgba(249, 247, 247, 0.5);
+            margin-bottom: 15px;
+        }
+
+        .meaning-definition {
+            font-size: 20px;
+            font-weight: 500;
+            color: #F9F7F7;
+            line-height: 1.4;
+        }
+
+        .mission {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .mission-text {
+            font-size: 24px;
+            font-weight: 400;
+            color: #F9F7F7;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .tagline {
+            font-size: 28px;
+            font-weight: 600;
+            color: #08D9D6;
+            letter-spacing: -0.3px;
+        }
+
+        .gradient-line {
+            width: 200px;
+            height: 3px;
+            background: linear-gradient(90deg, #FF2E63, #08D9D6, #702DFF);
+            margin: 0 auto 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">WAZA<span class="dot">.</span></div>
+
+    <h1 class="main-title">We Are WAZA</h1>
+
+    <div class="gradient-line"></div>
+
+    <div class="meanings">
+        <div class="meaning-card">
+            <div class="meaning-word">技 (Waza)</div>
+            <div class="meaning-origin">Japanese</div>
+            <div class="meaning-definition">Technique, skill, craftsmanship</div>
+        </div>
+        <div class="meaning-card">
+            <div class="meaning-word">Waza</div>
+            <div class="meaning-origin">English</div>
+            <div class="meaning-definition">Greeting, connection</div>
+        </div>
+        <div class="meaning-card">
+            <div class="meaning-word">Waza</div>
+            <div class="meaning-origin">Swahili</div>
+            <div class="meaning-definition">Think, imagine, create</div>
+        </div>
+        <div class="meaning-card">
+            <div class="meaning-word">¡Guaza!</div>
+            <div class="meaning-origin">Spanish</div>
+            <div class="meaning-definition">Playfulness, humor</div>
+        </div>
+    </div>
+
+    <div class="mission">
+        <p class="mission-text">We create practical AI tools<br>for businesses that never stop</p>
+        <p class="tagline">Technique. Connection. Imagination. Humor.</p>
+    </div>
+</body>
+</html>

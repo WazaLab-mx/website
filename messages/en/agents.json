@@ -1,0 +1,84 @@
+{
+  "agents": {
+    "meta": {
+      "title": "For AI Agents - WAZA",
+      "description": "Structured information about WAZA optimized for AI agents and LLMs."
+    },
+    "hero": {
+      "badge": "Agent-Friendly",
+      "title": "For AI",
+      "titleHighlight": "Agents",
+      "description": "This page provides structured, machine-readable information about WAZA for AI agents, LLMs, and automated systems."
+    },
+    "files": {
+      "title": "Machine-Readable Files",
+      "llmsTxt": "Index for agents",
+      "llmsTxtDesc": "Standard llms.txt file following the llmstxt.org specification. Contains links to all key resources.",
+      "llmsFullTxt": "Complete context",
+      "llmsFullTxtDesc": "All company information in a single document: projects, services, pricing, and more.",
+      "viewFile": "View file"
+    },
+    "about": {
+      "title": "About WAZA",
+      "description": "WAZA creates practical, functional AI tools and custom development for businesses. AI-native products, custom development, consulting, and training. Based in Mexico (CDMX & SLP).",
+      "email": "Email",
+      "location": "Location",
+      "locationValue": "Mexico City & San Luis Potosi, Mexico"
+    },
+    "projects": {
+      "title": "Flagship Projects",
+      "viewAll": "View all 22 projects",
+      "items": {
+        "0": { "desc": "AI agent with 20+ tool integrations" },
+        "1": { "desc": "Smart budget management (10,000+ users)" },
+        "2": { "desc": "Claude Code subagent generation tool" },
+        "3": { "desc": "AI advertising brief generator" },
+        "4": { "desc": "AI ad research for Facebook & TikTok" }
+      }
+    },
+    "services": {
+      "title": "Services",
+      "viewAll": "View all services",
+      "items": [
+        "Smart Business Solutions",
+        "Personal AI Assistants",
+        "Smart Content Creation",
+        "Customer Experience Enhancement",
+        "Business Growth Tools",
+        "Smart Business Insights",
+        "Smart Work Automation",
+        "AI Agents Development",
+        "Web3 Development",
+        "AI-Web3 Integration"
+      ]
+    },
+    "pricing": {
+      "title": "Pricing Plans",
+      "viewAll": "View pricing details",
+      "popularBadge": "Popular",
+      "items": {
+        "0": { "name": "MVP Fast-Lane", "duration": "6-10 weeks" },
+        "1": { "name": "Growth Retainer", "duration": "Continuous" },
+        "2": { "name": "Discovery Sprint", "duration": "1 week" },
+        "3": { "name": "A la Carte Features", "duration": "Modular" },
+        "4": { "name": "Premium Support", "duration": "24/7" }
+      }
+    },
+    "openclaw": {
+      "title": "OpenClaw Skill",
+      "badge": "One-command install",
+      "description": "Install the WAZA skill in your OpenClaw agent with a single command. Your agent will get instant access to our services, projects, pricing, and contact info.",
+      "install": "Install",
+      "copy": "Copy command",
+      "copied": "Copied!",
+      "viewSkill": "View SKILL.md",
+      "whatIncludes": "What your agent gets:",
+      "includes": ["10 services & pricing plans", "22 project references", "Contact & FAQ data", "Links to llms.txt & llms-full.txt"]
+    },
+    "cta": {
+      "title": "Integration & API",
+      "description": "Want to integrate WAZA data into your agent or application? Contact us at info@waza.baby for API access and partnerships.",
+      "contact": "Contact Us"
+    }
+  }
+}

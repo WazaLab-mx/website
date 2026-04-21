@@ -1,0 +1,35 @@
+{
+  "projects": {
+    "ui": {
+      "explore": "Explorar",
+      "viewDetails": "Ver Detalles",
+      "previousProject": "Proyecto anterior",
+      "nextProject": "Siguiente proyecto",
+      "scrollForMore": "Desplaza para ver más",
+      "goTo": "Ir a {title}"
+    },
+    "cta": {
+      "title": "Listo para Construir Tu",
+      "titleHighlight": "Próximo Proyecto",
+      "description": "Creemos algo extraordinario juntos.",
+      "startProject": "Inicia Tu Proyecto",
+      "viewServices": "Ver Servicios"
+    },
+    "hero": {
+      "0": {
+        "title": "San Luis Way",
+        "description": "Una plataforma digital integral que conecta a expatriados y locales en San Luis Potosí. Ofrece recomendaciones curadas, guías culturales y una red confiable de proveedores de servicios para ayudar a las personas a navegar e integrarse en la vibrante comunidad de la ciudad.",
+        "tags": ["Guía Local", "Comunidad", "Servicios para Expatriados"],
+        "image": "/images/project-screenshots/san-luis-way.png",
+        "link": "https://sanluisway.com"
+      },
+      "1": {
+        "title": "GlamLocal",
+        "description": "Encuentra servicios de belleza cerca de ti y compra productos premium. Descubre spas, salones y servicios de belleza mejor calificados, compara reseñas, ubicaciones y descubre ofertas exclusivas de productos, todo en un solo lugar. Más de 50,000 reseñas verificadas.",
+        "tags": ["Tech de Belleza", "Servicios Locales", "Emparejamiento IA"],
+        "image": "/images/project-screenshots/glamlocal.png",
+        "link": "https://glamlocal.app/"
+      }
+    }
+  }
+}

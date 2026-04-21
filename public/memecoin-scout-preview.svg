@@ -1,0 +1,125 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+
+  <!-- Grid pattern -->
+  <pattern id="grid" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Gradient overlays -->
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#00cc6a;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:0.2" />
+      <stop offset="50%" style="stop-color:#00ff88;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#00ff88;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Green accent circles -->
+  <circle cx="150" cy="150" r="180" fill="url(#greenGrad)" opacity="0.4"/>
+  <circle cx="1050" cy="480" r="220" fill="url(#greenGrad)" opacity="0.3"/>
+
+  <!-- Chart visualization -->
+  <g transform="translate(100, 280)">
+    <!-- Chart background -->
+    <rect x="0" y="0" width="500" height="250" rx="15" fill="#0f0f0f" stroke="#00ff88" stroke-width="2" opacity="0.6"/>
+
+    <!-- Chart grid lines -->
+    <line x1="0" y1="62.5" x2="500" y2="62.5" stroke="#1a1a1a" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="125" x2="500" y2="125" stroke="#1a1a1a" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="187.5" x2="500" y2="187.5" stroke="#1a1a1a" stroke-width="1" opacity="0.5"/>
+
+    <!-- Upward trending chart line -->
+    <path d="M 30 220 L 80 200 L 130 180 L 180 190 L 230 150 L 280 130 L 330 100 L 380 80 L 430 50 L 470 30"
+          stroke="url(#chartGrad)"
+          stroke-width="4"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Chart fill area -->
+    <path d="M 30 220 L 80 200 L 130 180 L 180 190 L 230 150 L 280 130 L 330 100 L 380 80 L 430 50 L 470 30 L 470 250 L 30 250 Z"
+          fill="url(#chartGrad)"
+          opacity="0.2"/>
+
+    <!-- Data points -->
+    <circle cx="30" cy="220" r="4" fill="#00ff88"/>
+    <circle cx="130" cy="180" r="4" fill="#00ff88"/>
+    <circle cx="230" cy="150" r="4" fill="#00ff88"/>
+    <circle cx="330" cy="100" r="4" fill="#00ff88"/>
+    <circle cx="430" cy="50" r="4" fill="#00ff88"/>
+    <circle cx="470" cy="30" r="5" fill="#00ff88">
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Rocket icon (growth symbol) -->
+  <g transform="translate(250, 100)">
+    <path d="M 20 60 L 30 30 L 35 10 L 40 30 L 50 60 L 40 55 L 35 70 L 30 55 Z"
+          fill="#00ff88"
+          opacity="0.8"/>
+    <circle cx="35" cy="25" r="3" fill="#0a0a0a"/>
+    <!-- Flames -->
+    <path d="M 30 60 L 28 70 L 30 65 Z" fill="#00cc6a" opacity="0.6"/>
+    <path d="M 35 70 L 33 80 L 35 75 Z" fill="#00cc6a" opacity="0.6"/>
+    <path d="M 40 60 L 42 70 L 40 65 Z" fill="#00cc6a" opacity="0.6"/>
+  </g>
+
+  <!-- Memecoin Scout text -->
+  <text x="650" y="240" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="start">
+    Memecoin
+  </text>
+  <text x="650" y="310" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#00ff88" text-anchor="start">
+    Scout
+  </text>
+
+  <!-- Tagline -->
+  <text x="650" y="360" font-family="Arial, sans-serif" font-size="26" fill="#999" text-anchor="start">
+    Find Meme Tokens Before They Moon
+  </text>
+
+  <!-- Feature badges -->
+  <g transform="translate(650, 390)">
+    <rect x="0" y="0" width="180" height="45" rx="22.5" fill="#00ff88" opacity="0.15" stroke="#00ff88" stroke-width="2"/>
+    <text x="90" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00ff88" text-anchor="middle">
+      Multi-Chain
+    </text>
+  </g>
+
+  <g transform="translate(650, 450)">
+    <rect x="0" y="0" width="180" height="45" rx="22.5" fill="#00ff88" opacity="0.15" stroke="#00ff88" stroke-width="2"/>
+    <text x="90" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00ff88" text-anchor="middle">
+      Real-Time Data
+    </text>
+  </g>
+
+  <!-- Percentage indicator -->
+  <g transform="translate(950, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#00ff88" text-anchor="start">
+      +12,847%
+    </text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="start">
+      Your Portfolio
+    </text>
+  </g>
+
+  <!-- Decorative blockchain icons -->
+  <circle cx="950" cy="450" r="25" fill="#1a1a1a" stroke="#00ff88" stroke-width="2"/>
+  <circle cx="950" cy="450" r="15" fill="#00ff88" opacity="0.3"/>
+
+  <circle cx="1010" cy="450" r="25" fill="#1a1a1a" stroke="#00ff88" stroke-width="2"/>
+  <circle cx="1010" cy="450" r="15" fill="#00ff88" opacity="0.3"/>
+
+  <circle cx="1070" cy="450" r="25" fill="#1a1a1a" stroke="#00ff88" stroke-width="2"/>
+  <circle cx="1070" cy="450" r="15" fill="#00ff88" opacity="0.3"/>
+
+  <!-- Subtle glow effects -->
+  <circle cx="650" cy="280" r="200" fill="#00ff88" opacity="0.05" filter="blur(40px)"/>
+  <circle cx="1000" cy="350" r="150" fill="#00ff88" opacity="0.05" filter="blur(30px)"/>
+</svg>

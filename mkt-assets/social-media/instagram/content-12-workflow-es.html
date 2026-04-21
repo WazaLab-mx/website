@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAZA - How We Build Software in 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            color: #F9F7F7;
+            letter-spacing: -1px;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+        }
+
+        .badge {
+            background: #08D9D6;
+            color: #0D0D0D;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            color: #F9F7F7;
+            line-height: 1.1;
+            margin-bottom: 60px;
+        }
+
+        .workflow {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #FF2E63 0%, #702DFF 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 800;
+            color: #F9F7F7;
+            flex-shrink: 0;
+        }
+
+        .step-content {
+            flex: 1;
+            background: linear-gradient(135deg, #252A34 0%, #1a1d24 100%);
+            padding: 24px 28px;
+            border-radius: 16px;
+            border: 1px solid rgba(8, 217, 214, 0.1);
+        }
+
+        .step-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #08D9D6;
+            margin-bottom: 6px;
+        }
+
+        .step-desc {
+            font-size: 15px;
+            font-weight: 400;
+            color: #F9F7F7;
+            opacity: 0.8;
+            line-height: 1.5;
+        }
+
+        .arrow {
+            width: 100%;
+            height: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: -8px 0;
+            padding-left: 70px;
+        }
+
+        .arrow-line {
+            width: 3px;
+            height: 20px;
+            background: linear-gradient(180deg, #702DFF 0%, #08D9D6 100%);
+        }
+
+        .footer {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .watermark {
+            font-size: 18px;
+            font-weight: 500;
+            color: #F9F7F7;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">METODOLOGÍA</div>
+    </div>
+
+    <div class="content">
+        <div class="title">Cómo Construimos Software en 2026</div>
+
+        <div class="workflow">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <div class="step-title">Brief</div>
+                    <div class="step-desc">Define el problema en lenguaje natural</div>
+                </div>
+            </div>
+
+            <div class="arrow">
+                <div class="arrow-line"></div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <div class="step-title">Prototipo IA</div>
+                    <div class="step-desc">Claude genera el código base inicial</div>
+                </div>
+            </div>
+
+            <div class="arrow">
+                <div class="arrow-line"></div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <div class="step-title">Refinamiento</div>
+                    <div class="step-desc">Ingenieros humanos optimizan y arquitecturan</div>
+                </div>
+            </div>
+
+            <div class="arrow">
+                <div class="arrow-line"></div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <div class="step-title">Pruebas</div>
+                    <div class="step-desc">QA impulsado por IA detecta casos extremos</div>
+                </div>
+            </div>
+
+            <div class="arrow">
+                <div class="arrow-line"></div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <div class="step-title">Despliegue</div>
+                    <div class="step-desc">Lanzamiento a producción con CI/CD</div>
+                </div>
+            </div>
+
+            <div class="arrow">
+                <div class="arrow-line"></div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">6</div>
+                <div class="step-content">
+                    <div class="step-title">Evolución</div>
+                    <div class="step-desc">El sistema mejora a través del uso</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

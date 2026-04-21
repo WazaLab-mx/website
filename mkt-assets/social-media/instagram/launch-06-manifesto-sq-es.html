@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, initial-scale=1.0">
+    <title>The Manifesto - Square</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            position: absolute;
+            top: 60px;
+            left: 80px;
+            font-size: 28px;
+            font-weight: 800;
+            color: #F9F7F7;
+            letter-spacing: 0.5px;
+        }
+
+        .header .dot {
+            color: #FF2E63;
+        }
+
+        .manifesto-lines {
+            width: 100%;
+            margin-bottom: 80px;
+        }
+
+        .manifesto-line {
+            font-size: 36px;
+            font-weight: 400;
+            color: #F9F7F7;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            opacity: 0.95;
+        }
+
+        .main-declaration {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .we-are {
+            font-size: 96px;
+            font-weight: 900;
+            color: #F9F7F7;
+            line-height: 1;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+
+        .we-are .dot {
+            color: #FF2E63;
+        }
+
+        .closing-line {
+            font-size: 38px;
+            font-weight: 300;
+            color: #08D9D6;
+            letter-spacing: -0.5px;
+            line-height: 1.4;
+        }
+
+        .url {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: #FF2E63;
+            letter-spacing: 0.5px;
+        }
+
+        .accent-line {
+            width: 120px;
+            height: 4px;
+            background: linear-gradient(90deg, #FF2E63, #08D9D6, #702DFF);
+            margin: 0 0 60px 0;
+        }
+
+        .bg-subtle {
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(8, 217, 214, 0.05) 0%, transparent 70%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 0;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-subtle"></div>
+    <div class="header">WAZA<span class="dot">.</span></div>
+
+    <div class="content-wrapper">
+        <div class="accent-line"></div>
+
+        <div class="manifesto-lines">
+            <div class="manifesto-line">Somos artesanos con sentido del humor.</div>
+            <div class="manifesto-line">Ingenieros que sueñan más allá de los límites.</div>
+            <div class="manifesto-line">Artistas que construyen con lógica y código.</div>
+        </div>
+
+        <div class="main-declaration">
+            <div class="we-are">Somos WAZA<span class="dot">.</span></div>
+            <div class="closing-line">Y estamos creando un mundo más cool.</div>
+        </div>
+
+        <div class="url">waza.baby</div>
+    </div>
+</body>
+</html>

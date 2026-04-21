@@ -1,0 +1,74 @@
+{
+  "common": {
+    "nav": {
+      "features": "Características",
+      "services": "Servicios",
+      "projects": "Proyectos",
+      "calculator": "Calculadora",
+      "about": "Nosotros",
+      "benefits": "Beneficios",
+      "pricing": "Precios",
+      "getStarted": "Comenzar",
+      "home": "Inicio",
+      "contact": "Contacto"
+    },
+    "footer": {
+      "tagline": "IA práctica para negocios que nunca se detienen.",
+      "servicesTitle": "Servicios",
+      "products": "Productos",
+      "customDevelopment": "Desarrollo a medida",
+      "consulting": "Consultoría",
+      "training": "Capacitación",
+      "resourcesTitle": "Recursos",
+      "projects": "Proyectos",
+      "documentation": "Documentación",
+      "forAgents": "Para Agentes IA",
+      "companyTitle": "Empresa",
+      "aboutWaza": "Sobre WAZA",
+      "contact": "Contacto",
+      "copyright": "© {year} WAZA. Todos los derechos reservados."
+    },
+    "languageSwitcher": {
+      "label": "Idioma",
+      "ariaLabel": "Idioma"
+    },
+    "accessibility": {
+      "wazaHome": "WAZA Inicio",
+      "mainContent": "Contenido principal",
+      "goToProject": "Ir al proyecto {number}"
+    },
+    "metadata": {
+      "title": "WAZA - Tecnología que se fortalece con el uso",
+      "description": "WAZA crea sistemas nativos de IA que evolucionan, se adaptan y mejoran continuamente, transformando productos estáticos en ecosistemas vivos."
+    },
+    "operatingModel": {
+      "title": "Nuestro",
+      "titleHighlight": "Modelo Operativo",
+      "description": "Hemos reorganizado cómo trabajamos para alinear cada proyecto con resultados. Tres pilares guían todo lo que construimos.",
+      "practiceAreas": "Áreas de Práctica",
+      "practiceAreasDesc": "Equipos enfocados que colaboran de principio a fin.",
+      "practiceItem1": "Sistemas Nativos de IA (agentes, automatización, datos)",
+      "practiceItem2": "Experiencias Inteligentes (personalización, UX)",
+      "practiceItem3": "Estrategia y Habilitación (roadmaps, capacitación)",
+      "waysOfWorking": "Formas de Trabajar",
+      "waysOfWorkingDesc": "Diseñadas para velocidad, calidad y aprendizaje.",
+      "waysItem1": "Sprints orientados a resultados con KPIs medibles",
+      "waysItem2": "Colaboración integrada con tu equipo",
+      "waysItem3": "Evolución continua en lugar de grandes reescrituras",
+      "outcomesHome": "Resultados Que Entregamos",
+      "outcomesAbout": "Resultados Comprometidos",
+      "outcomesDesc": "Valor que se multiplica con el uso.",
+      "outcomesItem1": "Plataformas que mejoran solas cada día",
+      "outcomesItem2": "Impacto claro en crecimiento, costos y experiencia",
+      "outcomesItem3": "Cimientos a prueba de futuro, no funcionalidades frágiles",
+      "seeDetails": "Ver detalles en Nosotros"
+    },
+    "heroMedia": {
+      "browserNotSupported": "Tu navegador no soporta la etiqueta de video.",
+      "enableAudio": "Activar audio",
+      "disableAudio": "Desactivar audio",
+      "clickToEnable": "Haz clic para activar el audio",
+      "clickToMute": "Haz clic para silenciar"
+    }
+  }
+}

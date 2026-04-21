@@ -1,0 +1,296 @@
+{
+  "docs": {
+    "main": {
+      "hero": {
+        "title": "Documentación",
+        "description": "Todo lo que necesitas saber sobre los servicios, APIs e integraciones de WAZA."
+      },
+      "sections": {
+        "aiAgents": {
+          "title": "Agentes IA",
+          "description": "Aprende a crear, personalizar e integrar agentes de IA en el flujo de trabajo de tu negocio.",
+          "button": "Ver Documentación"
+        },
+        "businessSolutions": {
+          "title": "Soluciones Empresariales",
+          "description": "Explora nuestras soluciones empresariales inteligentes y aprende a implementarlas de manera efectiva.",
+          "button": "Ver Documentación"
+        },
+        "web3": {
+          "title": "Desarrollo Web3",
+          "description": "Guías completas para la integración de blockchain y el desarrollo Web3.",
+          "button": "Ver Documentación"
+        }
+      },
+      "gettingStarted": {
+        "title": "Primeros Pasos",
+        "description": "Nuevo en WAZA? Comienza aquí para aprender lo básico y poner en marcha tu primer proyecto.",
+        "button": "Guía de Inicio Rápido"
+      },
+      "apiReference": {
+        "title": "Referencia de API",
+        "description": "Documentación detallada de la API para desarrolladores que buscan integrar los servicios de WAZA.",
+        "button": "Ver Documentación de API"
+      }
+    },
+    "aiAgents": {
+      "pageTitle": "Documentación de Agentes IA",
+      "introduction": {
+        "title": "Introducción",
+        "description": "Los Agentes de IA de WAZA son herramientas poderosas que pueden personalizarse e integrarse en el flujo de trabajo de tu negocio. Esta documentación te guiará a través del proceso de creación, personalización y despliegue de agentes de IA."
+      },
+      "gettingStarted": {
+        "title": "Primeros Pasos",
+        "description": "Para comenzar a trabajar con los Agentes de IA de WAZA, necesitarás:",
+        "items": {
+          "createAccount": "Crear una cuenta en WAZA",
+          "setupEnvironment": "Configurar tu entorno de desarrollo",
+          "configureAgent": "Configurar tu primer agente de IA"
+        }
+      },
+      "basicConcepts": {
+        "title": "Conceptos Básicos",
+        "description": "Antes de profundizar en la implementación, es importante entender estos conceptos clave:",
+        "items": {
+          "agentTypes": "Tipos de Agentes y Capacidades",
+          "training": "Entrenamiento y Personalización",
+          "integration": "Métodos de Integración",
+          "bestPractices": "Mejores Prácticas"
+        }
+      },
+      "implementationGuide": {
+        "title": "Guía de Implementación",
+        "description": "Sigue estos pasos para implementar agentes de IA en tu proyecto:",
+        "steps": {
+          "defineUseCase": "Define tu caso de uso y requisitos",
+          "chooseType": "Elige el tipo de agente apropiado",
+          "configureSettings": "Configura los ajustes del agente",
+          "testValidate": "Prueba y valida la implementación",
+          "deploy": "Despliega en producción"
+        }
+      },
+      "apiReference": {
+        "title": "Referencia de API",
+        "description": "Documentación detallada de la API para la integración programática de agentes de IA:",
+        "items": {
+          "authentication": "Autenticación",
+          "agentManagement": "API de Gestión de Agentes",
+          "trainingApi": "API de Entrenamiento",
+          "interactionApi": "API de Interacción"
+        }
+      },
+      "supportButton": "Obtener Soporte"
+    },
+    "businessSolutions": {
+      "pageTitle": "Documentación de Soluciones Empresariales",
+      "introduction": {
+        "title": "Introducción",
+        "description": "Las Soluciones Empresariales de WAZA proporcionan herramientas y servicios integrales para optimizar y automatizar tus procesos de negocio. Esta documentación te guiará para implementar nuestras soluciones de manera efectiva."
+      },
+      "solutionCategories": {
+        "title": "Categorías de Soluciones",
+        "items": {
+          "smartWork": "Automatización Inteligente del Trabajo",
+          "businessGrowth": "Herramientas de Crecimiento Empresarial",
+          "smartInsights": "Perspectivas Empresariales Inteligentes",
+          "customerExperience": "Mejora de la Experiencia del Cliente"
+        }
+      },
+      "implementationProcess": {
+        "title": "Proceso de Implementación",
+        "description": "Sigue estos pasos para implementar las Soluciones Empresariales de WAZA:",
+        "steps": {
+          "analysis": "Análisis de Negocio y Recopilación de Requisitos",
+          "selection": "Selección y Personalización de Soluciones",
+          "planning": "Planificación de Integración",
+          "implementation": "Implementación y Pruebas",
+          "training": "Capacitación y Despliegue",
+          "monitoring": "Monitoreo y Optimización"
+        }
+      },
+      "integrationGuidelines": {
+        "title": "Guías de Integración",
+        "description": "Aprende a integrar nuestras soluciones con tus sistemas existentes:",
+        "items": {
+          "apiIntegration": "Integración de API",
+          "dataMigration": "Migración de Datos",
+          "security": "Consideraciones de Seguridad",
+          "performance": "Optimización del Rendimiento"
+        }
+      },
+      "bestPractices": {
+        "title": "Mejores Prácticas",
+        "description": "Maximiza el valor de tus soluciones empresariales:",
+        "items": {
+          "changeManagement": "Gestión del Cambio",
+          "userTraining": "Capacitación de Usuarios",
+          "performanceMonitoring": "Monitoreo del Rendimiento",
+          "continuousImprovement": "Mejora Continua"
+        }
+      },
+      "supportButton": "Obtener Soporte"
+    },
+    "gettingStarted": {
+      "pageTitle": "Primeros Pasos con WAZA",
+      "welcome": {
+        "title": "Bienvenido a WAZA",
+        "description": "Esta guía te ayudará a comenzar con los servicios y herramientas de WAZA. Ya sea que busques implementar agentes de IA, optimizar tus procesos de negocio o desarrollar aplicaciones Web3, te guiaremos a través de los pasos iniciales."
+      },
+      "quickStart": {
+        "title": "Guía de Inicio Rápido",
+        "steps": {
+          "createAccount": {
+            "title": "Crea tu Cuenta",
+            "description": "Regístrate en WAZA para acceder a nuestros servicios y panel de control."
+          },
+          "chooseService": {
+            "title": "Elige tu Servicio",
+            "description": "Selecciona el servicio que mejor se adapte a tus necesidades:",
+            "options": {
+              "aiAgents": "Desarrollo de Agentes IA",
+              "businessSolutions": "Soluciones Empresariales Inteligentes",
+              "web3": "Desarrollo Web3"
+            }
+          },
+          "setupEnvironment": {
+            "title": "Configura tu Entorno",
+            "description": "Sigue nuestras guías de configuración para el servicio elegido."
+          },
+          "startBuilding": {
+            "title": "Comienza a Construir",
+            "description": "Empieza a implementar tu solución con nuestros tutoriales detallados."
+          }
+        }
+      },
+      "essentialResources": {
+        "title": "Recursos Esenciales",
+        "links": {
+          "aiAgents": "Documentación de Agentes IA",
+          "businessSolutions": "Guía de Soluciones Empresariales",
+          "web3": "Guía de Desarrollo Web3"
+        }
+      },
+      "bestPractices": {
+        "title": "Mejores Prácticas",
+        "items": {
+          "clearGoal": "Comienza con un objetivo claro y requisitos definidos",
+          "followGuides": "Sigue nuestras guías de implementación paso a paso",
+          "testThoroughly": "Prueba a fondo en un entorno de desarrollo",
+          "useSupport": "Utiliza nuestros recursos de soporte cuando lo necesites"
+        }
+      },
+      "supportButton": "Obtener Soporte"
+    },
+    "api": {
+      "pageTitle": "Documentación de API",
+      "introduction": {
+        "title": "Introducción",
+        "description": "Las APIs de WAZA proporcionan acceso programático a nuestros servicios. Esta documentación cubre autenticación, endpoints y mejores prácticas para integrarse con nuestra plataforma."
+      },
+      "authentication": {
+        "title": "Autenticación",
+        "description": "Todas las solicitudes de API requieren autenticación. Usamos claves de API para autenticar solicitudes:"
+      },
+      "endpoints": {
+        "title": "Endpoints de API",
+        "aiAgents": {
+          "title": "API de Agentes IA",
+          "createAgent": "Crear un nuevo agente de IA",
+          "getAgent": "Obtener detalles del agente",
+          "trainAgent": "Entrenar un agente"
+        },
+        "businessSolutions": {
+          "title": "API de Soluciones Empresariales",
+          "analyze": "Analizar datos de negocio",
+          "insights": "Obtener perspectivas de negocio",
+          "automate": "Crear flujo de trabajo de automatización"
+        },
+        "web3": {
+          "title": "API Web3",
+          "deploy": "Desplegar contrato inteligente",
+          "getContract": "Obtener detalles del contrato",
+          "interact": "Interactuar con contrato inteligente"
+        }
+      },
+      "rateLimits": {
+        "title": "Límites de Tasa",
+        "description": "Nuestra API implementa límites de tasa para garantizar un uso justo:",
+        "tiers": {
+          "free": "Nivel gratuito: 1000 solicitudes por día",
+          "professional": "Nivel profesional: 10000 solicitudes por día",
+          "enterprise": "Nivel empresarial: Límites personalizados"
+        }
+      },
+      "errorHandling": {
+        "title": "Manejo de Errores",
+        "description": "Nuestra API utiliza códigos de respuesta HTTP convencionales:",
+        "codes": {
+          "200": "Éxito",
+          "400": "Solicitud Incorrecta",
+          "401": "No Autorizado",
+          "403": "Prohibido",
+          "404": "No Encontrado",
+          "429": "Demasiadas Solicitudes",
+          "500": "Error del Servidor"
+        }
+      },
+      "supportButton": "Obtener Soporte de API"
+    },
+    "web3": {
+      "pageTitle": "Documentación de Desarrollo Web3",
+      "introduction": {
+        "title": "Introducción",
+        "description": "Los servicios de Desarrollo Web3 de WAZA te ayudan a construir aplicaciones descentralizadas e integrar tecnología blockchain en tu negocio. Esta documentación cubre todo, desde conceptos básicos hasta implementación avanzada."
+      },
+      "coreConcepts": {
+        "title": "Conceptos Fundamentales",
+        "items": {
+          "blockchain": "Fundamentos de Blockchain",
+          "smartContracts": "Contratos Inteligentes",
+          "dapps": "Aplicaciones Descentralizadas (dApps)",
+          "web3Integration": "Integración Web3"
+        }
+      },
+      "developmentGuide": {
+        "title": "Guía de Desarrollo",
+        "description": "Sigue estos pasos para desarrollar aplicaciones Web3:",
+        "steps": {
+          "environment": "Configuración del Entorno",
+          "smartContract": "Desarrollo de Contratos Inteligentes",
+          "frontend": "Integración Frontend",
+          "testing": "Pruebas y Despliegue",
+          "security": "Consideraciones de Seguridad"
+        }
+      },
+      "smartContractDev": {
+        "title": "Desarrollo de Contratos Inteligentes",
+        "description": "Aprende a escribir y desplegar contratos inteligentes:",
+        "items": {
+          "solidity": "Fundamentos de Solidity",
+          "designPatterns": "Patrones de Diseño de Contratos",
+          "testing": "Pruebas y Depuración",
+          "gasOptimization": "Optimización de Gas",
+          "securityBestPractices": "Mejores Prácticas de Seguridad"
+        }
+      },
+      "web3Integration": {
+        "title": "Integración Web3",
+        "description": "Integra funcionalidad Web3 en tus aplicaciones:",
+        "items": {
+          "wallet": "Integración de Billeteras",
+          "transactions": "Gestión de Transacciones",
+          "events": "Manejo de Eventos",
+          "storage": "Soluciones de Almacenamiento de Datos"
+        }
+      },
+      "supportButton": "Obtener Soporte"
+    },
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "about": "Nosotros",
+      "contact": "Contacto",
+      "backToDocs": "Volver a Documentación"
+    }
+  }
+}

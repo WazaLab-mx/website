@@ -1,0 +1,84 @@
+{
+  "agents": {
+    "meta": {
+      "title": "Para Agentes IA - WAZA",
+      "description": "Información estructurada sobre WAZA optimizada para agentes de IA y LLMs."
+    },
+    "hero": {
+      "badge": "Agent-Friendly",
+      "title": "Para Agentes",
+      "titleHighlight": "de IA",
+      "description": "Esta página proporciona información estructurada y legible por máquinas sobre WAZA para agentes de IA, LLMs y sistemas automatizados."
+    },
+    "files": {
+      "title": "Archivos Legibles por Máquinas",
+      "llmsTxt": "Índice para agentes",
+      "llmsTxtDesc": "Archivo estándar llms.txt siguiendo la especificación llmstxt.org. Contiene enlaces a todos los recursos clave.",
+      "llmsFullTxt": "Contexto completo",
+      "llmsFullTxtDesc": "Toda la información de la empresa en un solo documento: proyectos, servicios, precios y más.",
+      "viewFile": "Ver archivo"
+    },
+    "about": {
+      "title": "Sobre WAZA",
+      "description": "WAZA crea herramientas prácticas de IA y desarrollo a medida para empresas. Productos nativos de IA, desarrollo personalizado, consultoría y capacitación. Con base en México (CDMX y SLP).",
+      "email": "Correo",
+      "location": "Ubicación",
+      "locationValue": "Ciudad de México y San Luis Potosí, México"
+    },
+    "projects": {
+      "title": "Proyectos Destacados",
+      "viewAll": "Ver los 22 proyectos",
+      "items": {
+        "0": { "desc": "Agente de IA con más de 20 integraciones de herramientas" },
+        "1": { "desc": "Gestión inteligente de presupuestos (10,000+ usuarios)" },
+        "2": { "desc": "Herramienta de generación de subagentes para Claude Code" },
+        "3": { "desc": "Generador de briefs publicitarios con IA" },
+        "4": { "desc": "Investigación de anuncios con IA para Facebook y TikTok" }
+      }
+    },
+    "services": {
+      "title": "Servicios",
+      "viewAll": "Ver todos los servicios",
+      "items": [
+        "Soluciones Empresariales Inteligentes",
+        "Asistentes Personales de IA",
+        "Creación de Contenido Inteligente",
+        "Mejora de Experiencia del Cliente",
+        "Herramientas de Crecimiento Empresarial",
+        "Análisis Empresarial Inteligente",
+        "Automatización Inteligente del Trabajo",
+        "Desarrollo de Agentes IA",
+        "Desarrollo Web3",
+        "Integración IA-Web3"
+      ]
+    },
+    "pricing": {
+      "title": "Planes de Precios",
+      "viewAll": "Ver detalles de precios",
+      "popularBadge": "Popular",
+      "items": {
+        "0": { "name": "MVP Fast-Lane", "duration": "6-10 semanas" },
+        "1": { "name": "Retainer de Crecimiento", "duration": "Continuo" },
+        "2": { "name": "Sprint de Descubrimiento", "duration": "1 semana" },
+        "3": { "name": "Features a la Carta", "duration": "Modular" },
+        "4": { "name": "Soporte Premium", "duration": "24/7" }
+      }
+    },
+    "openclaw": {
+      "title": "OpenClaw Skill",
+      "badge": "Instalación con un comando",
+      "description": "Instala el skill de WAZA en tu agente OpenClaw con un solo comando. Tu agente tendrá acceso instantáneo a nuestros servicios, proyectos, precios e información de contacto.",
+      "install": "Instalar",
+      "copy": "Copiar comando",
+      "copied": "¡Copiado!",
+      "viewSkill": "Ver SKILL.md",
+      "whatIncludes": "Lo que obtiene tu agente:",
+      "includes": ["10 servicios y planes de precios", "22 referencias de proyectos", "Datos de contacto y FAQ", "Enlaces a llms.txt y llms-full.txt"]
+    },
+    "cta": {
+      "title": "Integración y API",
+      "description": "¿Quieres integrar datos de WAZA en tu agente o aplicación? Contáctanos en info@waza.baby para acceso a API y alianzas.",
+      "contact": "Contáctanos"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "pages": {
+      "home": {
+        "title": "WAZA - Technology That Grows Stronger Through Use",
+        "description": "WAZA creates AI-native systems that continuously evolve, adapt, and improve themselves over time, transforming static products into living ecosystems.",
+        "keywords": "AI agency, business automation, AI agents, Web3 solutions, adaptive technology"
+      },
+      "about": {
+        "title": "About Us",
+        "description": "Learn about WAZA's mission, vision, and approach to creating AI-native technology that continuously evolves and improves.",
+        "keywords": "about WAZA, AI team, mission, vision, adaptive technology"
+      },
+      "agents": {
+        "title": "AI Agents",
+        "description": "Discover WAZA's AI agents: intelligent assistants that automate tasks, analyze data, and empower your business.",
+        "keywords": "AI agents, intelligent assistants, automation, business bots"
+      },
+      "calculator": {
+        "title": "AI ROI Calculator",
+        "description": "Discover how much time and money your business could save with AI automation. Free quiz with personalized results.",
+        "keywords": "AI ROI calculator, automation savings, AI assessment, business AI calculator"
+      },
+      "chat": {
+        "title": "AI Chat",
+        "description": "Talk to our AI assistant to learn about WAZA's services and find the perfect solution for your business.",
+        "keywords": "AI chat, virtual assistant, services inquiry, WAZA chat"
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "Contact WAZA to discuss how AI and Web3 can transform your business. Schedule a free consultation.",
+        "keywords": "contact WAZA, AI consultation, schedule demo, tech agency contact"
+      },
+      "projects": {
+        "title": "Projects",
+        "description": "Explore WAZA's portfolio of projects: AI solutions, automation, and Web3 that transform businesses.",
+        "keywords": "AI projects, WAZA portfolio, success stories, tech solutions"
+      },
+      "services": {
+        "title": "Services",
+        "description": "Complete suite of AI services: intelligent agents, automation, predictive analytics, Web3, and more. Custom solutions for your business.",
+        "keywords": "AI services, business automation, AI agents, Web3 development, tech consulting"
+      },
+      "services_aiAgents": {
+        "title": "AI Agents Development",
+        "description": "We build custom AI agents that automate processes, make intelligent decisions, and scale with your business.",
+        "keywords": "AI agents development, intelligent bots, process automation, custom AI"
+      },
+      "services_aiFundamentals": {
+        "title": "AI Fundamentals Training",
+        "description": "AI courses and workshops for business teams. Learn to implement and leverage artificial intelligence in your organization.",
+        "keywords": "AI training, artificial intelligence courses, AI workshops, corporate AI education"
+      },
+      "services_aiWeb3Integration": {
+        "title": "AI & Web3 Integration",
+        "description": "We combine artificial intelligence with Web3 technologies to create decentralized and intelligent solutions.",
+        "keywords": "AI Web3 integration, blockchain AI, decentralized solutions, AI smart contracts"
+      },
+      "services_aiWeb3Training": {
+        "title": "AI & Web3 Training",
+        "description": "Specialized training at the intersection of AI and Web3. Prepare your team for the next generation of technology.",
+        "keywords": "AI Web3 training, blockchain courses, emerging tech education"
+      },
+      "services_businessGrowth": {
+        "title": "Business Growth Tools",
+        "description": "AI-powered tools designed to accelerate your business growth: lead generation, market analysis, and optimization.",
+        "keywords": "business growth AI, business tools, lead generation, sales optimization"
+      },
+      "services_customerExperience": {
+        "title": "AI Customer Experience",
+        "description": "Transform your customer experience with AI: intelligent chatbots, personalization, and 24/7 automated support.",
+        "keywords": "AI customer experience, chatbots, personalization, automated support, intelligent CX"
+      },
+      "services_personalAI": {
+        "title": "Personal AI Assistants",
+        "description": "Custom AI assistants that adapt to your needs, manage tasks, and boost your productivity.",
+        "keywords": "personal AI assistant, AI productivity, smart task management, virtual assistant"
+      },
+      "services_smartInsights": {
+        "title": "Smart Business Insights",
+        "description": "Get actionable insights with AI: predictive analytics, data visualization, and automated reports for better decisions.",
+        "keywords": "smart analytics, AI business intelligence, predictive analytics, automated reports"
+      },
+      "services_smartBusiness": {
+        "title": "Smart Business Solutions",
+        "description": "Comprehensive AI solutions for enterprises: process optimization, decision-making, and digital transformation.",
+        "keywords": "AI business solutions, digital transformation, process optimization, enterprise AI"
+      },
+      "services_smartContent": {
+        "title": "Smart Content Creation",
+        "description": "Generate high-quality content with AI: text, images, videos, and automated content strategies.",
+        "keywords": "AI content creation, content generation, AI marketing, automated content"
+      },
+      "services_smartAutomation": {
+        "title": "Smart Work Automation",
+        "description": "Automate workflows with AI: eliminate repetitive tasks, reduce errors, and increase your team's efficiency.",
+        "keywords": "AI work automation, smart workflows, operational efficiency, intelligent RPA"
+      },
+      "services_web3": {
+        "title": "Web3 Development",
+        "description": "Web3 application development: smart contracts, DApps, tokenization, and custom blockchain solutions.",
+        "keywords": "Web3 development, smart contracts, DApps, blockchain, tokenization"
+      },
+      "docs": {
+        "title": "Documentation",
+        "description": "WAZA technical documentation: guides, APIs, tutorials, and resources to integrate our AI solutions.",
+        "keywords": "WAZA documentation, API docs, technical guides, AI tutorials"
+      },
+      "docs_aiAgents": {
+        "title": "AI Agents Documentation",
+        "description": "Complete guide to configure, customize, and deploy AI agents with the WAZA platform.",
+        "keywords": "AI agents docs, configuration guide, agent deployment, agents API"
+      },
+      "docs_api": {
+        "title": "API Documentation",
+        "description": "Complete WAZA API reference: endpoints, authentication, usage examples, and available SDKs.",
+        "keywords": "WAZA API, API reference, endpoints, SDK, integration"
+      },
+      "docs_businessSolutions": {
+        "title": "Business Solutions - Docs",
+        "description": "WAZA business solutions documentation: implementation, configuration, and best practices.",
+        "keywords": "business solutions docs, implementation, configuration, best practices"
+      },
+      "docs_gettingStarted": {
+        "title": "Getting Started",
+        "description": "Quick start guide with WAZA: initial setup, first steps, and how to leverage our AI tools.",
+        "keywords": "getting started WAZA, quick start guide, initial setup, basic tutorial"
+      },
+      "docs_web3": {
+        "title": "Web3 Documentation",
+        "description": "Web3 development documentation with WAZA: smart contracts, blockchain integrations, and deployment guides.",
+        "keywords": "Web3 docs, smart contracts, blockchain, Web3 deployment guide"
+      }
+    }
+  }
+}

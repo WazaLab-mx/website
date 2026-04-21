@@ -1,0 +1,88 @@
+{
+  "home": {
+    "hero": {
+      "skipLink": "Skip to main content",
+      "ariaLabel": "Hero section - WAZA",
+      "title": "Practical AI for businesses that never stop.",
+      "scroll": "Scroll"
+    },
+    "pillars": {
+      "eyebrow": "What we do",
+      "title": "Tools that work. Teams that ship.",
+      "items": {
+        "0": {
+          "title": "Products in production",
+          "description": "AI that delivers outcomes, not demos."
+        },
+        "1": {
+          "title": "Tailored development",
+          "description": "If it doesn't exist, we build it. If it does, we adapt it."
+        },
+        "2": {
+          "title": "Practical training",
+          "description": "Your team masters the tools, not the other way around."
+        }
+      }
+    },
+    "impact": {
+      "eyebrow": "Why teams pick us",
+      "title": "Real AI. Real outcomes.",
+      "items": {
+        "0": {
+          "value": "End-to-end",
+          "label": "From concept to production"
+        },
+        "1": {
+          "value": "< 30d",
+          "label": "From kickoff to first deploy"
+        },
+        "2": {
+          "value": "100%",
+          "label": "Focus on practical AI"
+        }
+      }
+    },
+    "work": {
+      "eyebrow": "Selected work",
+      "title": "Built for scale.",
+      "viewAll": "All projects",
+      "items": {
+        "0": {
+          "description": "A digital home for expats and locals in San Luis Potosí."
+        },
+        "1": {
+          "description": "Beauty services and products, curated and local."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "How we work",
+      "title": "Three ways to partner with us.",
+      "items": {
+        "0": {
+          "title": "Build",
+          "description": "Custom AI products and tools, designed and shipped end-to-end for your business."
+        },
+        "1": {
+          "title": "Train",
+          "description": "Hands-on workshops so your team owns the tools and keeps shipping."
+        },
+        "2": {
+          "title": "Partner",
+          "description": "Ongoing collaboration to scale what works and launch what's next."
+        }
+      }
+    },
+    "tool": {
+      "eyebrow": "Free tool",
+      "title": "Is your business ready for AI?",
+      "description": "A 10-question calculator. Personalized ROI report in under 2 minutes.",
+      "button": "Try the calculator"
+    },
+    "cta": {
+      "title": "Let's build something.",
+      "description": "Tell us what you need. We'll show you what's possible.",
+      "button": "Start a project"
+    }
+  }
+}

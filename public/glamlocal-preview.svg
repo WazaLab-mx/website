@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#2d1b3d"/>
+  <g fill="#FF2E63" opacity="0.15">
+    <circle cx="400" cy="315" r="110"/>
+    <circle cx="800" cy="315" r="110"/>
+    <ellipse cx="600" cy="315" rx="190" ry="190"/>
+  </g>
+  <g fill="#FFD700" opacity="0.12">
+    <circle cx="600" cy="170" r="75"/>
+    <circle cx="600" cy="460" r="55"/>
+  </g>
+  <g fill="#FF2E63" opacity="0.08">
+    <rect x="150" y="240" width="900" height="150" rx="15"/>
+  </g>
+  <text x="600" y="310" font-family="Arial, sans-serif" font-size="72" fill="#FFD700" text-anchor="middle" font-weight="bold">GlamLocal</text>
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="32" fill="#FF2E63" text-anchor="middle">Beauty Services Powered by AI</text>
+  <circle cx="300" cy="200" r="40" fill="#FFD700" opacity="0.3"/>
+  <circle cx="900" cy="430" r="35" fill="#FF2E63" opacity="0.3"/>
+</svg>
+

@@ -1,0 +1,35 @@
+{
+  "projects": {
+    "ui": {
+      "explore": "Explore",
+      "viewDetails": "View Details",
+      "previousProject": "Previous project",
+      "nextProject": "Next project",
+      "scrollForMore": "Scroll for more",
+      "goTo": "Go to {title}"
+    },
+    "cta": {
+      "title": "Ready to Build Your",
+      "titleHighlight": "Next Project",
+      "description": "Let's create something extraordinary together.",
+      "startProject": "Start Your Project",
+      "viewServices": "View Services"
+    },
+    "hero": {
+      "0": {
+        "title": "San Luis Way",
+        "description": "A comprehensive digital platform connecting expatriates and locals in San Luis Potosi. The platform offers curated recommendations, cultural guides, and a trusted network of service providers to help people navigate and integrate into the city's vibrant community.",
+        "tags": ["Local Guide", "Community", "Expat Services"],
+        "image": "/images/project-screenshots/san-luis-way.png",
+        "link": "https://sanluisway.com"
+      },
+      "1": {
+        "title": "GlamLocal",
+        "description": "Find beauty services near you and shop premium products. Discover top-rated spas, salons & beauty services, compare reviews, locations, and discover exclusive product deals -- all in one place. 50,000+ verified reviews.",
+        "tags": ["Beauty Tech", "Local Services", "AI Matching"],
+        "image": "/images/project-screenshots/glamlocal.png",
+        "link": "https://glamlocal.app/"
+      }
+    }
+  }
+}

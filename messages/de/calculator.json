@@ -1,0 +1,59 @@
+{
+  "calculator": {
+    "start": {
+      "title": "Ist Ihr Unternehmen bereit für KI?",
+      "description": "Finden Sie heraus, wie viel Zeit und Geld Sie mit unserem kostenlosen 10-Fragen KI-ROI-Rechner sparen könnten.",
+      "selectIndustry": "1. Wählen Sie Ihre Branche:",
+      "employeeCount": "2. Anzahl der Mitarbeiter",
+      "employeePlaceholder": "z.B., 50",
+      "averageSalary": "3. Durchschnittliches Jahresgehalt ($)",
+      "salaryPlaceholder": "z.B., 65000",
+      "startQuiz": "Quiz starten"
+    },
+    "industries": {
+      "retail": "Einzelhandel / E-Commerce",
+      "healthcare": "Gesundheitswesen",
+      "manufacturing": "Fertigung",
+      "finance": "Finanzen & Versicherungen",
+      "professional": "Professionelle Dienstleistungen",
+      "technology": "Technologie"
+    },
+    "loading": {
+      "analyzing": "Ihre Ergebnisse werden analysiert...",
+      "generating": "Ihr branchenspezifisches Quiz wird erstellt..."
+    },
+    "quiz": {
+      "questionOf": "Frage {current} von {total}"
+    },
+    "email": {
+      "title": "Fast geschafft!",
+      "description": "Geben Sie Ihre E-Mail-Adresse ein, um Ihren personalisierten KI-ROI-Bericht zu sehen.",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "ihre.email@unternehmen.com",
+      "submit": "Meine Ergebnisse anzeigen",
+      "validationError": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "privacy": "Wir respektieren Ihre Privatsphäre. Kein Spam, niemals."
+    },
+    "results": {
+      "title": "Ihr KI-Bereitschaftsbericht",
+      "emailSentTo": "Eine Kopie dieses Berichts wurde an {email} gesendet.",
+      "timeSaved": "Geschätzte monatliche Zeitersparnis (unternehmensweit)",
+      "hours": "{count} Stunden",
+      "monthlySavings": "Geschätzte monatliche Einsparungen",
+      "salaryBasis": "basierend auf Ihren angegebenen Gehaltsdaten",
+      "readinessScore": "Ihr KI-Bereitschaftswert",
+      "readinessExplainer": "Dieser Wert spiegelt das aktuelle Potenzial Ihres Unternehmens wider, KI-Lösungen erfolgreich einzuführen.",
+      "personalizedAnalysis": "Personalisierte Analyse",
+      "ctaTitle": "Bereit, Ihr Unternehmen zu transformieren?",
+      "ctaDescription": "Lassen Sie uns besprechen, wie WAZA Ihnen helfen kann, maßgeschneiderte KI-Lösungen zu implementieren.",
+      "scheduleConsultation": "Beratung vereinbaren",
+      "exploreServices": "Unsere Dienstleistungen entdecken",
+      "retakeQuiz": "Quiz erneut starten"
+    },
+    "error": {
+      "title": "Hoppla! Etwas ist schiefgelaufen.",
+      "missingData": "Fehlende Daten. Bitte starten Sie neu.",
+      "tryAgain": "Erneut versuchen"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "about": {
+    "hero": {
+      "badge": "Our Story",
+      "title": "About",
+      "titleHighlight": "WAZA",
+      "description": "We create practical, functional AI tools to help",
+      "descriptionHighlight": "entrepreneurs and businesses",
+      "descriptionEnd": "be more productive and scale without friction.",
+      "cta": "Explore Our Story"
+    },
+    "origin": {
+      "label": "Genesis",
+      "title": "Our Origin Story",
+      "paragraph1": "WAZA was born from a simple observation: most AI solutions",
+      "paragraph1Highlight": "don't land in the day-to-day of businesses",
+      "paragraph1End": ". They live in demos and presentations, but don't solve real problems.",
+      "paragraph2": "We are a team that blends",
+      "paragraph2Highlight": "ingenuity and technical knowledge",
+      "paragraph2End": "to create tools that work. Ready-to-use products, custom development, and training so your team masters AI instead of depending on it.",
+      "imageAlt": "WAZA team collaborating"
+    },
+    "nameMeaning": {
+      "title": "The Meaning Behind Our Name",
+      "intro": "WAZA is not an acronym. It's a word that exists in several languages, and in each one it means something different:",
+      "japanese": "In Japanese,",
+      "japaneseHighlight": "\"waza\" (技)",
+      "japaneseEnd": "represents technique elevated to art—the mastery of the craftsman",
+      "english": "In English slang, it's a",
+      "englishHighlight": "greeting between friends",
+      "englishEnd": "who understand each other without explanation",
+      "swahili": "In Swahili, it means",
+      "swahiliHighlight": "to imagine what doesn't yet exist",
+      "spanish": "In Spanish, it's",
+      "spanishHighlight": "an inside joke",
+      "spanishEnd": "—something shared between accomplices",
+      "summary": "We are all of that:",
+      "summaryHighlight": "technique, connection, imagination, and a touch of humor",
+      "summaryEnd": ". We blend ingenuity and knowledge to solve problems with solutions that work."
+    },
+    "manifesto": {
+      "label": "Philosophy",
+      "title": "The WAZA Manifesto",
+      "subtitle": "Waza transcends simple definition.",
+      "belief1": "We believe that",
+      "belief1Highlight": "mastery and play",
+      "belief1End": "are not opposing forces—they are complementary. The true master works with such fluency that creation becomes joyful. The expert at play discovers innovations that methodical work alone cannot reveal.",
+      "belief2": "We believe that the pinnacle of user experience is found in",
+      "belief2Highlight": "delight",
+      "belief2End": ". Products should not merely function—they should bring joy. Technology should feel less like a tool and more like an extension of human creativity.",
+      "belief3": "We believe that",
+      "belief3Highlight": "AI and humanity grow stronger together",
+      "belief3End": ". Not as master and servant, but as collaborators in an ongoing dialogue. Each amplifying the other's strengths, each compensating for the other's limitations.",
+      "belief4": "We believe in creating",
+      "belief4Highlight": "worlds, not just products",
+      "belief4End": ". Cohesive ecosystems that evolve and respond. Living systems that grow more valuable and more capable with time.",
+      "belief5": "We are",
+      "belief5Highlight": "craftspeople with a sense of humor",
+      "belief5End": ". We are engineers who dream beyond constraints. We are artists who build with logic and code.",
+      "belief6": "We are creating",
+      "belief6Highlight": "recursively improving systems",
+      "belief6End": "—technology that enhances itself. We are developing companies that will transcend today's giants. We are writing the future, one line of code at a time.",
+      "closing": "We are Waza.",
+      "closingSubtext": "And we're creating a cooler world."
+    },
+    "mission": {
+      "label": "Purpose",
+      "title": "Mission & Vision",
+      "missionTitle": "Our Mission",
+      "missionText": "To transform the digital landscape by creating",
+      "missionHighlight1": "AI-native products",
+      "missionMiddle": "that seamlessly blend technological brilliance with human creativity, pushing the boundaries of what's possible while maintaining a spirit of",
+      "missionHighlight2": "playfulness and craftsmanship",
+      "missionEnd": ".",
+      "visionTitle": "Our Vision",
+      "visionText": "To build a world where",
+      "visionHighlight1": "AI and human intelligence amplify each other",
+      "visionMiddle": ", creating products and companies that exceed traditional growth trajectories while making technology more",
+      "visionHighlight2": "intuitive, effective, and aligned",
+      "visionEnd": "with human values."
+    },
+    "values": {
+      "label": "Principles",
+      "title": "Our Values",
+      "technicalMastery": {
+        "abbr": "TM",
+        "title": "Technical Mastery",
+        "description": "We pursue",
+        "descriptionHighlight": "excellence in our craft",
+        "descriptionEnd": ", refining technical skill to the level of artistry. We build with precision, attention to detail, and deep understanding."
+      },
+      "creativePlayfulness": {
+        "abbr": "CP",
+        "title": "Creative Playfulness",
+        "description": "We approach challenges with a spirit of",
+        "descriptionHighlight": "exploration and joy",
+        "descriptionEnd": ". We believe the most innovative solutions emerge when work feels like play."
+      },
+      "humanAiCollaboration": {
+        "abbr": "HC",
+        "title": "Human-AI Collaboration",
+        "description": "We create technology where",
+        "descriptionHighlight": "human and artificial intelligence enhance each other",
+        "descriptionEnd": ", with each contributing their unique strengths to create outcomes neither could achieve alone."
+      },
+      "kaizen": {
+        "abbr": "KZ",
+        "title": "Kaizen",
+        "description": "We embrace",
+        "descriptionHighlight": "continuous improvement",
+        "descriptionEnd": "in everything we do. Every day, every project, and every interaction is an opportunity to make small, meaningful changes that compound over time."
+      },
+      "recursiveImprovement": {
+        "abbr": "RI",
+        "title": "Recursive Improvement",
+        "description": "We design systems that",
+        "descriptionHighlight": "grow stronger through use",
+        "descriptionEnd": ", continuously evolving and adapting rather than becoming obsolete."
+      },
+      "globalPerspective": {
+        "abbr": "GP",
+        "title": "Global Perspective",
+        "description": "We embrace",
+        "descriptionHighlight": "diverse cultural influences",
+        "descriptionEnd": "and perspectives, recognizing that the richest innovations come from the intersection of different worldviews."
+      }
+    },
+    "approach": {
+      "label": "Methodology",
+      "title": "Our Approach",
+      "imageAlt": "WAZA approach to technology",
+      "aiNative": {
+        "title": "AI-Native Foundation",
+        "description": "Unlike providers that add AI capabilities to existing approaches, WAZA builds with",
+        "descriptionHighlight": "artificial intelligence as a foundational element",
+        "descriptionEnd": ", enabling systems that continuously learn and adapt based on interactions."
+      },
+      "technicalCreative": {
+        "title": "Technical-Creative Fusion",
+        "description": "In contrast to the industry's typical separation of technical and creative concerns, WAZA",
+        "descriptionHighlight": "integrates these dimensions from the outset",
+        "descriptionEnd": ", creating solutions that are both technically excellent and emotionally engaging."
+      },
+      "selfRecursive": {
+        "title": "Self-Recursive Improvement",
+        "description": "While conventional solutions require ongoing maintenance and eventual replacement, WAZA creates",
+        "descriptionHighlight": "systems designed to improve themselves",
+        "descriptionEnd": ", delivering increasing value over time rather than depreciation."
+      },
+      "ecosystem": {
+        "title": "Ecosystem Thinking",
+        "description": "Instead of building isolated products or features, WAZA develops",
+        "descriptionHighlight": "cohesive digital ecosystems",
+        "descriptionEnd": "—solutions designed as platforms rather than fixed products, with components that interact to create emergent capabilities."
+      }
+    },
+    "operatingModel": {
+      "title": "Operating Model",
+      "practiceAreas": {
+        "title": "Practice Areas",
+        "description": "Focused teams that partner end-to-end.",
+        "item1": "AI-Native Systems (agents, automation, data)",
+        "item2": "Intelligent Experiences (personalization, UX)",
+        "item3": "Strategy & Enablement (roadmaps, training)"
+      },
+      "waysOfWorking": {
+        "title": "Ways of Working",
+        "description": "Designed for speed, quality, and learning.",
+        "item1": "Outcome-first sprints with measurable KPIs",
+        "item2": "Embedded collaboration with your team",
+        "item3": "Continuous evolution over big rewrites"
+      },
+      "committedOutcomes": {
+        "title": "Committed Outcomes",
+        "description": "Value that compounds through use.",
+        "item1": "Self-improving platforms that get better daily",
+        "item2": "Clear impact on growth, cost, and experience",
+        "item3": "Future-proof foundations, not fragile features"
+      }
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "Let's Talk",
+      "description": "No strings attached. No 45-minute pitch.",
+      "descriptionHighlight": "A conversation to understand if we can help you.",
+      "primaryButton": "Schedule 15 minutes",
+      "secondaryButton": "View solutions"
+    }
+  }
+}

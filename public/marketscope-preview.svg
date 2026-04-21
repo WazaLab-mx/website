@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#0F172A"/>
+
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E293B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F172A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#grad1)"/>
+
+  <!-- Grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.3"/>
+  </pattern>
+  <rect width="800" height="450" fill="url(#grid)"/>
+
+  <!-- Main search card -->
+  <g transform="translate(50, 30)">
+    <rect width="400" height="390" rx="16" fill="#1E293B" opacity="0.9"/>
+
+    <!-- Header -->
+    <rect width="400" height="60" rx="16" fill="url(#grad2)" opacity="0.2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F1F5F9">MarketScope</text>
+    <text x="155" y="38" font-family="Arial, sans-serif" font-size="12" fill="#8B5CF6">Market Research</text>
+
+    <!-- Search inputs -->
+    <g transform="translate(20, 80)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#94A3B8">SEARCH PARAMETERS</text>
+
+      <rect x="0" y="15" width="360" height="40" rx="8" fill="#0F172A"/>
+      <text x="12" y="40" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Niche: "dental clinics"</text>
+
+      <rect x="0" y="65" width="170" height="40" rx="8" fill="#0F172A"/>
+      <text x="12" y="90" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Location: Austin, TX</text>
+
+      <rect x="185" y="65" width="175" height="40" rx="8" fill="#0F172A"/>
+      <text x="197" y="90" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Radius: 25 km</text>
+    </g>
+
+    <!-- Results summary -->
+    <g transform="translate(20, 200)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#94A3B8">RESULTS FOUND</text>
+
+      <rect x="0" y="15" width="115" height="65" rx="10" fill="#6366F1" opacity="0.15"/>
+      <text x="16" y="42" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#6366F1">47</text>
+      <text x="16" y="62" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Businesses</text>
+
+      <rect x="125" y="15" width="115" height="65" rx="10" fill="#10B981" opacity="0.15"/>
+      <text x="141" y="42" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#10B981">4.3</text>
+      <text x="141" y="62" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Avg Rating</text>
+
+      <rect x="250" y="15" width="110" height="65" rx="10" fill="#F59E0B" opacity="0.15"/>
+      <text x="266" y="42" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#F59E0B">2.1K</text>
+      <text x="266" y="62" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Reviews</text>
+    </g>
+
+    <!-- Business list preview -->
+    <g transform="translate(20, 300)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#94A3B8">TOP COMPETITORS</text>
+
+      <rect x="0" y="15" width="360" height="35" rx="6" fill="#0F172A" opacity="0.8"/>
+      <text x="12" y="37" font-family="Arial, sans-serif" font-size="12" fill="#F1F5F9">Smile Dental Care</text>
+      <text x="280" y="37" font-family="Arial, sans-serif" font-size="12" fill="#F59E0B">4.8 &#9733;</text>
+      <text x="320" y="37" font-family="Arial, sans-serif" font-size="11" fill="#64748B">342</text>
+
+      <rect x="0" y="55" width="360" height="35" rx="6" fill="#0F172A" opacity="0.8"/>
+      <text x="12" y="77" font-family="Arial, sans-serif" font-size="12" fill="#F1F5F9">Austin Family Dentistry</text>
+      <text x="280" y="77" font-family="Arial, sans-serif" font-size="12" fill="#F59E0B">4.6 &#9733;</text>
+      <text x="320" y="77" font-family="Arial, sans-serif" font-size="11" fill="#64748B">287</text>
+    </g>
+  </g>
+
+  <!-- Sentiment Analysis panel -->
+  <g transform="translate(480, 30)">
+    <rect width="280" height="200" rx="16" fill="#1E293B" opacity="0.9"/>
+
+    <rect width="280" height="50" rx="16" fill="url(#grad3)" opacity="0.2"/>
+    <text x="20" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#F1F5F9">Sentiment Analysis</text>
+
+    <!-- Sentiment bars -->
+    <g transform="translate(20, 70)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Positive</text>
+      <rect x="60" y="-12" width="180" height="18" rx="4" fill="#0F172A"/>
+      <rect x="60" y="-12" width="135" height="18" rx="4" fill="#10B981" opacity="0.6"/>
+      <text x="200" y="2" font-family="Arial, sans-serif" font-size="11" fill="#10B981">75%</text>
+
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Neutral</text>
+      <rect x="60" y="23" width="180" height="18" rx="4" fill="#0F172A"/>
+      <rect x="60" y="23" width="36" height="18" rx="4" fill="#64748B" opacity="0.6"/>
+      <text x="200" y="37" font-family="Arial, sans-serif" font-size="11" fill="#64748B">20%</text>
+
+      <text x="0" y="70" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Negative</text>
+      <rect x="60" y="58" width="180" height="18" rx="4" fill="#0F172A"/>
+      <rect x="60" y="58" width="9" height="18" rx="4" fill="#EF4444" opacity="0.6"/>
+      <text x="205" y="72" font-family="Arial, sans-serif" font-size="11" fill="#EF4444">5%</text>
+    </g>
+
+    <!-- Keywords -->
+    <g transform="translate(20, 160)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#94A3B8">TOP KEYWORDS</text>
+      <rect x="0" y="10" width="60" height="22" rx="4" fill="#10B981" opacity="0.2"/>
+      <text x="8" y="25" font-family="Arial, sans-serif" font-size="9" fill="#10B981">friendly</text>
+      <rect x="68" y="10" width="70" height="22" rx="4" fill="#10B981" opacity="0.2"/>
+      <text x="76" y="25" font-family="Arial, sans-serif" font-size="9" fill="#10B981">professional</text>
+      <rect x="146" y="10" width="45" height="22" rx="4" fill="#10B981" opacity="0.2"/>
+      <text x="154" y="25" font-family="Arial, sans-serif" font-size="9" fill="#10B981">clean</text>
+    </g>
+  </g>
+
+  <!-- Export panel -->
+  <g transform="translate(480, 250)">
+    <rect width="280" height="170" rx="16" fill="#1E293B" opacity="0.9"/>
+
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#94A3B8">EXPORT DATA</text>
+
+    <g transform="translate(20, 50)">
+      <rect width="115" height="45" rx="8" fill="#EF4444" opacity="0.2"/>
+      <text x="45" y="30" font-family="Arial, sans-serif" font-size="14" fill="#EF4444">PDF</text>
+
+      <rect x="125" y="0" width="115" height="45" rx="8" fill="#10B981" opacity="0.2"/>
+      <text x="168" y="30" font-family="Arial, sans-serif" font-size="14" fill="#10B981">CSV</text>
+    </g>
+
+    <!-- AI Badge -->
+    <g transform="translate(20, 115)">
+      <rect width="240" height="40" rx="20" fill="url(#grad2)" opacity="0.2"/>
+      <circle cx="30" cy="20" r="10" fill="#6366F1">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="50" y="26" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#8B5CF6">Powered by AI Analysis</text>
+    </g>
+  </g>
+
+  <!-- Decorative elements -->
+  <circle cx="750" cy="80" r="50" fill="#6366F1" opacity="0.05"/>
+  <circle cx="50" cy="420" r="30" fill="#8B5CF6" opacity="0.05"/>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="445" width="800" height="5" fill="url(#grad2)" opacity="0.3"/>
+</svg>

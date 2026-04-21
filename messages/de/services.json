@@ -1,0 +1,327 @@
+{
+  "services": {
+    "banner": {
+      "text": "Wir haben unser Betriebsmodell aktualisiert, um Ergebnisse besser mit der Lieferung abzustimmen. Erfahren Sie, wie wir arbeiten unter",
+      "link": "Über uns → Betriebsmodell"
+    },
+    "hero": {
+      "badge": "KI-Native Technologie",
+      "title": "Unsere Dienstleistungen",
+      "description": "Entdecken Sie, wie WAZAs KI-native Technologie Ihr Unternehmen mit unserem umfassenden Dienstleistungsangebot transformieren kann.",
+      "cta": "Loslegen"
+    },
+    "grid": {
+      "title": "Wie Wir Ihrem Unternehmen Helfen Können",
+      "description": "Intelligente Lösungen, die lernen und sich mit der Zeit verbessern, und Ihr Unternehmen jeden Tag effizienter und erfolgreicher machen.",
+      "learnMore": "Mehr Erfahren",
+      "whatYouGet": "Was Sie Bekommen:",
+      "items": {
+        "0": {
+          "title": "Intelligente Geschäftslösungen",
+          "description": "Wir erstellen intelligente Systeme, die Ihr Unternehmen verstehen und es besser funktionieren lassen. Wie ein super-intelligenter Assistent, der Ihre Vorlieben lernt und jeden Tag besser wird.",
+          "features": {
+            "0": "Systeme, die Ihre Geschäftsanforderungen lernen",
+            "1": "Automatische Verbesserungen im Laufe der Zeit",
+            "2": "Einfach zu bedienende intelligente Funktionen",
+            "3": "Zeitsparende Automatisierung"
+          }
+        },
+        "1": {
+          "title": "Persönliche KI-Assistenten",
+          "description": "Stellen Sie sich einen intelligenten Assistenten vor, der genau weiß, wie Sie Dinge erledigt haben möchten. Unsere KI-Assistenten lernen Ihre Vorlieben und machen Ihre Arbeit einfacher und effizienter.",
+          "features": {
+            "0": "Personalisierte Hilfe für Ihre Bedürfnisse",
+            "1": "Intelligentes Aufgabenmanagement",
+            "2": "Hilfreiche Vorschläge und Erinnerungen",
+            "3": "Einfache Kommunikation und Unterstützung"
+          }
+        },
+        "2": {
+          "title": "Intelligente Content-Erstellung",
+          "description": "Lassen Sie KI Ihnen helfen, großartige Inhalte für Ihr Unternehmen zu erstellen. Von Social-Media-Posts bis hin zu Marketingmaterialien lernen unsere Tools Ihren Stil und helfen Ihnen, Inhalte zu erstellen, die Ihr Publikum ansprechen.",
+          "features": {
+            "0": "Inhalte, die zu Ihrer Marke passen",
+            "1": "Auf Ihr Publikum zugeschnittene Ideen",
+            "2": "Zeitsparende Content-Tools",
+            "3": "Einfach zu bedienende Erstellungstools"
+          }
+        },
+        "3": {
+          "title": "Kundenerlebnis-Verbesserung",
+          "description": "Machen Sie Ihre Kunden glücklicher mit personalisierten Erlebnissen. Unsere Tools lernen, was Ihre Kunden mögen, und helfen Ihnen, besseren Service zu bieten, der sie immer wieder zurückkommen lässt.",
+          "features": {
+            "0": "Personalisierter Kundenservice",
+            "1": "Intelligente Kundeneinblicke",
+            "2": "Bessere Kundenzufriedenheit",
+            "3": "Einfach zu bedienende Kundentools"
+          }
+        },
+        "4": {
+          "title": "Unternehmenswachstums-Tools",
+          "description": "Tools, die Ihrem Unternehmen helfen, intelligenter und stärker zu wachsen. Unsere Systeme lernen aus Ihren Geschäftsabläufen und helfen Ihnen, bessere Entscheidungen für anhaltenden Erfolg zu treffen.",
+          "features": {
+            "0": "Intelligente Geschäftseinblicke",
+            "1": "Wachstumsempfehlungen",
+            "2": "Leistungsüberwachung",
+            "3": "Leicht verständliche Berichte"
+          }
+        },
+        "5": {
+          "title": "Intelligente Geschäftseinblicke",
+          "description": "Erhalten Sie hilfreiche Einblicke in die Zukunft Ihres Unternehmens. Unsere Tools analysieren Ihre Geschäftsdaten und helfen Ihnen, kluge Entscheidungen zu treffen, indem sie zeigen, was als nächstes passieren könnte.",
+          "features": {
+            "0": "Vorhersagen zukünftiger Trends",
+            "1": "Geschäftsaktualisierungen in Echtzeit",
+            "2": "Intelligente Empfehlungen",
+            "3": "Leicht lesbare Berichte"
+          }
+        },
+        "6": {
+          "title": "Intelligente Arbeitsautomatisierung",
+          "description": "Lassen Sie KI Ihre Routineaufgaben erledigen, während Sie sich auf das Wachstum Ihres Unternehmens konzentrieren. Unsere Automatisierungstools lernen Ihre Prozesse und machen Ihre Arbeit einfacher und effizienter.",
+          "features": {
+            "0": "Zeitsparende Automatisierung",
+            "1": "Intelligentes Aufgabenmanagement",
+            "2": "Einfache Prozessabwicklung",
+            "3": "Hilfreiche Fortschrittsmeldungen"
+          }
+        },
+        "7": {
+          "title": "KI-Agenten-Entwicklung",
+          "description": "Maßgeschneiderte KI-Agenten für Ihre spezifischen Geschäftsanforderungen. Wir entwickeln intelligente Agenten, die lernen, sich anpassen und Ihre Abläufe durch kontinuierliche Interaktion und Verbesserung optimieren.",
+          "features": {
+            "0": "Individuell entwickelte KI-Agenten",
+            "1": "Adaptive Lernsysteme",
+            "2": "Integration mit bestehenden Tools",
+            "3": "Kontinuierliche Optimierung"
+          }
+        },
+        "8": {
+          "title": "Web3-Entwicklungsschulung",
+          "description": "Experten-Blockchain-Entwicklung, Smart-Contract-Programmierung und umfassende Sicherheitsauditierung. Aufbau sicherer und skalierbarer dezentraler Lösungen.",
+          "features": {
+            "0": "Maßgeschneiderte Blockchain-Lösungen",
+            "1": "Smart-Contract-Entwicklung",
+            "2": "Sicherheitsauditierung",
+            "3": "DApp-Architektur und -Design"
+          }
+        },
+        "9": {
+          "title": "KI-Web3-Integrationsschulung",
+          "description": "Kombinieren Sie die Kraft der KI mit Blockchain-Technologie. Wir entwickeln intelligente dezentrale Systeme, die maschinelles Lernen und Smart Contracts für innovative Lösungen nutzen.",
+          "features": {
+            "0": "KI-gestützte Smart Contracts",
+            "1": "Dezentrale KI-Systeme",
+            "2": "ML-Modellintegration",
+            "3": "Intelligente Orakel"
+          }
+        }
+      }
+    },
+    "training": {
+      "badge": "Berufliche Weiterentwicklung",
+      "title": "KI- und Web3-Schulungsprogramme",
+      "description": "Befähigen Sie Ihr Team mit modernsten Fähigkeiten in KI- und Web3-Technologien durch unsere umfassenden Schulungsprogramme.",
+      "learnMore": "Mehr Erfahren",
+      "items": {
+        "0": {
+          "title": "KI-Grundlagen",
+          "description": "Beherrschen Sie die Grundlagen der künstlichen Intelligenz, des maschinellen Lernens und des Deep Learning. Perfekt für Teams, die ihre KI-Reise beginnen.",
+          "features": {
+            "0": "Machine-Learning-Grundlagen",
+            "1": "Neuronale Netze",
+            "2": "KI-Modellentwicklung",
+            "3": "Praktische Anwendungen"
+          }
+        },
+        "1": {
+          "title": "Web3-Entwicklungsschulung",
+          "description": "Experten-Blockchain-Entwicklung, Smart-Contract-Programmierung und umfassende Sicherheitsauditierung. Aufbau sicherer und skalierbarer dezentraler Lösungen.",
+          "features": {
+            "0": "Maßgeschneiderte Blockchain-Lösungen",
+            "1": "Smart-Contract-Entwicklung",
+            "2": "Sicherheitsauditierung",
+            "3": "DApp-Architektur und -Design"
+          }
+        },
+        "2": {
+          "title": "KI-Web3-Integrationsschulung",
+          "description": "Kombinieren Sie die Kraft der KI mit Blockchain-Technologie. Wir entwickeln intelligente dezentrale Systeme, die maschinelles Lernen und Smart Contracts für innovative Lösungen nutzen.",
+          "whatYouGet": "Was Sie Bekommen:",
+          "features": {
+            "0": "KI-gestützte Smart Contracts",
+            "1": "Dezentrale KI-Systeme",
+            "2": "ML-Modellintegration",
+            "3": "Intelligente Orakel"
+          }
+        },
+        "3": {
+          "title": "KI für Kreative",
+          "description": "Beherrschen Sie modernste KI-Tools für kreative Arbeit. Lernen Sie, Midjourney, ChatGPT, Eleven Labs und mehr zu nutzen, um Ihren kreativen Workflow zu verbessern und innovative Inhalte zu produzieren.",
+          "features": {
+            "0": "Fortgeschrittenes Midjourney und Runway",
+            "1": "ChatGPT für kreatives Schreiben",
+            "2": "Sprach-KI mit Eleven Labs",
+            "3": "Lokales Modelltraining"
+          }
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Warum WAZA Wählen",
+      "description": "Unser einzigartiger Ansatz unterscheidet uns in der KI-Technologielandschaft.",
+      "items": {
+        "0": {
+          "title": "KI-Natives Fundament",
+          "description": "Anders als Anbieter, die KI-Fähigkeiten zu bestehenden Ansätzen hinzufügen, bauen wir mit künstlicher Intelligenz als grundlegendem Element."
+        },
+        "1": {
+          "title": "Technisch-Kreative Fusion",
+          "description": "Wir integrieren technische und kreative Dimensionen von Anfang an und schaffen Lösungen, die sowohl technisch exzellent als auch emotional ansprechend sind."
+        },
+        "2": {
+          "title": "Selbst-Rekursive Verbesserung",
+          "description": "Unsere Systeme sind darauf ausgelegt, sich selbst zu verbessern und im Laufe der Zeit steigenden Wert statt Wertminderung zu liefern."
+        }
+      }
+    },
+    "contact": {
+      "title": "Kontaktieren Sie Uns",
+      "description": "Bereit, Ihr Unternehmen mit KI-nativer Technologie zu transformieren? Kontaktieren Sie uns heute, um Ihr Projekt zu besprechen und zu entdecken, wie WAZA Ihnen helfen kann, durch Nutzung stärker zu wachsen.",
+      "email": "info@waza.baby",
+      "location": "CDMX und SLP, Mexiko",
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "Ihr Name",
+        "emailLabel": "E-Mail",
+        "emailPlaceholder": "Ihre E-Mail",
+        "company": "Unternehmen",
+        "companyPlaceholder": "Ihr Unternehmen",
+        "service": "Dienstleistungsinteresse",
+        "servicePlaceholder": "Wählen Sie eine Dienstleistung",
+        "serviceOptions": {
+          "0": "KI-Native Entwicklung",
+          "1": "Maßgeschneiderte KI-Agenten",
+          "2": "Generative KI-Lösungen",
+          "3": "Digitales Erlebnisdesign",
+          "4": "Selbst-Rekursive Systeme",
+          "5": "Prädiktive Analytik",
+          "6": "KI-Gestützte Automatisierung"
+        },
+        "message": "Nachricht",
+        "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt",
+        "submit": "Nachricht Senden"
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihr Unternehmen zu Transformieren?",
+      "description": "Kontaktieren Sie uns heute, um zu besprechen, wie WAZAs KI-native Technologie Ihrer Organisation helfen kann, durch Nutzung stärker zu wachsen.",
+      "button": "Loslegen"
+    },
+    "footer": {
+      "builtBy": "Erstellt von",
+      "sourceCode": "Der Quellcode ist verfügbar auf"
+    },
+    "popups": {
+      "close": "Schließen",
+      "aiFundamentals": {
+        "title": "KI-Grundlagen-Schulung",
+        "courseDetails": "Kursdetails:",
+        "programTitle": "Umfassender KI-Grundlagenkurs",
+        "programDescription": "Ein strukturiertes Programm zum Aufbau einer soliden Grundlage in KI und maschinellem Lernen. Perfekt für technische Teams und Unternehmer, die KI-Lösungen verstehen und implementieren möchten.",
+        "programNote": "Der Kurs kombiniert theoretisches Wissen mit praktischer Übung und stellt sicher, dass die Teilnehmer ihr Gelerntes sofort auf reale Szenarien anwenden können.",
+        "modulesTitle": "Kursmodule:",
+        "modules": {
+          "0": "Einführung in Machine-Learning-Algorithmen",
+          "1": "Deep Learning und Neuronale Netze",
+          "2": "Modelltraining und -bewertung",
+          "3": "KI-Projektimplementierung",
+          "4": "Best Practices und Ethik in der KI"
+        },
+        "duration": "Dauer:",
+        "durationValue": "8 Wochen (4 Stunden/Woche)",
+        "format": "Format:",
+        "formatValue": "Online-Live-Sitzungen + Praktische Workshops",
+        "prerequisites": "Voraussetzungen:",
+        "prerequisitesValue": "Grundlegende Programmierkenntnisse"
+      },
+      "web3Dev": {
+        "title": "Web3-Entwicklungsschulung",
+        "courseDetails": "Kursdetails:",
+        "programTitle": "Professionelles Web3-Entwicklungsprogramm",
+        "programDescription": "Ein intensiver Kurs über Blockchain-Technologie, Smart-Contract-Entwicklung und dezentrale Anwendungsarchitektur. Konzipiert für Entwickler und technische Teams, die in den Web3-Bereich einsteigen.",
+        "programNote": "Die Teilnehmer bauen echte dezentrale Anwendungen und Smart Contracts und sammeln praktische Erfahrung mit aktuellen Web3-Technologien und Best Practices.",
+        "modulesTitle": "Kursmodule:",
+        "modules": {
+          "0": "Grundlagen der Blockchain-Technologie",
+          "1": "Smart-Contract-Entwicklung mit Solidity",
+          "2": "DApp-Architektur und -Entwicklung",
+          "3": "Web3.js- und Ethers.js-Integration",
+          "4": "Sicherheits-Best-Practices"
+        },
+        "duration": "Dauer:",
+        "durationValue": "10 Wochen (6 Stunden/Woche)",
+        "format": "Format:",
+        "formatValue": "Online-Live-Sitzungen + Projektbasiertes Lernen",
+        "prerequisites": "Voraussetzungen:",
+        "prerequisitesValue": "JavaScript-Programmiererfahrung"
+      },
+      "aiWeb3Integration": {
+        "title": "KI-Web3-Integrationsschulung",
+        "courseDetails": "Kursdetails:",
+        "programTitle": "Fortgeschrittener Integrationskurs",
+        "programDescription": "Ein hochmodernes Programm zur Integration von KI- und Blockchain-Technologien. Lernen Sie, intelligente dezentrale Systeme zu bauen, die die Kraft der KI mit der Sicherheit und Transparenz der Blockchain kombinieren.",
+        "programNote": "Dieser fortgeschrittene Kurs behandelt die neuesten Techniken zur Erstellung KI-gestützter Smart Contracts, dezentraler KI-Modelle und blockchainbasierter Machine-Learning-Systeme.",
+        "modulesTitle": "Kursmodule:",
+        "modules": {
+          "0": "KI-Modelle in Blockchain-Umgebungen",
+          "1": "Dezentrales KI-Training und -Inferenz",
+          "2": "Smart-Orakel-Entwicklung und -Integration",
+          "3": "Datenschutzbewahrende KI auf Blockchain",
+          "4": "Fortgeschrittene Systemarchitekturmuster"
+        },
+        "duration": "Dauer:",
+        "durationValue": "12 Wochen (8 Stunden/Woche)",
+        "format": "Format:",
+        "formatValue": "Online-Live-Sitzungen + Fortgeschrittene Projekte",
+        "prerequisites": "Voraussetzungen:",
+        "prerequisitesValue": "KI-Grundlagen- und Web3-Entwicklungskurse oder gleichwertige Erfahrung"
+      },
+      "aiCreatives": {
+        "title": "KI für Kreative - Schulung",
+        "courseDetails": "Kursdetails:",
+        "programTitle": "Kreative KI-Tools Meisterprogramm",
+        "programDescription": "Ein immersiver Kurs für kreative Fachleute in Unterhaltung und Werbung. Lernen Sie, KI-Tools zu nutzen, um Ihren kreativen Workflow zu verbessern und hochmoderne Inhalte zu produzieren.",
+        "programNote": "Von der Bildgenerierung bis zur Sprachsynthese - beherrschen Sie die Tools, die kreative Branchen revolutionieren. Lernen Sie, verschiedene KI-Modelle anzupassen und zu kombinieren, um einzigartige Ergebnisse zu erzielen.",
+        "modulesTitle": "Kursmodule:",
+        "modules": {
+          "0": "Fortgeschrittene Midjourney- und Runway-Techniken",
+          "1": "ChatGPT für kreatives Schreiben und Konzepte",
+          "2": "Sprach-KI mit Eleven Labs",
+          "3": "Lokales Modelltraining und -anpassung",
+          "4": "Integration des kreativen Workflows"
+        },
+        "duration": "Dauer:",
+        "durationValue": "Flexibel (4-40 Stunden)",
+        "format": "Format:",
+        "formatValue": "Online-Live-Sitzungen + Praktische Workshops",
+        "prerequisites": "Voraussetzungen:",
+        "prerequisitesValue": "Grundlegende Kenntnisse kreativer Software"
+      },
+      "aiNative": {
+        "title": "Intelligente Geschäftslösungen",
+        "howItWorks": "So Funktioniert Es:",
+        "exampleTitle": "Beispiel: Ein Intelligenter Restaurant-Helfer",
+        "exampleDescription": "Stellen Sie sich ein System vor, das einem Restaurant hilft, reibungslos zu funktionieren. Es lernt, wann die Stoßzeiten sind, wie viel Essen bestellt werden muss und wie viele Mitarbeiter jeden Tag benötigt werden. Wie ein hilfreicher Manager, der mit der Zeit besser in seinem Job wird!",
+        "exampleNote": "Das System erkennt Muster - zum Beispiel, dass Sie an Regentagen mehr Kunden bekommen, wenn die Leute nicht kochen wollen, oder wie bestimmte Gerichte in verschiedenen Jahreszeiten beliebter sind. Es nutzt diese Informationen, um Ihnen bei der besseren Vorbereitung zu helfen.",
+        "benefitsTitle": "Vorteile, Die Sie Sehen Werden:",
+        "benefits": {
+          "0": "Weniger Lebensmittelverschwendung, weil Sie genau wissen, was Sie bestellen müssen",
+          "1": "Zufriedene Kunden, weil Sie immer vorbereitet sind",
+          "2": "Niedrigere Kosten durch bessere Personalplanung",
+          "3": "Mehr Zeit, um sich auf das Wachstum Ihres Unternehmens zu konzentrieren"
+        }
+      }
+    }
+  }
+}

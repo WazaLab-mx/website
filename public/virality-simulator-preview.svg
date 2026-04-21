@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#252A34"/>
+  <path d="M0 0h1200v630H0z" fill="#252A34"/>
+  <g fill="#FF2E63" opacity="0.1">
+    <circle cx="200" cy="315" r="100"/>
+    <circle cx="600" cy="315" r="150"/>
+    <circle cx="1000" cy="315" r="120"/>
+    <path d="M200 215l400 200M600 165l400 300"/>
+  </g>
+  <text x="600" y="315" font-family="Arial" font-size="48" fill="#FFFFFF" text-anchor="middle">Virality Simulator</text>
+  <text x="600" y="375" font-family="Arial" font-size="24" fill="#08D9D6" text-anchor="middle">AI-Powered Content Analytics</text>
+</svg> 

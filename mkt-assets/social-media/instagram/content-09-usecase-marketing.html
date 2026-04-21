@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAZA - AI for Marketing Teams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            color: #F9F7F7;
+            letter-spacing: -1px;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+        }
+
+        .badge {
+            background: #FF2E63;
+            color: #0D0D0D;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            font-size: 56px;
+            font-weight: 800;
+            color: #F9F7F7;
+            line-height: 1.1;
+            margin-bottom: 60px;
+        }
+
+        .use-cases {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .use-case {
+            background: linear-gradient(135deg, #252A34 0%, #1a1d24 100%);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid rgba(112, 45, 255, 0.15);
+        }
+
+        .icon {
+            width: 48px;
+            height: 48px;
+            background: #702DFF;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            font-size: 24px;
+        }
+
+        .use-case-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #702DFF;
+            margin-bottom: 10px;
+        }
+
+        .use-case-desc {
+            font-size: 16px;
+            font-weight: 400;
+            color: #F9F7F7;
+            opacity: 0.8;
+            line-height: 1.5;
+        }
+
+        .tool-name {
+            font-size: 13px;
+            font-weight: 600;
+            color: #08D9D6;
+            margin-top: 8px;
+        }
+
+        .trusted {
+            background: rgba(255, 46, 99, 0.1);
+            border: 1px solid #FF2E63;
+            border-radius: 12px;
+            padding: 20px 30px;
+            text-align: center;
+        }
+
+        .trusted-text {
+            font-size: 16px;
+            font-weight: 600;
+            color: #FF2E63;
+            line-height: 1.5;
+        }
+
+        .footer {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .watermark {
+            font-size: 18px;
+            font-weight: 500;
+            color: #F9F7F7;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">USE CASE</div>
+    </div>
+
+    <div class="content">
+        <div class="title">AI for Marketing Teams</div>
+
+        <div class="use-cases">
+            <div class="use-case">
+                <div class="icon">📝</div>
+                <div class="use-case-title">Brief Generation</div>
+                <div class="use-case-desc">Create world-class briefs in seconds</div>
+                <div class="tool-name">BriefBoy</div>
+            </div>
+
+            <div class="use-case">
+                <div class="icon">🔍</div>
+                <div class="use-case-title">Ad Research</div>
+                <div class="use-case-desc">Find winning creatives across platforms</div>
+                <div class="tool-name">AdScout</div>
+            </div>
+
+            <div class="use-case">
+                <div class="icon">👥</div>
+                <div class="use-case-title">Buyer Personas</div>
+                <div class="use-case-desc">AI-generated audience profiles</div>
+                <div class="tool-name">BuyerPersonaX</div>
+            </div>
+
+            <div class="use-case">
+                <div class="icon">📈</div>
+                <div class="use-case-title">Virality Prediction</div>
+                <div class="use-case-desc">Simulate content performance before publishing</div>
+            </div>
+        </div>
+
+        <div class="trusted">
+            <div class="trusted-text">Trusted by Leo Burnett Mx & Warner Music Group</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

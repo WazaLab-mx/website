@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAZA - Transformation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            position: relative;
+        }
+
+        .panel {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 60px;
+            position: relative;
+        }
+
+        .panel-left {
+            background: #1a1a1a;
+        }
+
+        .panel-right {
+            background: #0D0D0D;
+        }
+
+        .divider {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #FF2E63 0%, #702DFF 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            box-shadow: 0 0 40px rgba(255, 46, 99, 0.5);
+        }
+
+        .arrow {
+            font-size: 36px;
+            color: #F9F7F7;
+            font-weight: 800;
+        }
+
+        .panel-title {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 60px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .panel-left .panel-title {
+            color: #888;
+        }
+
+        .panel-right .panel-title {
+            color: #08D9D6;
+        }
+
+        .feature-list {
+            list-style: none;
+            width: 100%;
+        }
+
+        .feature-item {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 32px;
+            padding-left: 40px;
+            position: relative;
+            line-height: 1.4;
+        }
+
+        .panel-left .feature-item {
+            color: #666;
+        }
+
+        .panel-left .feature-item::before {
+            content: '✕';
+            position: absolute;
+            left: 0;
+            color: #444;
+            font-weight: 700;
+        }
+
+        .panel-right .feature-item {
+            color: #F9F7F7;
+        }
+
+        .panel-right .feature-item::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #FF2E63;
+            font-weight: 700;
+            font-size: 28px;
+        }
+
+        .watermark {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            font-weight: 700;
+            color: #F9F7F7;
+            opacity: 0.8;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel panel-left">
+            <h2 class="panel-title">Without AI</h2>
+            <ul class="feature-list">
+                <li class="feature-item">Manual processes</li>
+                <li class="feature-item">Guesswork decisions</li>
+                <li class="feature-item">Scaling bottlenecks</li>
+                <li class="feature-item">Generic tools</li>
+            </ul>
+        </div>
+
+        <div class="panel panel-right">
+            <h2 class="panel-title">With WAZA</h2>
+            <ul class="feature-list">
+                <li class="feature-item">Automated workflows</li>
+                <li class="feature-item">Data-driven insights</li>
+                <li class="feature-item">Seamless scaling</li>
+                <li class="feature-item">Tailored solutions</li>
+            </ul>
+        </div>
+
+        <div class="divider">
+            <span class="arrow">→</span>
+        </div>
+
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

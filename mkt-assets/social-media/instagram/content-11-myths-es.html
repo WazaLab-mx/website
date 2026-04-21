@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAZA - AI Myths vs. Reality</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            background: #0D0D0D;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            color: #F9F7F7;
+            letter-spacing: -1px;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            width: 12px;
+            height: 12px;
+            background: #FF2E63;
+            border-radius: 50%;
+        }
+
+        .badge {
+            background: #702DFF;
+            color: #F9F7F7;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            font-size: 56px;
+            font-weight: 800;
+            color: #F9F7F7;
+            line-height: 1.1;
+            margin-bottom: 60px;
+        }
+
+        .myths-list {
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+
+        .myth-item {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .myth {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .myth-icon {
+            width: 32px;
+            height: 32px;
+            background: #FF2E63;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .myth-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #FF2E63;
+            text-decoration: line-through;
+            opacity: 0.7;
+        }
+
+        .reality {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding-left: 44px;
+        }
+
+        .arrow {
+            font-size: 24px;
+            color: #08D9D6;
+        }
+
+        .reality-text {
+            font-size: 20px;
+            font-weight: 700;
+            color: #08D9D6;
+            line-height: 1.4;
+        }
+
+        .footer {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .watermark {
+            font-size: 18px;
+            font-weight: 500;
+            color: #F9F7F7;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">WAZA.</div>
+        <div class="badge">DESTRUYENDO MITOS</div>
+    </div>
+
+    <div class="content">
+        <div class="title">Mitos vs. Realidad de la IA</div>
+
+        <div class="myths-list">
+            <div class="myth-item">
+                <div class="myth">
+                    <div class="myth-icon">✕</div>
+                    <div class="myth-text">La IA reemplazará a los desarrolladores</div>
+                </div>
+                <div class="reality">
+                    <div class="arrow">→</div>
+                    <div class="reality-text">La IA hace a los desarrolladores 10x más productivos</div>
+                </div>
+            </div>
+
+            <div class="myth-item">
+                <div class="myth">
+                    <div class="myth-icon">✕</div>
+                    <div class="myth-text">Necesitas millones para implementar IA</div>
+                </div>
+                <div class="reality">
+                    <div class="arrow">→</div>
+                    <div class="reality-text">Empieza con $0 usando herramientas open-source</div>
+                </div>
+            </div>
+
+            <div class="myth-item">
+                <div class="myth">
+                    <div class="myth-icon">✕</div>
+                    <div class="myth-text">La IA es solo para grandes empresas</div>
+                </div>
+                <div class="reality">
+                    <div class="arrow">→</div>
+                    <div class="reality-text">Los pequeños negocios se benefician más</div>
+                </div>
+            </div>
+
+            <div class="myth-item">
+                <div class="myth">
+                    <div class="myth-icon">✕</div>
+                    <div class="myth-text">Las soluciones de IA son genéricas</div>
+                </div>
+                <div class="reality">
+                    <div class="arrow">→</div>
+                    <div class="reality-text">La mejor IA se construye para TU flujo de trabajo</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="watermark">waza.baby</div>
+    </div>
+</body>
+</html>

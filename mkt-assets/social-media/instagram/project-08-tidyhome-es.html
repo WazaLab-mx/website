@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAZA - TidyHome Project Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            width: 1080px;
+            height: 1080px;
+            background: linear-gradient(135deg, #0D0D0D 0%, #1a1a1a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .accent-circle {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.15;
+        }
+
+        .accent-1 {
+            width: 400px;
+            height: 400px;
+            background: #FF2E63;
+            top: -100px;
+            right: -100px;
+        }
+
+        .accent-2 {
+            width: 350px;
+            height: 350px;
+            background: #08D9D6;
+            bottom: -80px;
+            left: -80px;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            padding: 70px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 50px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: #F9F7F7;
+        }
+
+        .logo-dot {
+            width: 8px;
+            height: 8px;
+            background: #FF2E63;
+            border-radius: 50%;
+        }
+
+        .tagline {
+            font-size: 13px;
+            font-weight: 400;
+            color: rgba(249, 247, 247, 0.5);
+            margin-left: auto;
+            letter-spacing: 0.3px;
+        }
+
+        .project-showcase {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-container {
+            width: 100%;
+            max-width: 750px;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .device-frame {
+            background: linear-gradient(145deg, #252A34, #1a1d26);
+            border-radius: 24px;
+            padding: 20px;
+            box-shadow:
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(249, 247, 247, 0.05),
+                inset 0 1px 0 rgba(249, 247, 247, 0.05);
+        }
+
+        .screenshot {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            display: block;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .project-info {
+            text-align: center;
+            width: 100%;
+            max-width: 750px;
+        }
+
+        .project-title {
+            font-size: 68px;
+            font-weight: 900;
+            color: #F9F7F7;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+            line-height: 1;
+        }
+
+        .project-description {
+            font-size: 22px;
+            font-weight: 400;
+            color: rgba(249, 247, 247, 0.7);
+            line-height: 1.5;
+            margin-bottom: 35px;
+            max-width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .tags {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .tag {
+            padding: 10px 20px;
+            background: rgba(8, 217, 214, 0.1);
+            border: 1px solid rgba(8, 217, 214, 0.3);
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #08D9D6;
+            letter-spacing: 0.3px;
+        }
+
+        .tech-stack {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        .tech-tag {
+            padding: 8px 16px;
+            background: rgba(255, 46, 99, 0.08);
+            border: 1px solid rgba(255, 46, 99, 0.2);
+            border-radius: 16px;
+            font-size: 13px;
+            font-weight: 500;
+            color: #FF2E63;
+            letter-spacing: 0.2px;
+        }
+
+        .project-url {
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            font-weight: 500;
+            color: rgba(249, 247, 247, 0.4);
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="accent-circle accent-1"></div>
+    <div class="accent-circle accent-2"></div>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <span class="logo-text">WAZA</span>
+                <div class="logo-dot"></div>
+            </div>
+            <span class="tagline">Creado por waza.baby</span>
+        </div>
+
+        <div class="project-showcase">
+            <div class="image-container">
+                <div class="device-frame">
+                    <img src="../../../public/images/project-screenshots/planificadordetareasdelhogar.png" alt="TidyHome Screenshot" class="screenshot">
+                </div>
+            </div>
+
+            <div class="project-info">
+                <h1 class="project-title">TidyHome</h1>
+                <p class="project-description">Planificador inteligente de tareas del hogar. Programación y organización impulsada por IA para ayudar a familias a coordinar tareas y mantener rutinas sin esfuerzo.</p>
+
+                <div class="tags">
+                    <span class="tag">Gestión del Hogar</span>
+                    <span class="tag">Planificación de Tareas</span>
+                    <span class="tag">Organización Familiar</span>
+                </div>
+
+                <div class="tech-stack">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">AI Scheduling</span>
+                    <span class="tech-tag">Push Notifications</span>
+                </div>
+
+                <div class="project-url">tidyhome.casa</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

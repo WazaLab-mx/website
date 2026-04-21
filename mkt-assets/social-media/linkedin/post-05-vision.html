@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, height=627">
+    <title>Vision - LinkedIn Post</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            width: 1200px;
+            height: 627px;
+            background: #0D0D0D;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .quote-mark-top {
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            font-size: 200px;
+            font-weight: 900;
+            color: rgba(255, 46, 99, 0.08);
+            line-height: 1;
+            pointer-events: none;
+        }
+
+        .quote-mark-bottom {
+            position: absolute;
+            bottom: 0;
+            right: 60px;
+            font-size: 200px;
+            font-weight: 900;
+            color: rgba(8, 217, 214, 0.08);
+            line-height: 1;
+            pointer-events: none;
+            transform: rotate(180deg);
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            padding: 80px 100px;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            max-width: 900px;
+            text-align: center;
+        }
+
+        .quote {
+            font-size: 40px;
+            font-weight: 700;
+            color: #F9F7F7;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            letter-spacing: -0.5px;
+        }
+
+        .highlight {
+            color: #FF2E63;
+            font-weight: 800;
+        }
+
+        .highlight-cyan {
+            color: #08D9D6;
+            font-weight: 800;
+        }
+
+        .response {
+            font-size: 32px;
+            font-weight: 700;
+            color: #F9F7F7;
+            line-height: 1.4;
+            margin-bottom: 60px;
+            letter-spacing: -0.5px;
+        }
+
+        .separator {
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, #FF2E63 0%, #08D9D6 100%);
+            margin: 0 auto 40px auto;
+            border-radius: 2px;
+        }
+
+        .attribution {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .logo-text {
+            font-size: 32px;
+            font-weight: 900;
+            color: #F9F7F7;
+            letter-spacing: -1px;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background: #FF2E63;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(255, 46, 99, 0.6);
+        }
+
+        .url {
+            font-size: 20px;
+            font-weight: 700;
+            color: #08D9D6;
+            letter-spacing: -0.5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quote-mark-top">"</div>
+    <div class="quote-mark-bottom">"</div>
+
+    <div class="container">
+        <div class="content">
+            <div class="quote">
+                Most AI solutions live in <span class="highlight">demos and presentations</span>.<br>
+                Your business needs <span class="highlight-cyan">results today</span>.
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="response">
+                We build technology that works on day one<br>
+                and improves every day after.
+            </div>
+
+            <div class="attribution">
+                <div class="logo-text">WAZA</div>
+                <div class="dot"></div>
+            </div>
+            <div class="url">waza.baby</div>
+        </div>
+    </div>
+</body>
+</html>

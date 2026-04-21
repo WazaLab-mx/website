@@ -1,0 +1,90 @@
+{
+  "calculator": {
+    "start": {
+      "title": "¿Está tu negocio listo para la IA?",
+      "description": "Descubre cuánto tiempo y dinero podrías ahorrar con nuestra calculadora gratuita de ROI de IA de 10 preguntas.",
+      "selectIndustry": "1. Selecciona tu industria:",
+      "employeeCount": "2. Número de empleados",
+      "employeePlaceholder": "ej., 50",
+      "averageSalary": "3. Salario anual promedio ($)",
+      "salaryPlaceholder": "ej., 65000",
+      "startQuiz": "Iniciar el cuestionario"
+    },
+    "industries": {
+      "retail": "Comercio / E-commerce",
+      "healthcare": "Salud",
+      "manufacturing": "Manufactura",
+      "finance": "Finanzas y Seguros",
+      "professional": "Servicios Profesionales",
+      "technology": "Tecnología"
+    },
+    "loading": {
+      "analyzing": "Analizando tus resultados...",
+      "generating": "Generando tu cuestionario específico de la industria..."
+    },
+    "quiz": {
+      "questionOf": "Pregunta {current} de {total}"
+    },
+    "email": {
+      "title": "¡Ya casi!",
+      "description": "Ingresa tu correo electrónico para ver tu reporte personalizado de ROI de IA.",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu.correo@empresa.com",
+      "submit": "Ver mis resultados",
+      "validationError": "Por favor ingresa un correo electrónico válido.",
+      "privacy": "Respetamos tu privacidad. Sin spam, nunca."
+    },
+    "results": {
+      "title": "Tu reporte de preparación para IA",
+      "emailSentTo": "Una copia de este reporte ha sido enviada a {email}.",
+      "timeSaved": "Tiempo mensual estimado ahorrado (toda la empresa)",
+      "hours": "{count} Horas",
+      "monthlySavings": "Ahorro mensual estimado",
+      "salaryBasis": "basado en los datos salariales proporcionados",
+      "readinessScore": "Tu puntuación de preparación para IA",
+      "readinessExplainer": "Esta puntuación refleja el potencial actual de tu negocio para adoptar soluciones de IA exitosamente.",
+      "personalizedAnalysis": "Análisis personalizado",
+      "ctaTitle": "¿Listo para transformar tu negocio?",
+      "ctaDescription": "Hablemos sobre cómo WAZA puede ayudarte a implementar soluciones de IA adaptadas a tus necesidades.",
+      "scheduleConsultation": "Agendar una consulta",
+      "exploreServices": "Explorar nuestros servicios",
+      "retakeQuiz": "Tomar el cuestionario de nuevo"
+    },
+    "error": {
+      "title": "¡Ups! Algo salió mal.",
+      "missingData": "Datos faltantes. Por favor reinicia.",
+      "tryAgain": "Intentar de nuevo"
+    },
+    "roi": {
+      "badge": "Evaluación de ROI Gratuita",
+      "titlePart1": "¿Cuánto Te Están ",
+      "titleHighlight": "Costando las Tareas Repetitivas",
+      "titlePart2": "?",
+      "description1": "Tu equipo está dedicando incontables horas a tareas que la IA podría manejar en segundos.",
+      "description2": "Responde nuestro cuestionario de 2 minutos para descubrir tus ahorros potenciales.",
+      "timeSavedPercent": "40%",
+      "timeSaved": "Tiempo Ahorrado",
+      "savingsAmount": "$50K+",
+      "annualSavings": "Ahorro Anual",
+      "roiAmount": "3x",
+      "roiYear1": "ROI en Año 1",
+      "calculateSavings": "Calcula tus Ahorros",
+      "noCreditCard": "Sin tarjeta de crédito",
+      "twoMinutes": "2 minutos para completar",
+      "calculatorTitle": "Calculadora de ROI de IA",
+      "discoverPotential": "Descubre tu potencial de automatización",
+      "numEmployees": "Número de empleados",
+      "hoursRepetitive": "Horas en tareas repetitivas/semana",
+      "avgHourlyRate": "Tarifa por hora promedio",
+      "estimatedSavings": "Ahorro Anual Estimado",
+      "revealPotential": "Completa el cuestionario para revelar tu potencial",
+      "startQuizNow": "Iniciar Cuestionario Ahora",
+      "join500": "Únete a más de 500 negocios",
+      "whoDiscovered": "que descubrieron su ROI de IA",
+      "totalSavingsAmount": "$2M+",
+      "totalSavings": "Ahorro total calculado",
+      "consultationPercent": "87%",
+      "proceedConsultation": "Proceden a consulta"
+    }
+  }
+}

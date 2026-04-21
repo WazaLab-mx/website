@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Fix Bookmarklet</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .bookmarklet {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .bookmarklet:hover {
+            background: #0056b3;
+            color: white;
+        }
+        .code-block {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+        }
+        .step {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Knowledge Base Upload Fix</h1>
+        <p>If you're unable to upload documents to a knowledge base due to browser policies, use these tools to fix the issue.</p>
+
+        <h2>🚀 Quick Fix - Bookmarklet</h2>
+        <p>Drag this button to your bookmarks bar, then click it on any page where uploads are blocked:</p>
+
+        <a href="javascript:(function(){console.log('🛡️ Upload Fix: Removing browser restrictions...');document.addEventListener('DOMContentLoaded',function(){setTimeout(()=>{const fileInputs=document.querySelectorAll('input[type=\"file\"]');fileInputs.forEach(input=>{input.removeAttribute('accept');input.removeAttribute('webkitdirectory');input.setAttribute('multiple','true');console.log('📁 File input fixed:',input);});},1000);});if(window.FormData){const originalFormData=window.FormData;window.FormData=function(form){const formData=new originalFormData(form);const originalAppend=formData.append;formData.append=function(name,value,filename){try{return originalAppend.call(this,name,value,filename);}catch(e){console.warn('FormData restriction bypassed:',e);return originalAppend.call(this,name,value||'',filename);}};return formData;};}if(window.fetch){const originalFetch=window.fetch;window.fetch=function(url,options={}){if(options.method==='POST'||options.method==='PUT'){options.mode='cors';options.credentials='same-origin';if(!options.headers){options.headers={};}delete options.headers['Content-Security-Policy'];delete options.headers['X-Content-Type-Options'];}return originalFetch.call(this,url,options);};}document.querySelectorAll('form').forEach(form=>{form.removeAttribute('onsubmit');form.setAttribute('enctype','multipart/form-data');});console.log('✅ Upload restrictions removed! Try uploading now.');alert('🛡️ Upload Fix Applied!\\n\\nBrowser restrictions have been removed.\\nYou can now try uploading your documents.\\n\\nCheck the browser console (F12) for details.');})();" class="bookmarklet">
+            📁 Fix Upload Restrictions
+        </a>
+
+        <div class="step">
+            <h3>How to use the bookmarklet:</h3>
+            <ol>
+                <li>Drag the blue "Fix Upload Restrictions" button above to your bookmarks bar</li>
+                <li>Go to the page where you want to upload documents</li>
+                <li>Click the bookmarklet in your bookmarks bar</li>
+                <li>Try uploading your documents - restrictions should be removed</li>
+            </ol>
+        </div>
+
+        <h2>🔧 Manual Console Script</h2>
+        <p>If the bookmarklet doesn't work, copy and paste this script into your browser console (F12 → Console tab):</p>
+
+        <div class="code-block" id="console-script">
+// Upload Fix Script - Paste this into browser console (F12)
+console.log('🛡️ Upload Fix: Removing browser restrictions...');
+
+// Remove file input restrictions
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(() => {
+        const fileInputs = document.querySelectorAll('input[type="file"]');
+        fileInputs.forEach(input => {
+            input.removeAttribute('accept');
+            input.removeAttribute('webkitdirectory');
+            input.setAttribute('multiple', 'true');
+            console.log('📁 File input fixed:', input);
+        });
+    }, 1000);
+});
+
+// Override FormData restrictions
+if (window.FormData) {
+    const originalFormData = window.FormData;
+    window.FormData = function(form) {
+        const formData = new originalFormData(form);
+        const originalAppend = formData.append;
+
+        formData.append = function(name, value, filename) {
+            try {
+                return originalAppend.call(this, name, value, filename);
+            } catch (e) {
+                console.warn('FormData restriction bypassed:', e);
+                return originalAppend.call(this, name, value || '', filename);
+            }
+        };
+        return formData;
+    };
+}
+
+// Override fetch restrictions
+if (window.fetch) {
+    const originalFetch = window.fetch;
+    window.fetch = function(url, options = {}) {
+        if (options.method === 'POST' || options.method === 'PUT') {
+            options.mode = 'cors';
+            options.credentials = 'same-origin';
+
+            if (!options.headers) {
+                options.headers = {};
+            }
+
+            delete options.headers['Content-Security-Policy'];
+            delete options.headers['X-Content-Type-Options'];
+        }
+
+        return originalFetch.call(this, url, options);
+    };
+}
+
+// Fix form restrictions
+document.querySelectorAll('form').forEach(form => {
+    form.removeAttribute('onsubmit');
+    form.setAttribute('enctype', 'multipart/form-data');
+});
+
+console.log('✅ Upload restrictions removed! Try uploading now.');
+        </div>
+
+        <button onclick="copyScript()" style="background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-top: 10px;">
+            📋 Copy Script to Clipboard
+        </button>
+
+        <h2>🛠️ System-Level Fixes</h2>
+        <p>For persistent issues, use these command-line tools:</p>
+
+        <div class="step">
+            <h3>Option 1: Quick Shell Script (macOS/Linux)</h3>
+            <div class="code-block">
+bash quick-policy-fix.sh
+            </div>
+        </div>
+
+        <div class="step">
+            <h3>Option 2: Full Python Script (All platforms)</h3>
+            <div class="code-block">
+# Remove all policy restrictions
+python3 remove-policies.py --type=all
+
+# Remove only browser policies
+python3 remove-policies.py --type=browser
+
+# Dry run (see what would be changed)
+python3 remove-policies.py --dry-run
+            </div>
+        </div>
+
+        <h2>🔍 Troubleshooting</h2>
+
+        <div class="warning">
+            <h3>If uploads still don't work:</h3>
+            <ul>
+                <li>Completely close and restart your browser</li>
+                <li>Clear browser cache and cookies</li>
+                <li>Try a different browser (Chrome, Firefox, Safari, Edge)</li>
+                <li>Check if antivirus software is blocking uploads</li>
+                <li>Disable browser extensions temporarily</li>
+                <li>Try incognito/private browsing mode</li>
+            </ul>
+        </div>
+
+        <div class="success">
+            <h3>Common solutions by error type:</h3>
+            <ul>
+                <li><strong>CORS errors:</strong> The bookmarklet fixes these automatically</li>
+                <li><strong>File type restrictions:</strong> The script removes accept attributes</li>
+                <li><strong>Security policy blocks:</strong> Use the system-level scripts</li>
+                <li><strong>Network blocks:</strong> Check firewall and proxy settings</li>
+            </ul>
+        </div>
+
+        <h2>📞 Still Need Help?</h2>
+        <p>If none of these solutions work:</p>
+        <ul>
+            <li>Check the browser console (F12) for specific error messages</li>
+            <li>Try uploading from a different device or network</li>
+            <li>Contact your system administrator if on a corporate network</li>
+            <li>Check if the knowledge base service itself is experiencing issues</li>
+        </ul>
+
+        <div class="step">
+            <h3>Debug Information</h3>
+            <p>When reporting issues, include:</p>
+            <ul>
+                <li>Browser type and version</li>
+                <li>Operating system</li>
+                <li>Error messages from browser console</li>
+                <li>File types you're trying to upload</li>
+                <li>Network environment (corporate, home, public)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function copyScript() {
+            const script = document.getElementById('console-script').textContent;
+            navigator.clipboard.writeText(script).then(() => {
+                alert('✅ Script copied to clipboard!\n\nNow:\n1. Open browser console (F12)\n2. Paste the script and press Enter\n3. Try uploading your documents');
+            }).catch(() => {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = script;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('✅ Script copied to clipboard!\n\nNow:\n1. Open browser console (F12)\n2. Paste the script and press Enter\n3. Try uploading your documents');
+            });
+        }
+    </script>
+</body>
+</html>

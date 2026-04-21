@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1080">
+    <title>Claude Code Subagent Generator - WAZA Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1080px;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0D0D0D 0%, #1a1a1a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .accent-glow {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(112, 45, 255, 0.15) 0%, transparent 70%);
+            top: -200px;
+            right: -200px;
+            pointer-events: none;
+        }
+
+        .accent-glow-2 {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(255, 46, 99, 0.1) 0%, transparent 70%);
+            bottom: -150px;
+            left: -150px;
+            pointer-events: none;
+        }
+
+        .container {
+            width: 980px;
+            height: 980px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            color: #F9F7F7;
+        }
+
+        .logo-dot {
+            width: 8px;
+            height: 8px;
+            background: #FF2E63;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(255, 46, 99, 0.6);
+        }
+
+        .tagline {
+            font-size: 13px;
+            color: #888;
+            font-weight: 500;
+        }
+
+        .image-container {
+            width: 100%;
+            height: 420px;
+            margin-bottom: 45px;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow:
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(255, 255, 255, 0.05);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .project-title {
+            font-size: 52px;
+            font-weight: 900;
+            color: #F9F7F7;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+            line-height: 1.1;
+        }
+
+        .project-description {
+            font-size: 22px;
+            color: #aaa;
+            line-height: 1.5;
+            margin-bottom: 35px;
+            font-weight: 500;
+        }
+
+        .tags-section {
+            margin-bottom: 25px;
+        }
+
+        .tags-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            padding: 8px 16px;
+            background: rgba(112, 45, 255, 0.1);
+            border: 1px solid rgba(112, 45, 255, 0.3);
+            border-radius: 20px;
+            font-size: 14px;
+            color: #702DFF;
+            font-weight: 600;
+        }
+
+        .tech-section {
+            margin-bottom: 25px;
+        }
+
+        .tech-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .tech-text {
+            font-size: 16px;
+            color: #08D9D6;
+            font-weight: 500;
+        }
+
+        .url {
+            font-family: 'Courier New', monospace;
+            font-size: 17px;
+            color: #666;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="accent-glow"></div>
+    <div class="accent-glow-2"></div>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <span class="logo-text">WAZA</span>
+                <span class="logo-dot"></span>
+            </div>
+            <span class="tagline">Creado por waza.baby</span>
+        </div>
+
+        <div class="image-container">
+            <img src="../../../public/images/project-screenshots/claude-subagent-generator.png" alt="Claude Code Subagent Generator">
+        </div>
+
+        <div class="content">
+            <div>
+                <h1 class="project-title">Claude Code<br>Subagent Generator</h1>
+                <p class="project-description">Genera subagentes y habilidades optimizados para Claude Code siguiendo las mejores prácticas de Anthropic. Configura agentes personalizados desde plantillas al instante.</p>
+            </div>
+
+            <div>
+                <div class="tags-section">
+                    <div class="tags-label">Enfoque</div>
+                    <div class="tags">
+                        <span class="tag">Herramientas IA</span>
+                        <span class="tag">Claude Code</span>
+                        <span class="tag">Developer Tools</span>
+                    </div>
+                </div>
+
+                <div class="tech-section">
+                    <div class="tech-label">Tech Stack</div>
+                    <div class="tech-text">React, Anthropic API, Claude SDK</div>
+                </div>
+
+                <div class="url">claude-subagent-generator.netlify.app</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

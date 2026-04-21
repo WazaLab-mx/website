@@ -1,0 +1,190 @@
+{
+  "about": {
+    "hero": {
+      "badge": "Nuestra Historia",
+      "title": "Sobre",
+      "titleHighlight": "WAZA",
+      "description": "Creamos herramientas de IA prácticas y funcionales para ayudar a",
+      "descriptionHighlight": "emprendedores y negocios",
+      "descriptionEnd": "a ser más productivos y escalar sin fricción.",
+      "cta": "Explorar Nuestra Historia"
+    },
+    "origin": {
+      "label": "Génesis",
+      "title": "Nuestra Historia de Origen",
+      "paragraph1": "WAZA nació de una observación simple: la mayoría de las soluciones de IA",
+      "paragraph1Highlight": "no aterrizan en el día a día de los negocios",
+      "paragraph1End": ". Viven en demos y presentaciones, pero no resuelven problemas reales.",
+      "paragraph2": "Somos un equipo que mezcla",
+      "paragraph2Highlight": "ingenio y conocimiento técnico",
+      "paragraph2End": "para crear herramientas que funcionan. Productos listos para usar, desarrollo a medida, y capacitación para que tu equipo domine la IA en lugar de depender de ella.",
+      "imageAlt": "Equipo WAZA colaborando"
+    },
+    "nameMeaning": {
+      "title": "El Significado Detrás de Nuestro Nombre",
+      "intro": "WAZA no es un acrónimo. Es una palabra que existe en varios idiomas, y en cada uno significa algo distinto:",
+      "japanese": "En japonés,",
+      "japaneseHighlight": "\"waza\" (技)",
+      "japaneseEnd": "representa técnica elevada a arte—la maestría del artesano",
+      "english": "En inglés slang, es un",
+      "englishHighlight": "saludo entre amigos",
+      "englishEnd": "que se entienden sin explicar",
+      "swahili": "En swahili, significa",
+      "swahiliHighlight": "imaginar lo que todavía no existe",
+      "spanish": "En español, es",
+      "spanishHighlight": "un chiste",
+      "spanishEnd": "—algo que se comparte entre cómplices",
+      "summary": "Somos todo eso:",
+      "summaryHighlight": "técnica, conexión, imaginación y un poco de humor",
+      "summaryEnd": ". Mezclamos ingenio y conocimiento para resolver problemas con soluciones que funcionan."
+    },
+    "manifesto": {
+      "label": "Filosofía",
+      "title": "El Manifiesto WAZA",
+      "subtitle": "Waza trasciende una definición simple.",
+      "belief1": "Creemos que",
+      "belief1Highlight": "la maestría y el juego",
+      "belief1End": "no son fuerzas opuestas—son complementarias. El verdadero maestro trabaja con tal fluidez que la creación se vuelve alegría. El experto en el juego descubre innovaciones que el trabajo metódico por sí solo no puede revelar.",
+      "belief2": "Creemos que la cima de la experiencia de usuario se encuentra en el",
+      "belief2Highlight": "deleite",
+      "belief2End": ". Los productos no solo deben funcionar—deben generar alegría. La tecnología debería sentirse menos como una herramienta y más como una extensión de la creatividad humana.",
+      "belief3": "Creemos que",
+      "belief3Highlight": "la IA y la humanidad crecen más fuertes juntas",
+      "belief3End": ". No como amo y sirviente, sino como colaboradores en un diálogo continuo. Cada uno amplificando las fortalezas del otro, cada uno compensando las limitaciones del otro.",
+      "belief4": "Creemos en crear",
+      "belief4Highlight": "mundos, no solo productos",
+      "belief4End": ". Ecosistemas cohesivos que evolucionan y responden. Sistemas vivos que se vuelven más valiosos y más capaces con el tiempo.",
+      "belief5": "Somos",
+      "belief5Highlight": "artesanos con sentido del humor",
+      "belief5End": ". Somos ingenieros que sueñan más allá de las restricciones. Somos artistas que construyen con lógica y código.",
+      "belief6": "Estamos creando",
+      "belief6Highlight": "sistemas de mejora recursiva",
+      "belief6End": "—tecnología que se mejora a sí misma. Estamos desarrollando empresas que trascenderán a los gigantes de hoy. Estamos escribiendo el futuro, una línea de código a la vez.",
+      "closing": "Somos Waza.",
+      "closingSubtext": "Y estamos creando un mundo más cool."
+    },
+    "mission": {
+      "label": "Propósito",
+      "title": "Misión y Visión",
+      "missionTitle": "Nuestra Misión",
+      "missionText": "Transformar el panorama digital creando",
+      "missionHighlight1": "productos nativos de IA",
+      "missionMiddle": "que combinan brillantez tecnológica con creatividad humana, empujando los límites de lo posible mientras mantenemos un espíritu de",
+      "missionHighlight2": "diversión y artesanía",
+      "missionEnd": ".",
+      "visionTitle": "Nuestra Visión",
+      "visionText": "Construir un mundo donde",
+      "visionHighlight1": "la IA y la inteligencia humana se amplifiquen mutuamente",
+      "visionMiddle": ", creando productos y empresas que superen las trayectorias de crecimiento tradicionales mientras hacen la tecnología más",
+      "visionHighlight2": "intuitiva, efectiva y alineada",
+      "visionEnd": "con los valores humanos."
+    },
+    "values": {
+      "label": "Principios",
+      "title": "Nuestros Valores",
+      "technicalMastery": {
+        "abbr": "TM",
+        "title": "Maestría Técnica",
+        "description": "Perseguimos",
+        "descriptionHighlight": "la excelencia en nuestro oficio",
+        "descriptionEnd": ", refinando la habilidad técnica al nivel de arte. Construimos con precisión, atención al detalle y comprensión profunda."
+      },
+      "creativePlayfulness": {
+        "abbr": "CP",
+        "title": "Diversión Creativa",
+        "description": "Abordamos los desafíos con un espíritu de",
+        "descriptionHighlight": "exploración y alegría",
+        "descriptionEnd": ". Creemos que las soluciones más innovadoras surgen cuando el trabajo se siente como juego."
+      },
+      "humanAiCollaboration": {
+        "abbr": "HC",
+        "title": "Colaboración Humano-IA",
+        "description": "Creamos tecnología donde",
+        "descriptionHighlight": "la inteligencia humana y artificial se potencian mutuamente",
+        "descriptionEnd": ", cada una contribuyendo sus fortalezas únicas para crear resultados que ninguna podría lograr sola."
+      },
+      "kaizen": {
+        "abbr": "KZ",
+        "title": "Kaizen",
+        "description": "Abrazamos la",
+        "descriptionHighlight": "mejora continua",
+        "descriptionEnd": "en todo lo que hacemos. Cada día, cada proyecto y cada interacción es una oportunidad para hacer pequeños cambios significativos que se acumulan con el tiempo."
+      },
+      "recursiveImprovement": {
+        "abbr": "RI",
+        "title": "Mejora Recursiva",
+        "description": "Diseñamos sistemas que",
+        "descriptionHighlight": "se fortalecen con el uso",
+        "descriptionEnd": ", evolucionando y adaptándose continuamente en lugar de volverse obsoletos."
+      },
+      "globalPerspective": {
+        "abbr": "GP",
+        "title": "Perspectiva Global",
+        "description": "Abrazamos",
+        "descriptionHighlight": "influencias culturales diversas",
+        "descriptionEnd": "y perspectivas, reconociendo que las innovaciones más ricas surgen de la intersección de diferentes visiones del mundo."
+      }
+    },
+    "approach": {
+      "label": "Metodología",
+      "title": "Nuestro Enfoque",
+      "imageAlt": "Enfoque de WAZA hacia la tecnología",
+      "aiNative": {
+        "title": "Fundamento Nativo de IA",
+        "description": "A diferencia de proveedores que agregan capacidades de IA a enfoques existentes, WAZA construye con",
+        "descriptionHighlight": "inteligencia artificial como elemento fundacional",
+        "descriptionEnd": ", habilitando sistemas que aprenden y se adaptan continuamente basados en las interacciones."
+      },
+      "technicalCreative": {
+        "title": "Fusión Técnico-Creativa",
+        "description": "En contraste con la separación típica de la industria entre lo técnico y lo creativo, WAZA",
+        "descriptionHighlight": "integra estas dimensiones desde el inicio",
+        "descriptionEnd": ", creando soluciones que son tanto técnicamente excelentes como emocionalmente atractivas."
+      },
+      "selfRecursive": {
+        "title": "Mejora Auto-Recursiva",
+        "description": "Mientras las soluciones convencionales requieren mantenimiento continuo y eventual reemplazo, WAZA crea",
+        "descriptionHighlight": "sistemas diseñados para mejorarse a sí mismos",
+        "descriptionEnd": ", entregando valor creciente con el tiempo en lugar de depreciación."
+      },
+      "ecosystem": {
+        "title": "Pensamiento de Ecosistema",
+        "description": "En lugar de construir productos o funcionalidades aisladas, WAZA desarrolla",
+        "descriptionHighlight": "ecosistemas digitales cohesivos",
+        "descriptionEnd": "—soluciones diseñadas como plataformas en lugar de productos fijos, con componentes que interactúan para crear capacidades emergentes."
+      }
+    },
+    "operatingModel": {
+      "title": "Modelo Operativo",
+      "practiceAreas": {
+        "title": "Áreas de Práctica",
+        "description": "Equipos enfocados que colaboran de principio a fin.",
+        "item1": "Sistemas Nativos de IA (agentes, automatización, datos)",
+        "item2": "Experiencias Inteligentes (personalización, UX)",
+        "item3": "Estrategia y Habilitación (hojas de ruta, capacitación)"
+      },
+      "waysOfWorking": {
+        "title": "Formas de Trabajo",
+        "description": "Diseñado para velocidad, calidad y aprendizaje.",
+        "item1": "Sprints enfocados en resultados con KPIs medibles",
+        "item2": "Colaboración integrada con tu equipo",
+        "item3": "Evolución continua sobre grandes reescrituras"
+      },
+      "committedOutcomes": {
+        "title": "Resultados Comprometidos",
+        "description": "Valor que se acumula con el uso.",
+        "item1": "Plataformas auto-mejorables que mejoran cada día",
+        "item2": "Impacto claro en crecimiento, costo y experiencia",
+        "item3": "Fundaciones a prueba de futuro, no funcionalidades frágiles"
+      }
+    },
+    "cta": {
+      "label": "Contacto",
+      "title": "Hablemos",
+      "description": "Sin compromiso. Sin pitch de 45 minutos.",
+      "descriptionHighlight": "Una conversación para entender si podemos ayudarte.",
+      "primaryButton": "Agendar 15 minutos",
+      "secondaryButton": "Ver soluciones"
+    }
+  }
+}

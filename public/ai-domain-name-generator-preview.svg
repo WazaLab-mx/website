@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <g fill="#702DFF" opacity="0.12">
+    <circle cx="300" cy="315" r="100"/>
+    <circle cx="900" cy="315" r="100"/>
+    <ellipse cx="600" cy="315" rx="180" ry="180"/>
+  </g>
+  <g fill="#08D9D6" opacity="0.08">
+    <circle cx="600" cy="180" r="70"/>
+    <circle cx="600" cy="450" r="50"/>
+  </g>
+  <g fill="#FF2E63" opacity="0.06">
+    <rect x="200" y="250" width="800" height="130" rx="10"/>
+  </g>
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="56" fill="#08D9D6" text-anchor="middle" font-weight="bold">AI Domain Name</text>
+  <text x="600" y="350" font-family="Arial, sans-serif" font-size="56" fill="#08D9D6" text-anchor="middle" font-weight="bold">Generator Free</text>
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="28" fill="#FF2E63" text-anchor="middle">Creative Domain Names Powered by AI</text>
+</svg>
+

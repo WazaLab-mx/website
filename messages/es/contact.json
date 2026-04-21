@@ -1,0 +1,49 @@
+{
+  "contact": {
+    "hero": {
+      "badge": "Contáctanos",
+      "title": "Contáctanos",
+      "description": "¿Listo para transformar tu futuro digital? Estamos aquí para ayudarte a comenzar con tecnologías nativas de IA."
+    },
+    "info": {
+      "email": {
+        "title": "Escríbenos",
+        "description": "Nuestro equipo está listo para responder tus preguntas",
+        "address": "hello@waza.ai"
+      },
+      "phone": {
+        "title": "Llámanos",
+        "description": "Lunes a viernes, 9am a 6pm (ET)",
+        "hours": "Lunes a viernes, 9am a 6pm (ET)",
+        "number": "+1 (234) 567-8901"
+      },
+      "location": {
+        "title": "Ubicación",
+        "description": "Nuestra sede principal",
+        "address": "Ciudad de México, México"
+      }
+    },
+    "form": {
+      "title": "Hablemos de tu",
+      "titleHighlight": "Proyecto",
+      "description": "Completa el formulario y nos pondremos en contacto contigo en breve.",
+      "freeConsultation": "Consulta inicial gratuita",
+      "noCommitment": "Sin compromiso",
+      "nameLabel": "Tu Nombre",
+      "namePlaceholder": "Juan Pérez",
+      "emailLabel": "Tu Email",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "companyLabel": "Empresa",
+      "companyPlaceholder": "Tu Empresa",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto o pregunta",
+      "submit": "Enviar Mensaje",
+      "terms": "Al enviar este formulario, aceptas nuestros",
+      "termsLink": "Términos y Condiciones"
+    },
+    "social": {
+      "title": "Conéctate con Nosotros",
+      "description": "Síguenos en redes sociales para mantenerte al día con las últimas noticias e ideas sobre IA y Web3."
+    }
+  }
+}
