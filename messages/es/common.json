@@ -1,13 +1,10 @@
 {
   "common": {
     "nav": {
-      "features": "Características",
       "services": "Servicios",
       "projects": "Proyectos",
       "calculator": "Calculadora",
       "about": "Nosotros",
-      "benefits": "Beneficios",
-      "pricing": "Precios",
       "getStarted": "Comenzar",
       "home": "Inicio",
       "contact": "Contacto"
@@ -62,13 +59,6 @@
       "outcomesItem2": "Impacto claro en crecimiento, costos y experiencia",
       "outcomesItem3": "Cimientos a prueba de futuro, no funcionalidades frágiles",
       "seeDetails": "Ver detalles en Nosotros"
-    },
-    "heroMedia": {
-      "browserNotSupported": "Tu navegador no soporta la etiqueta de video.",
-      "enableAudio": "Activar audio",
-      "disableAudio": "Desactivar audio",
-      "clickToEnable": "Haz clic para activar el audio",
-      "clickToMute": "Haz clic para silenciar"
     }
   }
 }

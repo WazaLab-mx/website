@@ -32,6 +32,9 @@ service-account*.json
 # vercel
 .vercel
 
+# netlify
+.netlify/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
@@ -41,7 +44,6 @@ next-env.d.ts
 /*.png
 !public/**/*.png
 !app/**/*.png
-!mkt-assets/**/*.png
 
 # IDE
 .idea/

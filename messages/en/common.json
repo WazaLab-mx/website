@@ -1,13 +1,10 @@
 {
   "common": {
     "nav": {
-      "features": "Features",
       "services": "Services",
       "projects": "Projects",
       "calculator": "Calculator",
       "about": "About",
-      "benefits": "Benefits",
-      "pricing": "Pricing",
       "getStarted": "Get Started",
       "home": "Home",
       "contact": "Contact"
@@ -62,13 +59,6 @@
       "outcomesItem2": "Clear impact on growth, cost, and experience",
       "outcomesItem3": "Future-proof foundations, not fragile features",
       "seeDetails": "See details in About"
-    },
-    "heroMedia": {
-      "browserNotSupported": "Your browser does not support the video tag.",
-      "enableAudio": "Enable audio",
-      "disableAudio": "Disable audio",
-      "clickToEnable": "Click to enable audio",
-      "clickToMute": "Click to mute"
     }
   }
 }
