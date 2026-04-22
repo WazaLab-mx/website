@@ -58,7 +58,7 @@ export async function POST(request: NextRequest) {
     const ai = new GoogleGenAI({ apiKey });
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.0-flash-exp",
+      model: "gemini-2.5-flash-lite",
       contents: `Generate 10 multiple-choice questions for an "AI Readiness and ROI Calculator" quiz for a small to medium-sized business in the '${industry}' industry. The goal is to estimate potential time and money savings.
       The questions should be tailored to the specifics of the ${industry} sector, covering topics like:
       - Repetitive administrative tasks (e.g., data entry, scheduling, email management)

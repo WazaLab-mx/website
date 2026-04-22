@@ -43,7 +43,7 @@ export async function POST(request: NextRequest) {
     const ai = new GoogleGenAI({ apiKey });
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.0-flash-exp",
+      model: "gemini-2.5-flash-lite",
       contents: `A business owner in the ${industry} industry has answered a quiz about their company's potential for AI adoption.
       Company profile:
       - Industry: ${industry}
