@@ -17,6 +17,7 @@ import QuizQuestionComponent from './components/QuizQuestion';
 import EmailForm from './components/EmailForm';
 import ResultsDisplay from './components/ResultsDisplay';
 import ProgressBar from './components/ProgressBar';
+import { Link } from '@/i18n/navigation';
 import { Header } from "@/app/[locale]/components/ui/header";
 import { Footer } from "@/app/[locale]/components/ui/footer";
 
@@ -302,6 +303,12 @@ export default function CalculatorPage() {
           {t("start.startQuiz")}
         </button>
         <p className="text-xs text-gray-500 dark:text-gray-500">{t("start.duration")}</p>
+        <Link
+          href="/calculator/methodology"
+          className="text-xs uppercase tracking-[0.2em] font-medium text-gray-400 dark:text-gray-500 hover:text-black dark:hover:text-white transition-colors mt-2"
+        >
+          {t("methodology.link")} →
+        </Link>
       </div>
     </div>
   );

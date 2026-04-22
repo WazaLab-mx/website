@@ -66,6 +66,15 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, email, emailDe
         />
       </div>
 
+      <div className="mt-4 text-right">
+        <Link
+          href="/calculator/methodology"
+          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] font-medium text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+        >
+          {t("methodologyLink")} →
+        </Link>
+      </div>
+
       {/* Implementation & payback */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
         <InfoCard

@@ -65,6 +65,7 @@
       "hoursUnit": "Company-wide hours",
       "threeYearSavings": "3-year savings",
       "threeYearFootnote": "Assuming steady-state adoption.",
+      "methodologyLink": "How we calculated this",
       "implementationCost": "Estimated implementation cost",
       "implementationCostDescription": "One-time build + rollout range, scaling with your team size. Real quotes vary with scope.",
       "paybackPeriod": "Payback period",
@@ -81,6 +82,59 @@
       "scheduleConsultation": "Book a consultation",
       "exploreServices": "Explore our services",
       "retakeQuiz": "Retake the assessment"
+    },
+    "methodology": {
+      "link": "How we calculate this",
+      "back": "Back to the calculator",
+      "eyebrow": "Methodology",
+      "title": "How we calculate your ROI",
+      "intro": "Your estimate isn't a random number. It's built from your inputs, the options you pick in the quiz, and a small set of labor-cost assumptions that we document here so you can challenge them.",
+      "formulaLabel": "At a glance:",
+      "formula": "annual_savings = annual_hours_saved × fully_loaded_hourly_rate",
+      "sections": {
+        "hourlyRate": {
+          "title": "Base hourly rate",
+          "body": "We divide your average annual salary by your typical weekly hours times 50 weeks (not 52, to account for vacation and holidays — a conservative standard).",
+          "example": "$65,000 / (40 × 50) = $32.50/hour"
+        },
+        "loadedCost": {
+          "title": "Fully-loaded rate (1.3×)",
+          "body": "An employee's real cost to the company is not just their salary. Employers also pay payroll taxes, statutory benefits (13th-month pay, profit-sharing in Mexico, etc.), healthcare, and operating overhead (office, software, equipment, training). In Mexico this usually adds 25–40% on top of base salary. We use 1.3× as a balanced, conservative midpoint.",
+          "example": "$32.50 × 1.3 = $42.25/hour"
+        },
+        "hoursSaved": {
+          "title": "Weekly hours saved",
+          "body": "For each question in the quiz, Gemini estimates timeSaving (hours per affected employee per week) and impactRatio (the fraction of your workforce the opportunity touches). We multiply: time_saved = timeSaving × (employees × impactRatio), and sum across all 10 questions.",
+          "example": "2 hrs × (40 emp × 0.3) = 24 hrs/week on invoices"
+        },
+        "annualSavings": {
+          "title": "Annual savings",
+          "body": "Weekly hours × 50 gives annual hours reclaimed company-wide. Multiply by the fully-loaded hourly rate and you get the annual labor savings headline.",
+          "example": "16,920 hrs × $42.25 ≈ $714,870 / year"
+        },
+        "implementation": {
+          "title": "Implementation cost range",
+          "body": "A rough build + rollout estimate scaled to team size (at least $15,000 for the smallest engagement, linearly increasing with headcount). Real quotes vary a lot with scope — this is a directional range, not a bid.",
+          "example": "max($15,000, employees × $300) → up to 3× for complex rollouts"
+        },
+        "payback": {
+          "title": "Payback period",
+          "body": "How many months of annual savings it takes to cover the low end of the implementation estimate. Under a year is the norm for well-scoped automations.",
+          "example": "$15,000 / ($714,870 / 12) ≈ 1 month"
+        }
+      },
+      "caveats": {
+        "eyebrow": "Honest limits",
+        "title": "Why real-world results often land at 50–70% of this figure",
+        "intro": "We'd rather tell you the truth about the estimate than oversell it.",
+        "items": {
+          "0": "Hours saved only become money saved if that time gets reinvested into productive work. If it just becomes more coffee breaks, the cost base doesn't actually shrink.",
+          "1": "Adoption takes time. Year 1 typically captures 40–60% of the potential as teams learn new tools; years 2–3 reach 80–90% in steady state.",
+          "2": "AI isn't 100% accurate. There's almost always a human review step that eats back a small share of the time saved.",
+          "3": "External bottlenecks cap the ceiling. If a process depends on people outside your company — a vendor's portal, a customer's response time — AI can't fix what it can't touch."
+        }
+      },
+      "cta": "Take the assessment →"
     },
     "error": {
       "title": "Something went wrong",

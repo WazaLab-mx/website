@@ -65,6 +65,7 @@
       "hoursUnit": "Horas de toda la empresa",
       "threeYearSavings": "Ahorro a 3 años",
       "threeYearFootnote": "Asumiendo adopción estable.",
+      "methodologyLink": "Cómo calculamos esto",
       "implementationCost": "Costo de implementación estimado",
       "implementationCostDescription": "Rango único de construcción + rollout, escala con el tamaño de tu equipo. Las cotizaciones reales varían según el alcance.",
       "paybackPeriod": "Periodo de retorno",
@@ -81,6 +82,59 @@
       "scheduleConsultation": "Agendar una consulta",
       "exploreServices": "Explorar nuestros servicios",
       "retakeQuiz": "Repetir la evaluación"
+    },
+    "methodology": {
+      "link": "Cómo calculamos esto",
+      "back": "Volver a la calculadora",
+      "eyebrow": "Metodología",
+      "title": "Cómo calculamos tu ROI",
+      "intro": "Tu estimación no es un número al azar. Se construye con tus datos, las opciones que eliges en el cuestionario, y un conjunto pequeño de supuestos de costo laboral que documentamos aquí para que los puedas cuestionar.",
+      "formulaLabel": "En una línea:",
+      "formula": "ahorro_anual = horas_anuales_ahorradas × tarifa_por_hora_cargada",
+      "sections": {
+        "hourlyRate": {
+          "title": "Tarifa base por hora",
+          "body": "Dividimos tu salario anual promedio entre las horas semanales típicas por 50 semanas (no 52, restando vacaciones y días festivos — estándar conservador).",
+          "example": "$65,000 / (40 × 50) = $32.50/hora"
+        },
+        "loadedCost": {
+          "title": "Tarifa totalmente cargada (×1.3)",
+          "body": "El costo real de un empleado no es solo su salario. La empresa también paga impuestos patronales (IMSS, INFONAVIT, SAR), prestaciones obligatorias (aguinaldo, prima vacacional, PTU), seguros, y overhead operativo (oficina, software, equipo, capacitación). En México esto suma típicamente 25–40% encima del salario base. Usamos 1.3× como punto medio conservador.",
+          "example": "$32.50 × 1.3 = $42.25/hora"
+        },
+        "hoursSaved": {
+          "title": "Horas ahorradas por semana",
+          "body": "Por cada pregunta del quiz, Gemini estima timeSaving (horas por empleado afectado por semana) e impactRatio (la fracción del equipo a la que aplica esa oportunidad). Multiplicamos: horas_ahorradas = timeSaving × (empleados × impactRatio), y sumamos las 10 preguntas.",
+          "example": "2 hrs × (40 emp × 0.3) = 24 hrs/semana en facturas"
+        },
+        "annualSavings": {
+          "title": "Ahorro anual",
+          "body": "Horas semanales × 50 = horas anuales recuperadas en toda la empresa. Multiplica por la tarifa totalmente cargada y obtienes el ahorro anual estimado.",
+          "example": "16,920 hrs × $42.25 ≈ $714,870 / año"
+        },
+        "implementation": {
+          "title": "Rango de costo de implementación",
+          "body": "Estimación aproximada de construcción + rollout escalada al tamaño del equipo (mínimo $15,000 para el engagement más chico, crece linealmente con headcount). Las cotizaciones reales varían mucho con el alcance — este rango es direccional, no una cotización.",
+          "example": "máx($15,000, empleados × $300) → hasta 3× para rollouts complejos"
+        },
+        "payback": {
+          "title": "Periodo de retorno",
+          "body": "Cuántos meses de ahorro anual se necesitan para cubrir el extremo bajo del rango de implementación. Menos de un año es lo normal para automatizaciones bien definidas.",
+          "example": "$15,000 / ($714,870 / 12) ≈ 1 mes"
+        }
+      },
+      "caveats": {
+        "eyebrow": "Los límites honestos",
+        "title": "Por qué en la práctica los resultados reales suelen ser 50–70% de esta cifra",
+        "intro": "Preferimos ser honestos sobre la estimación que sobrevendértela.",
+        "items": {
+          "0": "Las horas ahorradas solo se vuelven dinero ahorrado si ese tiempo se reinvierte en trabajo productivo. Si solo se convierte en más pausas de café, la base de costos no baja de verdad.",
+          "1": "La adopción toma tiempo. El año 1 típicamente captura 40–60% del potencial mientras los equipos aprenden; los años 2–3 llegan a 80–90% en régimen.",
+          "2": "La IA no es 100% precisa. Casi siempre hay una capa de revisión humana que se come una parte del tiempo ahorrado.",
+          "3": "Los cuellos de botella externos ponen techo. Si un proceso depende de gente fuera de tu empresa — el portal de un proveedor, la respuesta de un cliente — la IA no puede arreglar lo que no toca."
+        }
+      },
+      "cta": "Iniciar la evaluación →"
     },
     "error": {
       "title": "Algo salió mal",

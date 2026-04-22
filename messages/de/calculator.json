@@ -65,6 +65,7 @@
       "hoursUnit": "Unternehmensweite Stunden",
       "threeYearSavings": "3-Jahres-Einsparungen",
       "threeYearFootnote": "Bei stabiler Adoption.",
+      "methodologyLink": "Wie wir das berechnet haben",
       "implementationCost": "Geschätzte Implementierungskosten",
       "implementationCostDescription": "Einmaliger Aufbau + Rollout, skaliert mit der Teamgröße. Echte Angebote variieren je nach Umfang.",
       "paybackPeriod": "Amortisationszeit",
@@ -81,6 +82,59 @@
       "scheduleConsultation": "Beratung vereinbaren",
       "exploreServices": "Unsere Dienstleistungen entdecken",
       "retakeQuiz": "Bewertung wiederholen"
+    },
+    "methodology": {
+      "link": "Wie wir das berechnen",
+      "back": "Zurück zum Rechner",
+      "eyebrow": "Methodik",
+      "title": "Wie wir Ihren ROI berechnen",
+      "intro": "Ihre Schätzung ist keine Zufallszahl. Sie basiert auf Ihren Eingaben, Ihren Quiz-Antworten und einer kleinen Menge von Arbeitskosten-Annahmen, die wir hier dokumentieren, damit Sie sie hinterfragen können.",
+      "formulaLabel": "Kurzfassung:",
+      "formula": "jährliche_einsparungen = jährliche_stunden × voll_belastete_stundensatz",
+      "sections": {
+        "hourlyRate": {
+          "title": "Basis-Stundensatz",
+          "body": "Wir teilen das durchschnittliche Jahresgehalt durch die typischen Wochenstunden mal 50 Wochen (nicht 52 — um Urlaub und Feiertage konservativ abzuziehen).",
+          "example": "$65.000 / (40 × 50) = $32,50/Stunde"
+        },
+        "loadedCost": {
+          "title": "Voll belasteter Stundensatz (×1,3)",
+          "body": "Die wirklichen Kosten eines Mitarbeiters gehen über das Gehalt hinaus. Dazu kommen Lohnnebenkosten, gesetzliche Leistungen, Versicherungen und operativer Overhead (Büro, Software, Equipment, Weiterbildung). Das addiert typischerweise 25–40% auf das Grundgehalt. Wir nehmen 1,3× als ausgewogenen, konservativen Mittelwert.",
+          "example": "$32,50 × 1,3 = $42,25/Stunde"
+        },
+        "hoursSaved": {
+          "title": "Gesparte Wochenstunden",
+          "body": "Für jede Quiz-Frage schätzt Gemini timeSaving (Stunden pro betroffenem Mitarbeiter pro Woche) und impactRatio (Anteil der Belegschaft, den die Gelegenheit betrifft). Wir multiplizieren: gesparte_stunden = timeSaving × (Mitarbeiter × impactRatio) und addieren alle 10 Fragen.",
+          "example": "2 Std × (40 MA × 0,3) = 24 Std/Woche bei Rechnungen"
+        },
+        "annualSavings": {
+          "title": "Jährliche Einsparungen",
+          "body": "Wochenstunden × 50 ergibt die jährlich unternehmensweit wiedergewonnenen Stunden. Multipliziert mit dem voll belasteten Stundensatz erhalten Sie die jährlichen Einsparungen.",
+          "example": "16.920 Std × $42,25 ≈ $714.870 / Jahr"
+        },
+        "implementation": {
+          "title": "Implementierungsspanne",
+          "body": "Grobe Bau- und Rollout-Schätzung skaliert zur Teamgröße (mindestens $15.000 für das kleinste Engagement, wächst linear mit der Kopfzahl). Echte Angebote variieren stark mit dem Umfang — diese Spanne ist eine Richtung, kein Angebot.",
+          "example": "max($15.000; Mitarbeiter × $300) → bis zu 3× bei komplexen Rollouts"
+        },
+        "payback": {
+          "title": "Amortisationszeit",
+          "body": "Wie viele Monate jährlicher Einsparungen nötig sind, um das untere Ende der Implementierungsspanne zu decken. Unter einem Jahr ist der Normalfall für gut umrissene Automatisierungen.",
+          "example": "$15.000 / ($714.870 / 12) ≈ 1 Monat"
+        }
+      },
+      "caveats": {
+        "eyebrow": "Ehrliche Grenzen",
+        "title": "Warum echte Ergebnisse oft bei 50–70% dieser Zahl liegen",
+        "intro": "Wir sagen Ihnen lieber die Wahrheit über die Schätzung, als sie zu überverkaufen.",
+        "items": {
+          "0": "Gesparte Stunden werden nur dann zu gespartem Geld, wenn diese Zeit in produktive Arbeit reinvestiert wird. Wenn daraus nur längere Kaffeepausen werden, sinkt die Kostenbasis nicht wirklich.",
+          "1": "Adoption braucht Zeit. Jahr 1 erfasst typischerweise 40–60% des Potenzials, während Teams lernen; Jahre 2–3 erreichen 80–90% im Regelbetrieb.",
+          "2": "KI ist nicht 100% genau. Fast immer gibt es einen menschlichen Prüfschritt, der einen kleinen Teil der gesparten Zeit zurückfrisst.",
+          "3": "Externe Engpässe begrenzen die Obergrenze. Wenn ein Prozess von Menschen außerhalb Ihres Unternehmens abhängt — einem Lieferantenportal, einer Kundenantwort — kann KI nicht heilen, was sie nicht berührt."
+        }
+      },
+      "cta": "Bewertung starten →"
     },
     "error": {
       "title": "Etwas ist schiefgelaufen",
