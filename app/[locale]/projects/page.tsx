@@ -7,7 +7,7 @@ import { Footer } from "../components/ui/footer";
 import { Header } from "../components/ui/header";
 import { ProjectHeroStory } from "./components/ProjectHeroStory";
 
-const heroProjectKeys = ["0", "1", "2"] as const;
+const heroProjectKeys = ["0", "1", "2", "3"] as const;
 
 export default function Projects() {
   const t = useTranslations("projects");

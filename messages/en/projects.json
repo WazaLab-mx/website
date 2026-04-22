@@ -36,6 +36,13 @@
         "tags": ["AdTech", "AI Copilot", "Creative Briefs"],
         "image": "/images/project-screenshots/briefboy.png",
         "link": "https://brief-boy.com/landing"
+      },
+      "3": {
+        "title": "WikiPueblosMágicos",
+        "description": "A living atlas of Mexico's 177 Pueblos Mágicos with real, curated travel data. Discover each town's history, culture, and practical travel info — built for travelers, locals, and the tourism industry.",
+        "tags": ["Travel", "Culture", "Mexico"],
+        "image": "/images/project-screenshots/wikipueblosmagicos.png",
+        "link": "https://wikipueblosmagicos.com"
       }
     }
   }

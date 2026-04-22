@@ -36,6 +36,13 @@
         "tags": ["AdTech", "KI-Copilot", "Creative Briefs"],
         "image": "/images/project-screenshots/briefboy.png",
         "link": "https://brief-boy.com/landing"
+      },
+      "3": {
+        "title": "WikiPueblosMágicos",
+        "description": "Ein lebender Atlas der 177 Pueblos Mágicos Mexikos mit echten, kuratierten Reisedaten. Entdecke die Geschichte, Kultur und praktische Reiseinformationen jedes Ortes — für Reisende, Einheimische und die Tourismusbranche.",
+        "tags": ["Reisen", "Kultur", "Mexiko"],
+        "image": "/images/project-screenshots/wikipueblosmagicos.png",
+        "link": "https://wikipueblosmagicos.com"
       }
     }
   }

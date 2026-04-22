@@ -37,6 +37,13 @@ const projects = [
     tagKey: "2",
     stack: ["React", "Node.js", "OpenAI", "Tailwind"],
   },
+  {
+    title: "WikiPueblosMágicos",
+    image: "/images/project-screenshots/wikipueblosmagicos.png",
+    link: "https://wikipueblosmagicos.com",
+    tagKey: "3",
+    stack: ["Next.js", "Supabase", "OpenAI", "Tailwind"],
+  },
 ] as const;
 
 export default function Home() {
@@ -199,7 +206,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+            <div className="grid md:grid-cols-2 gap-8 md:gap-12">
               {projects.map((p, i) => (
                 <Link
                   key={p.title}

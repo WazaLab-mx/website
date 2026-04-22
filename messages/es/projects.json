@@ -36,6 +36,13 @@
         "tags": ["AdTech", "Copiloto IA", "Briefs Creativos"],
         "image": "/images/project-screenshots/briefboy.png",
         "link": "https://brief-boy.com/landing"
+      },
+      "3": {
+        "title": "WikiPueblosMágicos",
+        "description": "Atlas vivo de los 177 Pueblos Mágicos de México con datos turísticos reales y curados. Descubre la historia, cultura e información práctica de cada pueblo — hecho para viajeros, locales y la industria turística.",
+        "tags": ["Turismo", "Cultura", "México"],
+        "image": "/images/project-screenshots/wikipueblosmagicos.png",
+        "link": "https://wikipueblosmagicos.com"
       }
     }
   }
