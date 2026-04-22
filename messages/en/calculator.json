@@ -20,7 +20,9 @@
       "manufacturing": "Manufacturing",
       "finance": "Finance & Insurance",
       "professional": "Professional Services",
-      "technology": "Technology"
+      "technology": "Technology",
+      "marketing": "Marketing & Advertising",
+      "arts": "Arts & Entertainment"
     },
     "maturity": {
       "none": "None yet",

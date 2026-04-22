@@ -26,6 +26,8 @@ const INDUSTRIES = [
   { apiValue: 'Finance & Insurance', displayKey: 'industries.finance' },
   { apiValue: 'Professional Services', displayKey: 'industries.professional' },
   { apiValue: 'Technology', displayKey: 'industries.technology' },
+  { apiValue: 'Marketing & Advertising', displayKey: 'industries.marketing' },
+  { apiValue: 'Arts & Entertainment', displayKey: 'industries.arts' },
 ] as const;
 
 const MATURITY_LEVELS: { value: AIMaturity; labelKey: string }[] = [

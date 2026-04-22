@@ -20,7 +20,9 @@
       "manufacturing": "Manufactura",
       "finance": "Finanzas y Seguros",
       "professional": "Servicios Profesionales",
-      "technology": "Tecnología"
+      "technology": "Tecnología",
+      "marketing": "Marketing y Publicidad",
+      "arts": "Artes y Entretenimiento"
     },
     "maturity": {
       "none": "Ninguna aún",
