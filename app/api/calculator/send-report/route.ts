@@ -21,6 +21,7 @@ interface ReportSummary {
 
 interface ReportContext {
   industry: string;
+  country: string;
   employeeCount: number;
   averageSalary: number;
   weeklyHours: number;
@@ -190,7 +191,7 @@ function renderHtml({ email, context, metrics, summary, locale }: SendReportBody
 
         <tr><td style="padding:16px 32px 32px;color:#9ca3af;font-size:12px;line-height:1.6;border-top:1px solid #e5e5e5;">
           ${labels.footer}<br>
-          ${escapeHtml(context.industry)} · ${context.employeeCount} empleados · ${email}
+          ${escapeHtml(context.industry)} · ${escapeHtml(context.country ?? '—')} · ${context.employeeCount} · ${escapeHtml(email)}
         </td></tr>
       </table>
     </td></tr>
@@ -220,6 +221,7 @@ async function persistLead(body: SendReportBody): Promise<{ id: string | null; s
       email: body.email,
       locale: body.locale,
       industry: body.context.industry,
+      country: body.context.country,
       employee_count: body.context.employeeCount,
       average_salary: body.context.averageSalary,
       weekly_hours: body.context.weeklyHours,

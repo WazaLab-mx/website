@@ -5,6 +5,8 @@
       "title": "¿Tu negocio está listo para la IA?",
       "description": "Responde 10 preguntas basadas en tus flujos de trabajo reales. Recibe una estimación personalizada con ahorro anual, proyección a 3 años, periodo de retorno y una lista priorizada de por dónde empezar.",
       "industryLabel": "Tu industria",
+      "countryLabel": "País de operación",
+      "countryPlaceholder": "Selecciona un país…",
       "sizingLabel": "Tamaño de la empresa",
       "employeeCount": "Empleados",
       "averageSalary": "Salario anual promedio",
@@ -23,6 +25,24 @@
       "technology": "Tecnología",
       "marketing": "Marketing y Publicidad",
       "arts": "Artes y Entretenimiento"
+    },
+    "countries": {
+      "mx": "México",
+      "us": "Estados Unidos",
+      "ca": "Canadá",
+      "es": "España",
+      "ar": "Argentina",
+      "co": "Colombia",
+      "cl": "Chile",
+      "pe": "Perú",
+      "br": "Brasil",
+      "de": "Alemania",
+      "at": "Austria",
+      "ch": "Suiza",
+      "uk": "Reino Unido",
+      "fr": "Francia",
+      "nl": "Países Bajos",
+      "other": "Otro"
     },
     "maturity": {
       "none": "Ninguna aún",

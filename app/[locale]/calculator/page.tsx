@@ -32,6 +32,25 @@ const INDUSTRIES = [
   { apiValue: 'Arts & Entertainment', displayKey: 'industries.arts' },
 ] as const;
 
+const COUNTRIES = [
+  { apiValue: 'Mexico', displayKey: 'countries.mx' },
+  { apiValue: 'United States', displayKey: 'countries.us' },
+  { apiValue: 'Canada', displayKey: 'countries.ca' },
+  { apiValue: 'Spain', displayKey: 'countries.es' },
+  { apiValue: 'Argentina', displayKey: 'countries.ar' },
+  { apiValue: 'Colombia', displayKey: 'countries.co' },
+  { apiValue: 'Chile', displayKey: 'countries.cl' },
+  { apiValue: 'Peru', displayKey: 'countries.pe' },
+  { apiValue: 'Brazil', displayKey: 'countries.br' },
+  { apiValue: 'Germany', displayKey: 'countries.de' },
+  { apiValue: 'Austria', displayKey: 'countries.at' },
+  { apiValue: 'Switzerland', displayKey: 'countries.ch' },
+  { apiValue: 'United Kingdom', displayKey: 'countries.uk' },
+  { apiValue: 'France', displayKey: 'countries.fr' },
+  { apiValue: 'Netherlands', displayKey: 'countries.nl' },
+  { apiValue: 'Other', displayKey: 'countries.other' },
+] as const;
+
 const MATURITY_LEVELS: { value: AIMaturity; labelKey: string }[] = [
   { value: 'none', labelKey: 'maturity.none' },
   { value: 'exploring', labelKey: 'maturity.exploring' },
@@ -63,18 +82,20 @@ export default function CalculatorPage() {
   const [error, setError] = useState<string | null>(null);
 
   const [industry, setIndustry] = useState<string | null>(null);
+  const [country, setCountry] = useState<string | null>(null);
   const [employeeCount, setEmployeeCount] = useState('');
   const [averageSalary, setAverageSalary] = useState('');
   const [weeklyHours, setWeeklyHours] = useState('40');
   const [aiMaturity, setAiMaturity] = useState<AIMaturity | null>(null);
   const [primaryGoal, setPrimaryGoal] = useState<PrimaryGoal | null>(null);
 
-  const canStart = Boolean(industry && employeeCount && averageSalary && weeklyHours && aiMaturity && primaryGoal);
+  const canStart = Boolean(industry && country && employeeCount && averageSalary && weeklyHours && aiMaturity && primaryGoal);
 
   const buildContext = (): CalculatorContext | null => {
     if (!canStart) return null;
     return {
       industry: industry!,
+      country: country!,
       employeeCount: parseInt(employeeCount, 10),
       averageSalary: parseInt(averageSalary, 10),
       weeklyHours: parseInt(weeklyHours, 10),
@@ -89,7 +110,7 @@ export default function CalculatorPage() {
     setAppState('loading');
     setError(null);
     try {
-      const fetched = await generateQuizQuestions(ctx);
+      const fetched = await generateQuizQuestions(ctx, locale);
       if (!fetched || fetched.length === 0) {
         throw new Error(t("error.noQuestions"));
       }
@@ -151,7 +172,7 @@ export default function CalculatorPage() {
       const totalReadinessScore = answers.reduce((sum, a) => sum + a.readinessScore, 0);
       const maxReadinessScore = questions.length * 10;
 
-      const summary = await generateResultsSummary(answers, ctx, {
+      const summary = await generateResultsSummary(answers, ctx, locale, {
         annualHoursSaved: Math.round(annualHoursSaved),
         annualLaborSavings: Math.round(annualLaborSavings),
       });
@@ -196,6 +217,7 @@ export default function CalculatorPage() {
     setError(null);
     setEmailDelivered(null);
     setIndustry(null);
+    setCountry(null);
     setEmployeeCount('');
     setAverageSalary('');
     setWeeklyHours('40');
@@ -232,7 +254,22 @@ export default function CalculatorPage() {
           </div>
         </Field>
 
-        <Field label={t("start.sizingLabel")} number="02">
+        <Field label={t("start.countryLabel")} number="02">
+          <select
+            value={country ?? ''}
+            onChange={(e) => setCountry(e.target.value || null)}
+            className="w-full md:w-auto md:min-w-[280px] px-4 py-3 bg-transparent border border-gray-300 dark:border-gray-700 rounded-lg text-black dark:text-white focus:outline-none focus:border-black dark:focus:border-white transition-colors appearance-none bg-[url('data:image/svg+xml;charset=UTF-8,%3csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2020%2020%22%20fill=%22%236b7280%22%3e%3cpath%20d=%22M10%2012l-5-5h10z%22/%3e%3c/svg%3e')] bg-no-repeat bg-[right_1rem_center] pr-10"
+          >
+            <option value="" disabled>{t("start.countryPlaceholder")}</option>
+            {COUNTRIES.map((c) => (
+              <option key={c.apiValue} value={c.apiValue}>
+                {t(c.displayKey)}
+              </option>
+            ))}
+          </select>
+        </Field>
+
+        <Field label={t("start.sizingLabel")} number="03">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <NumberInput
               id="employeeCount"
@@ -263,7 +300,7 @@ export default function CalculatorPage() {
           </div>
         </Field>
 
-        <Field label={t("start.maturityLabel")} number="03">
+        <Field label={t("start.maturityLabel")} number="04">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
             {MATURITY_LEVELS.map((m) => (
               <Chip
@@ -278,7 +315,7 @@ export default function CalculatorPage() {
           </div>
         </Field>
 
-        <Field label={t("start.goalLabel")} number="04">
+        <Field label={t("start.goalLabel")} number="05">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
             {PRIMARY_GOALS.map((g) => (
               <Chip

@@ -22,11 +22,18 @@ const summarySchema = {
   required: ['summary', 'bulletPoints', 'quickWins']
 };
 
+const LANGUAGE_BY_LOCALE: Record<string, string> = {
+  en: 'English',
+  es: 'Spanish (es-MX style — natural Latin American Spanish, not overly formal Castilian)',
+  de: 'German (de-DE)',
+};
+
 export async function POST(request: NextRequest) {
   try {
     const {
       answers,
       industry,
+      country,
       employeeCount,
       averageSalary,
       weeklyHours,
@@ -34,6 +41,7 @@ export async function POST(request: NextRequest) {
       primaryGoal,
       annualLaborSavings,
       annualHoursSaved,
+      locale,
     } = await request.json();
 
     if (!answers || !industry || !employeeCount || !averageSalary) {
@@ -44,6 +52,9 @@ export async function POST(request: NextRequest) {
     if (!apiKey) {
       return NextResponse.json({ error: 'API key not configured' }, { status: 500 });
     }
+
+    const language = LANGUAGE_BY_LOCALE[locale] ?? LANGUAGE_BY_LOCALE.en;
+    const countryStr = country ?? 'unspecified';
 
     const answersText = answers
       .map((a: { question: string; text: string }) => `- ${a.question}\n  Answer: ${a.text}`)
@@ -57,6 +68,7 @@ export async function POST(request: NextRequest) {
 
 Company profile:
 - Industry: ${industry}
+- Country: ${countryStr}
 - Employees: ${employeeCount}
 - Average annual salary: $${Number(averageSalary).toLocaleString()}
 - Typical work week: ${weeklyHours ?? 40} hours
@@ -70,10 +82,12 @@ Computed ROI (already shown to the user, use for calibration only):
 Quiz answers:
 ${answersText}
 
+OUTPUT LANGUAGE: Write the 'summary', each item in 'bulletPoints', and each item in 'quickWins' entirely in ${language}. Do not translate field names. When naming tools, systems, or regulations, reference ones that are actually common in ${countryStr} (e.g. CFDI/SAT in Mexico, DATEV in Germany, HMRC in the UK, Stripe/QuickBooks in the US).
+
 Write the report:
 1. 'summary' — 2-3 sentences, second-person, grounded in the strongest signals from the answers. Avoid generic phrasing like "AI has great potential".
-2. 'bulletPoints' — 3-5 items. Each names a specific area to invest in, calibrated to this ${industry} business and their maturity level. Include one caution/risk bullet if the answers reveal a blocker.
-3. 'quickWins' — 2-3 automations this company could ship in the next 30 days given the answers. Be concrete (e.g., "Auto-tag and route inbound support email by intent using their current Helpdesk API" rather than "use AI for customer support").
+2. 'bulletPoints' — 3-5 items. Each names a specific area to invest in, calibrated to this ${industry} business operating in ${countryStr} at their maturity level. Include one caution/risk bullet if the answers reveal a blocker.
+3. 'quickWins' — 2-3 automations this company could ship in the next 30 days given the answers and their ${countryStr} context. Be concrete (e.g., "Auto-tag inbound support email by intent using Zendesk's API" rather than "use AI for customer support").
 
 Return only the JSON object matching the schema.`,
       config: {

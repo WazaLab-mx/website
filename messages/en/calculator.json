@@ -5,6 +5,8 @@
       "title": "Is your business ready for AI?",
       "description": "Answer 10 questions grounded in your actual workflows. Get a personalized ROI estimate with annual savings, 3-year projection, payback period, and a prioritized list of where to start.",
       "industryLabel": "Your industry",
+      "countryLabel": "Country of operation",
+      "countryPlaceholder": "Select a country…",
       "sizingLabel": "Company sizing",
       "employeeCount": "Employees",
       "averageSalary": "Avg annual salary",
@@ -23,6 +25,24 @@
       "technology": "Technology",
       "marketing": "Marketing & Advertising",
       "arts": "Arts & Entertainment"
+    },
+    "countries": {
+      "mx": "Mexico",
+      "us": "United States",
+      "ca": "Canada",
+      "es": "Spain",
+      "ar": "Argentina",
+      "co": "Colombia",
+      "cl": "Chile",
+      "pe": "Peru",
+      "br": "Brazil",
+      "de": "Germany",
+      "at": "Austria",
+      "ch": "Switzerland",
+      "uk": "United Kingdom",
+      "fr": "France",
+      "nl": "Netherlands",
+      "other": "Other"
     },
     "maturity": {
       "none": "None yet",

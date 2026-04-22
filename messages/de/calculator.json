@@ -5,6 +5,8 @@
       "title": "Ist Ihr Unternehmen bereit für KI?",
       "description": "Beantworten Sie 10 Fragen zu Ihren tatsächlichen Arbeitsabläufen. Sie erhalten eine personalisierte ROI-Schätzung mit Jahresersparnis, 3-Jahres-Prognose, Amortisationszeit und einer priorisierten Liste der besten Einstiegspunkte.",
       "industryLabel": "Ihre Branche",
+      "countryLabel": "Land des Betriebs",
+      "countryPlaceholder": "Land auswählen…",
       "sizingLabel": "Unternehmensgröße",
       "employeeCount": "Mitarbeiter",
       "averageSalary": "Durchschn. Jahresgehalt",
@@ -23,6 +25,24 @@
       "technology": "Technologie",
       "marketing": "Marketing & Werbung",
       "arts": "Kunst & Unterhaltung"
+    },
+    "countries": {
+      "mx": "Mexiko",
+      "us": "USA",
+      "ca": "Kanada",
+      "es": "Spanien",
+      "ar": "Argentinien",
+      "co": "Kolumbien",
+      "cl": "Chile",
+      "pe": "Peru",
+      "br": "Brasilien",
+      "de": "Deutschland",
+      "at": "Österreich",
+      "ch": "Schweiz",
+      "uk": "Vereinigtes Königreich",
+      "fr": "Frankreich",
+      "nl": "Niederlande",
+      "other": "Andere"
     },
     "maturity": {
       "none": "Noch keine",

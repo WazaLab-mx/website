@@ -3,6 +3,7 @@ export type PrimaryGoal = 'cost' | 'speed' | 'quality' | 'growth';
 
 export interface CalculatorContext {
   industry: string;
+  country: string;
   employeeCount: number;
   averageSalary: number;
   weeklyHours: number;

@@ -1,10 +1,13 @@
 import { Answer, CalculatorContext, QuizQuestion, QuizResults, QuizResultsSummary } from '../types';
 
-export const generateQuizQuestions = async (ctx: CalculatorContext): Promise<QuizQuestion[]> => {
+export const generateQuizQuestions = async (
+  ctx: CalculatorContext,
+  locale: string,
+): Promise<QuizQuestion[]> => {
   const response = await fetch('/api/calculator/generate-questions', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(ctx),
+    body: JSON.stringify({ ...ctx, locale }),
   });
 
   if (!response.ok) {
@@ -19,12 +22,13 @@ export const generateQuizQuestions = async (ctx: CalculatorContext): Promise<Qui
 export const generateResultsSummary = async (
   answers: Answer[],
   ctx: CalculatorContext,
+  locale: string,
   computed: { annualHoursSaved: number; annualLaborSavings: number },
 ): Promise<QuizResultsSummary> => {
   const response = await fetch('/api/calculator/generate-summary', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ answers, ...ctx, ...computed }),
+    body: JSON.stringify({ answers, ...ctx, ...computed, locale }),
   });
 
   if (!response.ok) {

@@ -13,6 +13,7 @@ create table if not exists public.calculator_leads (
   locale text not null check (locale in ('en', 'es', 'de')),
 
   industry text not null,
+  country text,
   employee_count integer,
   average_salary integer,
   weekly_hours integer,
