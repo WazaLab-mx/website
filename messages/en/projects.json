@@ -29,6 +29,13 @@
         "tags": ["Beauty Tech", "Local Services", "AI Matching"],
         "image": "/images/project-screenshots/glamlocal.png",
         "link": "https://glamlocal.app/"
+      },
+      "2": {
+        "title": "BriefBoy",
+        "description": "Generate professional advertising briefs in seconds. No detours, no hassle. BriefBoy turns rough ideas into clear, actionable creative briefs that teams can ship — purpose-built for agencies and in-house marketing teams.",
+        "tags": ["AdTech", "AI Copilot", "Creative Briefs"],
+        "image": "/images/project-screenshots/briefboy.png",
+        "link": "https://brief-boy.com/landing"
       }
     }
   }

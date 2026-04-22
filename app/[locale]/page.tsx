@@ -21,12 +21,21 @@ const projects = [
     image: "/images/project-screenshots/san-luis-way.png",
     link: "https://sanluisway.com",
     tagKey: "0",
+    stack: ["Next.js", "Supabase", "OpenAI", "Tailwind"],
   },
   {
     title: "GlamLocal",
     image: "/images/project-screenshots/glamlocal.png",
     link: "https://glamlocal.app/",
     tagKey: "1",
+    stack: ["Next.js", "Supabase", "OpenAI", "Tailwind"],
+  },
+  {
+    title: "BriefBoy",
+    image: "/images/project-screenshots/briefboy.png",
+    link: "https://brief-boy.com/landing",
+    tagKey: "2",
+    stack: ["React", "Node.js", "OpenAI", "Tailwind"],
   },
 ] as const;
 
@@ -190,7 +199,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 md:gap-12">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
               {projects.map((p, i) => (
                 <Link
                   key={p.title}
@@ -199,13 +208,13 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className={`smooth-reveal stagger-${i + 1} group block`}
                 >
-                  <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-800">
+                  <div className="relative aspect-[16/10] overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-800">
                     <Image
                       src={p.image}
                       alt={p.title}
                       fill
                       className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
-                      sizes="(max-width: 768px) 100vw, 50vw"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   </div>
@@ -217,6 +226,16 @@ export default function Home() {
                       <p className="mt-2 text-gray-600 dark:text-gray-400 max-w-md leading-relaxed">
                         {t(`work.items.${p.tagKey}.description`)}
                       </p>
+                      <div className="mt-4 flex flex-wrap gap-1.5">
+                        {p.stack.map((tech) => (
+                          <span
+                            key={tech}
+                            className="text-[10px] uppercase tracking-[0.15em] px-2.5 py-1 rounded-full border border-gray-300 dark:border-gray-700 text-gray-600 dark:text-gray-400 font-medium"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                     <ArrowUpRight className="h-6 w-6 flex-shrink-0 mt-1 text-gray-400 group-hover:text-black dark:group-hover:text-white transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
                   </div>

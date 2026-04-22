@@ -29,6 +29,13 @@
         "tags": ["Beauty Tech", "Lokale Services", "KI-Matching"],
         "image": "/images/project-screenshots/glamlocal.png",
         "link": "https://glamlocal.app/"
+      },
+      "2": {
+        "title": "BriefBoy",
+        "description": "Erstellen Sie professionelle Werbe-Briefs in Sekunden. Ohne Umwege, ohne Aufwand. BriefBoy verwandelt rohe Ideen in klare, umsetzbare Creative-Briefs, die Teams direkt ausliefern können — entwickelt für Agenturen und interne Marketing-Teams.",
+        "tags": ["AdTech", "KI-Copilot", "Creative Briefs"],
+        "image": "/images/project-screenshots/briefboy.png",
+        "link": "https://brief-boy.com/landing"
       }
     }
   }
