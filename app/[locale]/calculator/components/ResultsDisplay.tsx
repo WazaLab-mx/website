@@ -12,11 +12,10 @@ interface ResultsDisplayProps {
 }
 
 const formatCurrency = (value: number) =>
-  value.toLocaleString(undefined, {
-    style: 'currency',
-    currency: 'USD',
-    maximumFractionDigits: 0,
-  });
+  '$' + Math.round(value).toLocaleString('en-US');
+
+const formatHours = (value: number) =>
+  Math.round(value).toLocaleString('en-US');
 
 const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, email, onRestart }) => {
   const t = useTranslations("calculator.results");
@@ -49,7 +48,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, email, onResta
         />
         <Metric
           label={t("annualHoursSaved")}
-          value={`${results.annualHoursSaved.toLocaleString()}`}
+          value={formatHours(results.annualHoursSaved)}
           footnote={t("hoursUnit")}
         />
         <Metric
@@ -182,15 +181,15 @@ function Metric({
   emphasis?: boolean;
 }) {
   return (
-    <div className="py-8 md:py-10 px-6 text-center">
+    <div className="min-w-0 py-8 md:py-10 px-6 text-center">
       <span className="block text-xs uppercase tracking-[0.25em] text-gray-500 dark:text-gray-400 font-medium">
         {label}
       </span>
       <span
-        className={`block mt-4 font-black tabular-nums ${
+        className={`block mt-4 font-black tabular-nums text-black dark:text-white break-words ${
           emphasis
-            ? 'text-5xl md:text-6xl text-black dark:text-white'
-            : 'text-4xl md:text-5xl text-black dark:text-white'
+            ? 'text-3xl md:text-4xl lg:text-5xl'
+            : 'text-2xl md:text-3xl lg:text-4xl'
         }`}
       >
         {value}
@@ -212,11 +211,11 @@ function InfoCard({
   description: string;
 }) {
   return (
-    <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-6">
+    <div className="min-w-0 border border-gray-200 dark:border-gray-800 rounded-lg p-6">
       <span className="block text-xs uppercase tracking-[0.25em] text-gray-500 dark:text-gray-400 font-medium">
         {label}
       </span>
-      <span className="block mt-3 text-2xl md:text-3xl font-bold tracking-tight text-black dark:text-white tabular-nums">
+      <span className="block mt-3 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-black dark:text-white tabular-nums break-words">
         {value}
       </span>
       <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{description}</p>
