@@ -18,25 +18,36 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({ question, onAnswer }) => {
     setTimeout(() => {
       onAnswer(option);
       setSelectedOption(null);
-    }, 300);
+    }, 250);
   };
 
   return (
-    <div className="animate-fade-in w-full max-w-2xl mx-auto">
-      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-8">
+    <div className="animate-fade-in w-full">
+      <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-black dark:text-white mb-3 leading-snug">
         {question.question}
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {question.options.map((option, index) => (
-          <button
-            key={index}
-            onClick={() => handleOptionClick(option)}
-            className={`p-4 border-2 rounded-lg text-left transition-all duration-200 ease-in-out transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-600
-            ${selectedOption === option ? 'bg-gray-900 border-gray-900 text-white' : 'bg-white border-gray-300 text-gray-700'}`}
-          >
-            <span className="font-semibold">{option.text}</span>
-          </button>
-        ))}
+      {question.rationale && (
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-8 max-w-2xl leading-relaxed">
+          {question.rationale}
+        </p>
+      )}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-6">
+        {question.options.map((option, index) => {
+          const active = selectedOption === option;
+          return (
+            <button
+              key={index}
+              onClick={() => handleOptionClick(option)}
+              className={`p-5 border text-left transition-colors rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-gray-950 focus:ring-black dark:focus:ring-white ${
+                active
+                  ? 'bg-black dark:bg-white border-black dark:border-white text-white dark:text-black'
+                  : 'bg-transparent border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200 hover:border-black dark:hover:border-white'
+              }`}
+            >
+              <span className="text-base font-medium">{option.text}</span>
+            </button>
+          );
+        })}
       </div>
     </div>
   );

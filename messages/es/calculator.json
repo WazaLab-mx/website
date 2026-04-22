@@ -1,14 +1,18 @@
 {
   "calculator": {
     "start": {
-      "title": "¿Está tu negocio listo para la IA?",
-      "description": "Descubre cuánto tiempo y dinero podrías ahorrar con nuestra calculadora gratuita de ROI de IA de 10 preguntas.",
-      "selectIndustry": "1. Selecciona tu industria:",
-      "employeeCount": "2. Número de empleados",
-      "employeePlaceholder": "ej., 50",
-      "averageSalary": "3. Salario anual promedio ($)",
-      "salaryPlaceholder": "ej., 65000",
-      "startQuiz": "Iniciar el cuestionario"
+      "eyebrow": "Calculadora de ROI de IA",
+      "title": "¿Tu negocio está listo para la IA?",
+      "description": "Responde 10 preguntas basadas en tus flujos de trabajo reales. Recibe una estimación personalizada con ahorro anual, proyección a 3 años, periodo de retorno y una lista priorizada de por dónde empezar.",
+      "industryLabel": "Tu industria",
+      "sizingLabel": "Tamaño de la empresa",
+      "employeeCount": "Empleados",
+      "averageSalary": "Salario anual promedio",
+      "weeklyHours": "Horas por semana",
+      "maturityLabel": "Madurez actual en IA",
+      "goalLabel": "Objetivo principal",
+      "startQuiz": "Comenzar la evaluación",
+      "duration": "Toma unos 3 minutos."
     },
     "industries": {
       "retail": "Comercio / E-commerce",
@@ -18,16 +22,29 @@
       "professional": "Servicios Profesionales",
       "technology": "Tecnología"
     },
+    "maturity": {
+      "none": "Ninguna aún",
+      "exploring": "Explorando",
+      "piloting": "En piloto",
+      "deployed": "En producción"
+    },
+    "goal": {
+      "cost": "Reducir costo",
+      "speed": "Ir más rápido",
+      "quality": "Mayor calidad",
+      "growth": "Desbloquear crecimiento"
+    },
     "loading": {
-      "analyzing": "Analizando tus resultados...",
-      "generating": "Generando tu cuestionario específico de la industria..."
+      "analyzing": "Analizando tus respuestas",
+      "generating": "Personalizando tus preguntas"
     },
     "quiz": {
       "questionOf": "Pregunta {current} de {total}"
     },
     "email": {
-      "title": "¡Ya casi!",
-      "description": "Ingresa tu correo electrónico para ver tu reporte personalizado de ROI de IA.",
+      "eyebrow": "Ya casi",
+      "title": "¿A dónde te enviamos el reporte?",
+      "description": "Te enviaremos por correo una copia de tu reporte personalizado de ROI de IA.",
       "emailLabel": "Correo electrónico",
       "emailPlaceholder": "tu.correo@empresa.com",
       "submit": "Ver mis resultados",
@@ -35,24 +52,37 @@
       "privacy": "Respetamos tu privacidad. Sin spam, nunca."
     },
     "results": {
+      "eyebrow": "Tu ROI personalizado",
       "title": "Tu reporte de preparación para IA",
-      "emailSentTo": "Una copia de este reporte ha sido enviada a {email}.",
-      "timeSaved": "Tiempo mensual estimado ahorrado (toda la empresa)",
-      "hours": "{count} Horas",
-      "monthlySavings": "Ahorro mensual estimado",
-      "salaryBasis": "basado en los datos salariales proporcionados",
-      "readinessScore": "Tu puntuación de preparación para IA",
-      "readinessExplainer": "Esta puntuación refleja el potencial actual de tu negocio para adoptar soluciones de IA exitosamente.",
+      "emailSentTo": "Se envió una copia a {email}.",
+      "annualSavings": "Ahorro anual estimado",
+      "annualSavingsFootnote": "Costo totalmente cargado (1.3× salario).",
+      "annualHoursSaved": "Horas recuperadas al año",
+      "hoursUnit": "Horas de toda la empresa",
+      "threeYearSavings": "Ahorro a 3 años",
+      "threeYearFootnote": "Asumiendo adopción estable.",
+      "implementationCost": "Costo de implementación estimado",
+      "implementationCostDescription": "Rango único de construcción + rollout, escala con el tamaño de tu equipo. Las cotizaciones reales varían según el alcance.",
+      "paybackPeriod": "Periodo de retorno",
+      "paybackMonths": "{count, plural, one {# mes} other {# meses}}",
+      "paybackUnknown": "No es calculable con tus datos.",
+      "paybackDescription": "Tiempo para que el ahorro anual cubra el extremo bajo del rango de implementación.",
+      "readinessScore": "Preparación para IA",
+      "readinessExplainer": "Refleja qué tan preparada está tu organización hoy para adoptar IA con éxito.",
       "personalizedAnalysis": "Análisis personalizado",
-      "ctaTitle": "¿Listo para transformar tu negocio?",
-      "ctaDescription": "Hablemos sobre cómo WAZA puede ayudarte a implementar soluciones de IA adaptadas a tus necesidades.",
+      "focusAreas": "Áreas de enfoque",
+      "quickWins": "Quick wins a 30 días",
+      "ctaTitle": "¿Quieres que lo construyamos?",
+      "ctaDescription": "Convertimos reportes como este en software funcional. Hablemos de cómo sería tu primer flujo con IA.",
       "scheduleConsultation": "Agendar una consulta",
       "exploreServices": "Explorar nuestros servicios",
-      "retakeQuiz": "Tomar el cuestionario de nuevo"
+      "retakeQuiz": "Repetir la evaluación"
     },
     "error": {
-      "title": "¡Ups! Algo salió mal.",
+      "title": "Algo salió mal",
       "missingData": "Datos faltantes. Por favor reinicia.",
+      "noQuestions": "No se generaron preguntas.",
+      "generic": "Ocurrió un error desconocido.",
       "tryAgain": "Intentar de nuevo"
     },
     "roi": {

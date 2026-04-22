@@ -1,14 +1,18 @@
 {
   "calculator": {
     "start": {
+      "eyebrow": "KI-ROI-Rechner",
       "title": "Ist Ihr Unternehmen bereit für KI?",
-      "description": "Finden Sie heraus, wie viel Zeit und Geld Sie mit unserem kostenlosen 10-Fragen KI-ROI-Rechner sparen könnten.",
-      "selectIndustry": "1. Wählen Sie Ihre Branche:",
-      "employeeCount": "2. Anzahl der Mitarbeiter",
-      "employeePlaceholder": "z.B., 50",
-      "averageSalary": "3. Durchschnittliches Jahresgehalt ($)",
-      "salaryPlaceholder": "z.B., 65000",
-      "startQuiz": "Quiz starten"
+      "description": "Beantworten Sie 10 Fragen zu Ihren tatsächlichen Arbeitsabläufen. Sie erhalten eine personalisierte ROI-Schätzung mit Jahresersparnis, 3-Jahres-Prognose, Amortisationszeit und einer priorisierten Liste der besten Einstiegspunkte.",
+      "industryLabel": "Ihre Branche",
+      "sizingLabel": "Unternehmensgröße",
+      "employeeCount": "Mitarbeiter",
+      "averageSalary": "Durchschn. Jahresgehalt",
+      "weeklyHours": "Stunden pro Woche",
+      "maturityLabel": "Aktuelle KI-Reife",
+      "goalLabel": "Hauptziel",
+      "startQuiz": "Bewertung starten",
+      "duration": "Dauert etwa 3 Minuten."
     },
     "industries": {
       "retail": "Einzelhandel / E-Commerce",
@@ -18,16 +22,29 @@
       "professional": "Professionelle Dienstleistungen",
       "technology": "Technologie"
     },
+    "maturity": {
+      "none": "Noch keine",
+      "exploring": "Erkundung",
+      "piloting": "Pilotphase",
+      "deployed": "Im Einsatz"
+    },
+    "goal": {
+      "cost": "Kosten senken",
+      "speed": "Schneller werden",
+      "quality": "Höhere Qualität",
+      "growth": "Wachstum entfesseln"
+    },
     "loading": {
-      "analyzing": "Ihre Ergebnisse werden analysiert...",
-      "generating": "Ihr branchenspezifisches Quiz wird erstellt..."
+      "analyzing": "Antworten werden analysiert",
+      "generating": "Fragen werden personalisiert"
     },
     "quiz": {
       "questionOf": "Frage {current} von {total}"
     },
     "email": {
-      "title": "Fast geschafft!",
-      "description": "Geben Sie Ihre E-Mail-Adresse ein, um Ihren personalisierten KI-ROI-Bericht zu sehen.",
+      "eyebrow": "Fast geschafft",
+      "title": "Wohin senden wir Ihren Bericht?",
+      "description": "Wir senden Ihnen eine Kopie Ihres personalisierten KI-ROI-Berichts per E-Mail.",
       "emailLabel": "E-Mail-Adresse",
       "emailPlaceholder": "ihre.email@unternehmen.com",
       "submit": "Meine Ergebnisse anzeigen",
@@ -35,24 +52,37 @@
       "privacy": "Wir respektieren Ihre Privatsphäre. Kein Spam, niemals."
     },
     "results": {
+      "eyebrow": "Ihr personalisierter ROI",
       "title": "Ihr KI-Bereitschaftsbericht",
-      "emailSentTo": "Eine Kopie dieses Berichts wurde an {email} gesendet.",
-      "timeSaved": "Geschätzte monatliche Zeitersparnis (unternehmensweit)",
-      "hours": "{count} Stunden",
-      "monthlySavings": "Geschätzte monatliche Einsparungen",
-      "salaryBasis": "basierend auf Ihren angegebenen Gehaltsdaten",
-      "readinessScore": "Ihr KI-Bereitschaftswert",
-      "readinessExplainer": "Dieser Wert spiegelt das aktuelle Potenzial Ihres Unternehmens wider, KI-Lösungen erfolgreich einzuführen.",
+      "emailSentTo": "Eine Kopie wurde an {email} gesendet.",
+      "annualSavings": "Geschätzte jährliche Einsparungen",
+      "annualSavingsFootnote": "Mit voll belasteten Kosten (1,3× Gehalt).",
+      "annualHoursSaved": "Wiedergewonnene Stunden pro Jahr",
+      "hoursUnit": "Unternehmensweite Stunden",
+      "threeYearSavings": "3-Jahres-Einsparungen",
+      "threeYearFootnote": "Bei stabiler Adoption.",
+      "implementationCost": "Geschätzte Implementierungskosten",
+      "implementationCostDescription": "Einmaliger Aufbau + Rollout, skaliert mit der Teamgröße. Echte Angebote variieren je nach Umfang.",
+      "paybackPeriod": "Amortisationszeit",
+      "paybackMonths": "{count, plural, one {# Monat} other {# Monate}}",
+      "paybackUnknown": "Aus Ihren Eingaben nicht berechenbar.",
+      "paybackDescription": "Zeit, bis die jährlichen Einsparungen das untere Ende der Implementierungsspanne decken.",
+      "readinessScore": "KI-Bereitschaft",
+      "readinessExplainer": "Zeigt, wie gut Ihre Organisation heute auf eine erfolgreiche KI-Einführung vorbereitet ist.",
       "personalizedAnalysis": "Personalisierte Analyse",
-      "ctaTitle": "Bereit, Ihr Unternehmen zu transformieren?",
-      "ctaDescription": "Lassen Sie uns besprechen, wie WAZA Ihnen helfen kann, maßgeschneiderte KI-Lösungen zu implementieren.",
+      "focusAreas": "Fokusbereiche",
+      "quickWins": "30-Tage Quick Wins",
+      "ctaTitle": "Wollen wir das bauen?",
+      "ctaDescription": "Wir verwandeln Berichte wie diesen in funktionierende Software. Lassen Sie uns Ihren ersten KI-Workflow definieren.",
       "scheduleConsultation": "Beratung vereinbaren",
       "exploreServices": "Unsere Dienstleistungen entdecken",
-      "retakeQuiz": "Quiz erneut starten"
+      "retakeQuiz": "Bewertung wiederholen"
     },
     "error": {
-      "title": "Hoppla! Etwas ist schiefgelaufen.",
+      "title": "Etwas ist schiefgelaufen",
       "missingData": "Fehlende Daten. Bitte starten Sie neu.",
+      "noQuestions": "Es wurden keine Fragen generiert.",
+      "generic": "Ein unbekannter Fehler ist aufgetreten.",
       "tryAgain": "Erneut versuchen"
     }
   }

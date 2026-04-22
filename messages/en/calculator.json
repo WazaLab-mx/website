@@ -1,14 +1,18 @@
 {
   "calculator": {
     "start": {
-      "title": "Is Your Business Ready for AI?",
-      "description": "Find out how much time and money you could save with our free 10-question AI ROI Calculator.",
-      "selectIndustry": "1. Select your industry:",
-      "employeeCount": "2. Number of Employees",
-      "employeePlaceholder": "e.g., 50",
-      "averageSalary": "3. Average Annual Salary ($)",
-      "salaryPlaceholder": "e.g., 65000",
-      "startQuiz": "Start the Quiz"
+      "eyebrow": "AI ROI Calculator",
+      "title": "Is your business ready for AI?",
+      "description": "Answer 10 questions grounded in your actual workflows. Get a personalized ROI estimate with annual savings, 3-year projection, payback period, and a prioritized list of where to start.",
+      "industryLabel": "Your industry",
+      "sizingLabel": "Company sizing",
+      "employeeCount": "Employees",
+      "averageSalary": "Avg annual salary",
+      "weeklyHours": "Hours per week",
+      "maturityLabel": "Current AI maturity",
+      "goalLabel": "Primary goal",
+      "startQuiz": "Start the assessment",
+      "duration": "Takes about 3 minutes."
     },
     "industries": {
       "retail": "Retail / E-commerce",
@@ -18,42 +22,68 @@
       "professional": "Professional Services",
       "technology": "Technology"
     },
+    "maturity": {
+      "none": "None yet",
+      "exploring": "Exploring",
+      "piloting": "Piloting",
+      "deployed": "Deployed"
+    },
+    "goal": {
+      "cost": "Cut cost",
+      "speed": "Move faster",
+      "quality": "Higher quality",
+      "growth": "Unlock growth"
+    },
     "loading": {
-      "analyzing": "Analyzing your results...",
-      "generating": "Generating your industry-specific quiz..."
+      "analyzing": "Analyzing your answers",
+      "generating": "Tailoring your questions"
     },
     "quiz": {
       "questionOf": "Question {current} of {total}"
     },
     "email": {
-      "title": "Almost there!",
-      "description": "Enter your email to see your personalized AI ROI report.",
+      "eyebrow": "Almost there",
+      "title": "Where should we send your report?",
+      "description": "We'll email you a copy of your personalized AI ROI report.",
       "emailLabel": "Email Address",
       "emailPlaceholder": "your.email@company.com",
-      "submit": "See My Results",
+      "submit": "See my results",
       "validationError": "Please enter a valid email address.",
       "privacy": "We respect your privacy. No spam, ever."
     },
     "results": {
-      "title": "Your AI Readiness Report",
-      "emailSentTo": "A copy of this report has been sent to {email}.",
-      "timeSaved": "Est. Monthly Time Saved (Company-wide)",
-      "hours": "{count} Hours",
-      "monthlySavings": "Estimated Monthly Savings",
-      "salaryBasis": "based on your provided salary data",
-      "readinessScore": "Your AI Readiness Score",
-      "readinessExplainer": "This score reflects your business's current potential to successfully adopt AI solutions.",
-      "personalizedAnalysis": "Personalized Analysis",
-      "ctaTitle": "Ready to Transform Your Business?",
-      "ctaDescription": "Let's discuss how WAZA can help you implement AI solutions tailored to your needs.",
-      "scheduleConsultation": "Schedule a Consultation",
-      "exploreServices": "Explore Our Services",
-      "retakeQuiz": "Take the Quiz Again"
+      "eyebrow": "Your personalized ROI",
+      "title": "Your AI readiness report",
+      "emailSentTo": "A copy has been sent to {email}.",
+      "annualSavings": "Estimated annual savings",
+      "annualSavingsFootnote": "Using fully-loaded cost (1.3× salary).",
+      "annualHoursSaved": "Hours reclaimed per year",
+      "hoursUnit": "Company-wide hours",
+      "threeYearSavings": "3-year savings",
+      "threeYearFootnote": "Assuming steady-state adoption.",
+      "implementationCost": "Estimated implementation cost",
+      "implementationCostDescription": "One-time build + rollout range, scaling with your team size. Real quotes vary with scope.",
+      "paybackPeriod": "Payback period",
+      "paybackMonths": "{count, plural, one {# month} other {# months}}",
+      "paybackUnknown": "Not computable from your inputs.",
+      "paybackDescription": "Time for annual savings to cover the low end of the implementation range.",
+      "readinessScore": "AI readiness",
+      "readinessExplainer": "Reflects how prepared your org is today to adopt AI successfully.",
+      "personalizedAnalysis": "Personalized analysis",
+      "focusAreas": "Focus areas",
+      "quickWins": "30-day quick wins",
+      "ctaTitle": "Want this, shipped?",
+      "ctaDescription": "We turn reports like this into working software. Let's scope what your first AI workflow looks like.",
+      "scheduleConsultation": "Book a consultation",
+      "exploreServices": "Explore our services",
+      "retakeQuiz": "Retake the assessment"
     },
     "error": {
-      "title": "Oops! Something went wrong.",
+      "title": "Something went wrong",
       "missingData": "Missing data. Please restart.",
-      "tryAgain": "Try Again"
+      "noQuestions": "No questions were generated.",
+      "generic": "An unknown error occurred.",
+      "tryAgain": "Try again"
     },
     "roi": {
       "badge": "Free ROI Assessment",
