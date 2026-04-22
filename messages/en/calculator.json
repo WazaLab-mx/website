@@ -57,6 +57,8 @@
       "eyebrow": "Your personalized ROI",
       "title": "Your AI readiness report",
       "emailSentTo": "A copy has been sent to {email}.",
+      "emailSending": "Sending a copy to {email}…",
+      "emailPending": "We saved your request for {email}. If the email doesn't arrive, check your spam folder.",
       "annualSavings": "Estimated annual savings",
       "annualSavingsFootnote": "Using fully-loaded cost (1.3× salary).",
       "annualHoursSaved": "Hours reclaimed per year",

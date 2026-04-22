@@ -11,7 +11,8 @@ import {
   QuizQuestion,
   QuizResults,
 } from './types';
-import { generateQuizQuestions, generateResultsSummary } from './services/geminiService';
+import { useLocale } from 'next-intl';
+import { generateQuizQuestions, generateResultsSummary, sendReport } from './services/geminiService';
 import QuizQuestionComponent from './components/QuizQuestion';
 import EmailForm from './components/EmailForm';
 import ResultsDisplay from './components/ResultsDisplay';
@@ -49,8 +50,10 @@ const LOADED_COST_MULTIPLIER = 1.3;
 
 export default function CalculatorPage() {
   const t = useTranslations("calculator");
+  const locale = useLocale();
 
   const [appState, setAppState] = useState<AppState>('start');
+  const [emailDelivered, setEmailDelivered] = useState<boolean | null>(null);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Answer[]>([]);
@@ -152,7 +155,7 @@ export default function CalculatorPage() {
         annualLaborSavings: Math.round(annualLaborSavings),
       });
 
-      setResults({
+      const finalResults: QuizResults = {
         weeklyHoursSaved: Math.round(weeklyHoursSaved),
         annualHoursSaved: Math.round(annualHoursSaved),
         annualLaborSavings: Math.round(annualLaborSavings),
@@ -163,14 +166,24 @@ export default function CalculatorPage() {
         totalReadinessScore,
         maxReadinessScore,
         summary,
-      });
+      };
+
+      setResults(finalResults);
       setAppState('results');
+
+      // Fire-and-forget: persist the lead and send the email. UI doesn't wait on this.
+      sendReport({ email: submittedEmail, locale, context: ctx, results: finalResults })
+        .then(({ delivered }) => setEmailDelivered(delivered))
+        .catch((err) => {
+          console.error('sendReport failed:', err);
+          setEmailDelivered(false);
+        });
     } catch (e) {
       setError(e instanceof Error ? e.message : t("error.generic"));
       setAppState('error');
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [answers, industry, employeeCount, averageSalary, weeklyHours, aiMaturity, primaryGoal, questions.length]);
+  }, [answers, industry, employeeCount, averageSalary, weeklyHours, aiMaturity, primaryGoal, questions.length, locale]);
 
   const restartQuiz = () => {
     setAppState('start');
@@ -180,6 +193,7 @@ export default function CalculatorPage() {
     setEmail('');
     setResults(null);
     setError(null);
+    setEmailDelivered(null);
     setIndustry(null);
     setEmployeeCount('');
     setAverageSalary('');
@@ -324,7 +338,14 @@ export default function CalculatorPage() {
       case 'email':
         return <EmailForm onSubmit={handleEmailSubmit} isLoading={false} />;
       case 'results':
-        return results && <ResultsDisplay results={results} email={email} onRestart={restartQuiz} />;
+        return results && (
+          <ResultsDisplay
+            results={results}
+            email={email}
+            emailDelivered={emailDelivered}
+            onRestart={restartQuiz}
+          />
+        );
       case 'error':
         return (
           <div className="text-center max-w-xl mx-auto border border-red-200 dark:border-red-900/50 bg-red-50 dark:bg-red-950/30 p-8 rounded-lg">

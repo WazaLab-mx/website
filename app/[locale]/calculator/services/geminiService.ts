@@ -1,4 +1,4 @@
-import { Answer, CalculatorContext, QuizQuestion, QuizResultsSummary } from '../types';
+import { Answer, CalculatorContext, QuizQuestion, QuizResults, QuizResultsSummary } from '../types';
 
 export const generateQuizQuestions = async (ctx: CalculatorContext): Promise<QuizQuestion[]> => {
   const response = await fetch('/api/calculator/generate-questions', {
@@ -30,6 +30,38 @@ export const generateResultsSummary = async (
   if (!response.ok) {
     const error = await response.json().catch(() => ({}));
     throw new Error(error.error || 'Failed to generate summary');
+  }
+
+  return response.json();
+};
+
+export const sendReport = async (payload: {
+  email: string;
+  locale: string;
+  context: CalculatorContext;
+  results: QuizResults;
+}): Promise<{ delivered: boolean; reason?: string }> => {
+  const { email, locale, context, results } = payload;
+  const metrics = {
+    annualLaborSavings: results.annualLaborSavings,
+    annualHoursSaved: results.annualHoursSaved,
+    threeYearSavings: results.threeYearSavings,
+    implementationCostLow: results.implementationCostLow,
+    implementationCostHigh: results.implementationCostHigh,
+    paybackMonths: results.paybackMonths,
+    totalReadinessScore: results.totalReadinessScore,
+    maxReadinessScore: results.maxReadinessScore,
+  };
+
+  const response = await fetch('/api/calculator/send-report', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email, locale, context, metrics, summary: results.summary }),
+  });
+
+  if (!response.ok) {
+    const error = await response.json().catch(() => ({}));
+    return { delivered: false, reason: error.reason || 'network_error' };
   }
 
   return response.json();

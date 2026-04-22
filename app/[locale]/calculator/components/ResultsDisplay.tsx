@@ -8,6 +8,7 @@ import { Link } from '@/i18n/navigation';
 interface ResultsDisplayProps {
   results: QuizResults;
   email: string;
+  emailDelivered?: boolean | null;
   onRestart: () => void;
 }
 
@@ -17,8 +18,15 @@ const formatCurrency = (value: number) =>
 const formatHours = (value: number) =>
   Math.round(value).toLocaleString('en-US');
 
-const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, email, onRestart }) => {
+const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, email, emailDelivered, onRestart }) => {
   const t = useTranslations("calculator.results");
+
+  const emailMessage =
+    emailDelivered === null
+      ? t("emailSending", { email })
+      : emailDelivered
+        ? t("emailSentTo", { email })
+        : t("emailPending", { email });
 
   const readinessPercentage = results.maxReadinessScore > 0
     ? Math.round((results.totalReadinessScore / results.maxReadinessScore) * 100)
@@ -34,7 +42,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, email, onResta
           {t("title")}
         </h1>
         <p className="mt-4 text-gray-600 dark:text-gray-400">
-          {t("emailSentTo", { email })}
+          {emailMessage}
         </p>
       </div>
 
