@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
-import { getSupabaseAdmin } from '@/lib/supabase/admin';
+import { appendLead } from '@/lib/google/sheets';
 
 interface ReportMetrics {
   annualLaborSavings: number;
@@ -208,53 +208,36 @@ function escapeHtml(s: string) {
     .replace(/'/g, '&#39;');
 }
 
-async function persistLead(body: SendReportBody): Promise<{ id: string | null; stored: boolean }> {
-  const supabase = getSupabaseAdmin();
-  if (!supabase) {
-    console.warn('[send-report] Supabase env not set — lead will not be stored.');
-    return { id: null, stored: false };
+async function trySendEmail(
+  body: SendReportBody,
+): Promise<{ delivered: boolean; emailId: string | null; reason?: string }> {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    console.warn('[send-report] RESEND_API_KEY not set — email will not be delivered.');
+    return { delivered: false, emailId: null, reason: 'email_disabled' };
   }
 
-  const { data, error } = await supabase
-    .from('calculator_leads')
-    .insert({
-      email: body.email,
-      locale: body.locale,
-      industry: body.context.industry,
-      country: body.context.country,
-      employee_count: body.context.employeeCount,
-      average_salary: body.context.averageSalary,
-      weekly_hours: body.context.weeklyHours,
-      ai_maturity: body.context.aiMaturity,
-      primary_goal: body.context.primaryGoal,
-      annual_hours_saved: body.metrics.annualHoursSaved,
-      annual_labor_savings: body.metrics.annualLaborSavings,
-      three_year_savings: body.metrics.threeYearSavings,
-      implementation_cost_low: body.metrics.implementationCostLow,
-      implementation_cost_high: body.metrics.implementationCostHigh,
-      payback_months: body.metrics.paybackMonths,
-      readiness_score: body.metrics.totalReadinessScore,
-      max_readiness_score: body.metrics.maxReadinessScore,
-      summary: body.summary,
-    })
-    .select('id')
-    .single();
+  const subject = body.locale === 'es'
+    ? 'Tu reporte de preparación para IA · WAZA'
+    : body.locale === 'de'
+      ? 'Ihr KI-Bereitschaftsbericht · WAZA'
+      : 'Your AI Readiness Report · WAZA';
+
+  const resend = new Resend(apiKey);
+  const { data, error } = await resend.emails.send({
+    from: FROM,
+    to: body.email,
+    subject,
+    html: renderHtml(body),
+    replyTo: REPLY_TO,
+  });
 
   if (error) {
-    console.error('[send-report] Supabase insert error:', error.message);
-    return { id: null, stored: false };
+    console.error('[send-report] Resend error:', error);
+    return { delivered: false, emailId: null, reason: 'resend_error' };
   }
 
-  return { id: data?.id ?? null, stored: true };
-}
-
-async function markDelivered(leadId: string, emailId: string | null) {
-  const supabase = getSupabaseAdmin();
-  if (!supabase) return;
-  await supabase
-    .from('calculator_leads')
-    .update({ email_delivered: true, email_id: emailId })
-    .eq('id', leadId);
+  return { delivered: true, emailId: data?.id ?? null };
 }
 
 export async function POST(request: NextRequest) {
@@ -265,42 +248,53 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Invalid email' }, { status: 400 });
     }
 
-    // 1. Persist the lead first — we never want to drop a submission even if email fails.
-    const lead = await persistLead(body);
+    // 1. Send the email first so we capture its delivery status in the lead row.
+    const email = await trySendEmail(body);
 
-    // 2. Send the email (if Resend is configured).
-    const apiKey = process.env.RESEND_API_KEY;
-    if (!apiKey) {
-      console.warn('[send-report] RESEND_API_KEY is not set — lead stored but email not delivered.');
-      return NextResponse.json({ delivered: false, reason: 'email_disabled', stored: lead.stored, leadId: lead.id });
-    }
-
-    const subject = body.locale === 'es'
-      ? 'Tu reporte de preparación para IA · WAZA'
-      : body.locale === 'de'
-        ? 'Ihr KI-Bereitschaftsbericht · WAZA'
-        : 'Your AI Readiness Report · WAZA';
-
-    const resend = new Resend(apiKey);
-    const { data, error } = await resend.emails.send({
-      from: FROM,
-      to: body.email,
-      subject,
-      html: renderHtml(body),
-      replyTo: REPLY_TO,
+    // 2. Persist the lead to Google Sheets with the final delivery status.
+    const leadResult = await appendLead({
+      email: body.email,
+      locale: body.locale,
+      industry: body.context.industry,
+      country: body.context.country,
+      employeeCount: body.context.employeeCount,
+      averageSalary: body.context.averageSalary,
+      weeklyHours: body.context.weeklyHours,
+      aiMaturity: body.context.aiMaturity,
+      primaryGoal: body.context.primaryGoal,
+      annualHoursSaved: body.metrics.annualHoursSaved,
+      annualLaborSavings: body.metrics.annualLaborSavings,
+      threeYearSavings: body.metrics.threeYearSavings,
+      implementationCostLow: body.metrics.implementationCostLow,
+      implementationCostHigh: body.metrics.implementationCostHigh,
+      paybackMonths: body.metrics.paybackMonths,
+      readinessScore: body.metrics.totalReadinessScore,
+      maxReadinessScore: body.metrics.maxReadinessScore,
+      summaryText: body.summary.summary,
+      bulletPoints: body.summary.bulletPoints,
+      quickWins: body.summary.quickWins ?? [],
+      emailDelivered: email.delivered,
+      emailId: email.emailId,
     });
 
-    if (error) {
-      console.error('[send-report] Resend error:', error);
-      return NextResponse.json({ delivered: false, reason: 'resend_error', stored: lead.stored, leadId: lead.id }, { status: 502 });
+    if (!leadResult.stored) {
+      console.warn('[send-report] Lead not stored:', leadResult.error);
     }
 
-    if (lead.id) {
-      await markDelivered(lead.id, data?.id ?? null);
-    }
+    console.log(
+      '[send-report]',
+      email.delivered ? 'sent to' : 'skipped email for',
+      body.email,
+      '| resend id:', email.emailId,
+      '| stored:', leadResult.stored,
+    );
 
-    console.log('[send-report] Sent to', body.email, '| resend id:', data?.id, '| lead id:', lead.id);
-    return NextResponse.json({ delivered: true, id: data?.id, stored: lead.stored, leadId: lead.id });
+    return NextResponse.json({
+      delivered: email.delivered,
+      reason: email.reason,
+      id: email.emailId,
+      stored: leadResult.stored,
+    });
   } catch (error) {
     console.error('[send-report] Unexpected error:', error);
     return NextResponse.json({ delivered: false, reason: 'unexpected' }, { status: 500 });
